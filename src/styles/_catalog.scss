@@ -16,6 +16,13 @@
     margin-bottom: 48px;
   }
 
+  &__card:hover {
+    transition-duration: 300ms;
+    transform: scale(1.2);
+    color:#34568b;
+    cursor: pointer;
+  }
+
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
