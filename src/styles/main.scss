@@ -12,3 +12,11 @@ body {
 
 @import "_header.scss";
 @import "_catalog.scss";
+
+.catalog {
+  &__card:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+    color: #34568b;
+  }
+}
