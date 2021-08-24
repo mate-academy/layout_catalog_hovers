@@ -17,61 +17,367 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__logo" href="">
-        <img src="./images/logo.png" alt="Moyo logo">
+      <a class="header__logo"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        <img class="header__image"
+        src="./images/logo.png"
+        alt="Moyo logo"
+        >
       </a>
-
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item nav__item--is-active">
-            <a href="" class="nav__link">Apple</a>
-          </li>
           <li class="nav__item">
-            <a href="" class="nav__link">Samsung</a>
+            <a class="nav__link is-active"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Apple
+            </a>
           </li>
+
           <li class="nav__item">
-            <a href="" class="nav__link">Смарфоны и телефоны</a>
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Samsung
+            </a>
           </li>
+
           <li class="nav__item">
-            <a href="" class="nav__link">Ноутбуки и компьютеры</a>
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Смартфоны и телефоны
+            </a>
           </li>
+
           <li class="nav__item">
-            <a href="" class="nav__link">Гаджеты</a>
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              data-qa="nav-hover"
+            >
+              Ноутбуки и компьютеры
+            </a>
           </li>
+
           <li class="nav__item">
-            <a href="" class="nav__link">Планшеты</a>
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Гаджеты
+            </a>
           </li>
+
           <li class="nav__item">
-            <a href="" class="nav__link">Фото</a>
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Планшеты
+            </a>
           </li>
+
           <li class="nav__item">
-            <a href="" class="nav__link">Видео</a>
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Фото
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              Видео
+            </a>
           </li>
         </ul>
       </nav>
     </header>
-
-    <main class="catalog">
-      <div class="catalog__card">
-        Product card
-      </div>
-      <div class="catalog__card">
-        Product card
-      </div>
-      <div class="catalog__card">
-        Product card
-      </div>
-      <div class="catalog__card">
-        Product card
-      </div>
-      <div class="catalog__card">
-        Product card
-      </div>
-      <div class="catalog__card">
-        Product card
-      </div>
-      <div class="catalog__card">
-        Product card
+    <main>
+      <div class="cards">
+        <div class="product-card" data-qa="card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a data-qa="card-hover" class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
+        <div class="product-card">
+          <img class="product-card__image"
+            src="./images/imac.jpeg"
+            alt="Моноблок APPLE A1419"
+          >
+          <h2 class="product-card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <div class="product-card__code">
+            Код товара: 195434
+          </div>
+          <div class="product-card__rating-container">
+            <div class="stars">
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+              <div class="stars__star"></div>
+            </div>
+            <div class="product-card__rating-count">
+              Отзывов: 5
+            </div>
+          </div>
+          <div class="product-card__price-container">
+            <div>
+              Цена:
+            </div>
+            <div class="product-card__price-current">
+              69 999 грн
+            </div>
+          </div>
+          <a class="product-card__buy-button">Купить</a>
+        </div>
       </div>
     </main>
   </body>

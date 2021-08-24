@@ -1,13 +1,18 @@
-html {
-  font-family: Roboto, sans-serif;
+$main-color: #00acdc;
+$text-accent-color: #060b35;
+$text-secondary-color: #616070;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  color: $text-secondary-color;
 }
 
 @import "_header.scss";
