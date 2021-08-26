@@ -9,6 +9,7 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 - Make all the changes smooth on hover
 - Smoothly (during 300ms) increase the card by 20 percent on hover (neighboring cards **should not be** affected)
 - Smoothly (during 300ms) change card title text color to `#34568b`
+- Smoothly (during 300ms) change navigation link text color to `#00acdc`
 - `:hover` should be applied only to card, do not add it to the title directly
 
 ## Requirements:
