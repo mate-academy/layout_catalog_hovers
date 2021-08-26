@@ -1,7 +1,6 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -14,7 +13,6 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-
     transition: all 0.3s;
 
     &:hover {
