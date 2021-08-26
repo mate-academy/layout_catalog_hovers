@@ -11,7 +11,7 @@ body {
 }
 
 .catalog__card {
-  transition-duration: 300ms;
+  transition: transform 300ms, color 300ms;
 }
 
 .catalog__card:hover {
