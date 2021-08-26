@@ -113,7 +113,7 @@
 - empty lines between sibling blocks of code improve readability, but not between a parent and a child
 >**WRONG WAY**
 >```html
-><main class="main container">
+><main class="main catalog">
 >
 >  <section class="catalog">
 >
