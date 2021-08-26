@@ -13,17 +13,17 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 0.3s;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
+}
 
-  &__card:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    color: #34568b;
-    cursor: pointer;
-  }
+.catalog__card:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+  color: #34568b;
 }
