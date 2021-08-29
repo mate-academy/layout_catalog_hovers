@@ -25,6 +25,8 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+
+    animation: navColor 300ms linear;
   }
 
   &__item:not(:last-child) {
@@ -37,5 +39,15 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+  }
+}
+
+@keyframes navColor {
+  from {
+    color: #060b35;
+  }
+
+  to {
+    color: #00acdc;
   }
 }
