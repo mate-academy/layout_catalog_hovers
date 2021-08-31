@@ -14,17 +14,15 @@ body {
 @import "_catalog.scss";
 
 .nav {
-
-  &__link:hover {
-    transition-duration: 300ms;
+  transition-duration: 300ms;
+  &__link:hover {    
     color: #00acdc;
   }
 }
 
 .catalog {
-
-  &__card:hover {
-    transition-duration: 300ms;
+  transition-duration: 300ms;
+  &__card:hover {    
     transform: scale(1.2);
     color: #34568b;
   }
