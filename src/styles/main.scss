@@ -13,17 +13,19 @@ body {
 @import "_header.scss";
 @import "_catalog.scss";
 
-.nav {
-  transition-duration: 300ms;
-  &__link:hover {    
-    color: #00acdc;
-  }
+.nav__link {
+  transition: color 300ms;
 }
 
-.catalog {
-  transition-duration: 300ms;
-  &__card:hover {    
-    transform: scale(1.2);
-    color: #34568b;
-  }
+.nav__link:hover {
+  color: #00acdc;
+}
+
+.catalog__card {
+  transition: transform 300ms, color 300ms;
+}
+
+.catalog__card:hover {
+  transform: scale(120%);
+  color: #34568b;
 }
