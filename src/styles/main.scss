@@ -1,3 +1,6 @@
+@import "_header.scss";
+@import "_catalog.scss";
+
 html {
   font-family: Roboto, sans-serif;
 }
@@ -8,18 +11,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-@import "_header.scss";
-@import "_catalog.scss";
-
-.catalog__card {
-  transition: transform 300ms, color 300ms;
-}
-
-.catalog__card:hover {
-  transform: scale(1.2);
-  color: #34568b;
 }
 
 .nav__link {
