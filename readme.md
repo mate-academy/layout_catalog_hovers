@@ -13,7 +13,7 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 - Smoothly (during 300ms) change navigation link text color to `#00acdc`
 
 ## Requirements:
-- write styles in `src/styles/main.scss`
+- edit styles in `src/styles/__header.scss` and `src/styles/__catalog.scss`
 - use SCSS in this task
 
 ---
