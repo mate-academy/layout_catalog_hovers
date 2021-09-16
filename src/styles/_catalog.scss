@@ -11,11 +11,19 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-card-bd;
     border-radius: 5px;
     margin-bottom: 48px;
-  }
 
+    transition: transform $transition-page,
+      color $transition-page;
+
+    &:hover {
+      color: $color-hover-card-title;
+      transform: scale(1.2);
+    }
+  }
+  
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
