@@ -14,3 +14,11 @@ body {
   box-sizing: border-box;
 }
 
+.catalog__card:hover {
+  transform: scale(1.2);
+  color: $card-hover-color;
+}
+
+.nav__link:hover {
+  color: $nav-link-hover-color;
+}

@@ -37,10 +37,6 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 0.3s;
-
-    &:hover {
-      color: $nav-link-hover-color;
-    }
+    transition: color $transition-time;
   }
 }
