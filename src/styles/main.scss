@@ -14,7 +14,7 @@ body {
 @import "_catalog.scss";
 
 .catalog__card {
-  transition-duration: 300ms;
+  transition: color 300ms, transform 300ms;
 
   &:hover {
     transform: scale(1.2);
@@ -23,7 +23,7 @@ body {
 }
 
 .nav__link {
-  transition-duration: 300ms;
+  transition: color 300ms;
 
   &:hover {
     color: #00acdc;
