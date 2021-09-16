@@ -19,11 +19,11 @@ $card-color: #34568b;
 
 .catalog__card {
   transition: transform $animation-delay,
-              color $animation-delay;
+    color $animation-delay;
 
   &:hover {
     transform: scale(1.2);
-    color: $card-color; 
+    color: $card-color;
   }
 }
 
