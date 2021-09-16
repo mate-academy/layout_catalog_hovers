@@ -12,3 +12,25 @@ body {
 
 @import "_header.scss";
 @import "_catalog.scss";
+
+$animation-delay: 300ms;
+$nav-color: #00acdc;
+$card-color: #34568b;
+
+.catalog__card {
+  transition: transform $animation-delay,
+              color $animation-delay;
+
+  &:hover {
+    transform: scale(1.2);
+    color: $card-color; 
+  }
+}
+
+.nav__link {
+  transition: color $animation-delay;
+
+  &:hover {
+    color: $nav-color;
+  }
+}
