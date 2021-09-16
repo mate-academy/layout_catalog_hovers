@@ -1,31 +1,4 @@
-html {
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+@import "_normilize.scss";
+@import "_variables.scss";
 @import "_header.scss";
 @import "_catalog.scss";
-
-.catalog__card {
-  transition: color 300ms, transform 300ms;
-
-  &:hover {
-    transform: scale(1.2);
-    color: #34568b;
-  }
-}
-
-.nav__link {
-  transition: color 300ms;
-
-  &:hover {
-    color: #00acdc;
-  }
-}
