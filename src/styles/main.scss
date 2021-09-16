@@ -1,3 +1,7 @@
+@import "_variables.scss";
+@import "_header.scss";
+@import "_catalog.scss";
+
 html {
   font-family: Roboto, sans-serif;
 }
@@ -10,5 +14,20 @@ body {
   box-sizing: border-box;
 }
 
-@import "_header.scss";
-@import "_catalog.scss";
+.catalog__card {
+  transition-duration: $transition-duration;
+}
+
+.nav__link {
+  transition-duration: $transition-duration;
+}
+
+.catalog__card:hover {
+  transform: translateY(#{-$card-transform-distance});
+  color: $card-text-color;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  color: $nav-link-text-color;
+}
