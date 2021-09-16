@@ -13,10 +13,14 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 - Smoothly (during 300ms) change navigation link text color to `#00acdc`
 
 ## Requirements:
-- write styles in `src/styles/main.scss`
+- edit styles in `src/styles/__header.scss` and `src/styles/__catalog.scss`
 - use SCSS in this task
 
-## Common mistakes
+---
+--> [CHECKLIST](https://github.com/mate-academy/layout_catalog_hovers/blob/master/checklist.md)
+
+## Tips & Hints
 - **IMPORTANT** Save and push your changes to GitHub manually after `deploy`
 - Do not use tabs. Use 2 spaces for indentation.
 - Don't use repeated styles.
+- There are no tests for this task yet, so check your code one more time :)
