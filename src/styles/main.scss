@@ -15,11 +15,11 @@ body {
 }
 
 .catalog__card {
-  transition-duration: $transition-duration;
+  transition-duration: color, transform $transition-duration;
 }
 
 .nav__link {
-  transition-duration: $transition-duration;
+  transition-duration: color $transition-duration;
 }
 
 .catalog__card:hover {
