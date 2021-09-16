@@ -23,7 +23,7 @@ body {
 }
 
 .catalog__card:hover {
-  transform: translateY(#{-$card-transform-distance});
+  transform: scale(1,2);
   color: $card-text-color;
   cursor: pointer;
 }
