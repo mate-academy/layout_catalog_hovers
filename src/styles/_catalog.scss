@@ -14,9 +14,9 @@
     border: 1px solid $border-color;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $transition-time linear, color $transition-time linear;
+    transition: transform $transition-time, color $transition-time linear;
     cursor: pointer;
-    &:hover { 
+    &:hover {
       transform: scale(1.2);
       color: $hover-color;
     }
