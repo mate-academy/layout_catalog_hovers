@@ -12,7 +12,7 @@
     border: 1px solid $card-border;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color, transform, $transition-smoothy;
+    transition: color, transform, $hover-transition;
 
     &:hover {
       color: $card-hover-color;
