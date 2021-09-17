@@ -6,14 +6,18 @@
   margin: 0 auto;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $card-border;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: color, transform, $hover-transition;
+
+    &:hover {
+      color: $card-hover-color;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
