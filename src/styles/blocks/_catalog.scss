@@ -9,13 +9,13 @@
     @extend %flex-center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $card-border;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color, transform, 0.3s;
+    transition: color, transform, $transition-smoothy;
 
     &:hover {
-      color: #34568b;
+      color: $card-hover-color;
       transform: scale(1.2);
     }
   }
