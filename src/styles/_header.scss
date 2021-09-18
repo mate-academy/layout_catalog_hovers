@@ -6,7 +6,7 @@
   padding: 0 50px;
   margin-bottom: 50px;
 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px rgba(54, 52, 52, 0.05);
 
   &__logo {
     height: 40px;
@@ -37,5 +37,12 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
