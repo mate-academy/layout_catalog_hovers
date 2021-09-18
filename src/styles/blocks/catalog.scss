@@ -14,7 +14,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     transform-origin: center;
-    transition: transform 300ms;
+    transition: transform $transition-time-catalog;
 
     &:hover {
       transform: scale(120%);
