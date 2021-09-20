@@ -14,7 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition:color, transform $transition-time;
+    transition: color, transform $transition-time;
     &:hover {
       transform: scale(1.2);
       color: $card-hover-color;
