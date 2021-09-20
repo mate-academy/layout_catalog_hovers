@@ -40,7 +40,7 @@
     transition: color $transition-time;
 
     &:hover {
-      color: $nav-link-hover;
+      color: $nav-link-hover-color;
     }
   }
 }
