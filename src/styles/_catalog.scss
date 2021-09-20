@@ -1,7 +1,6 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -11,16 +10,14 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $border-color;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 300ms;
-
-
+    transition: $transition-time;
 
     &:hover {
-      transform:scale(120%);
-      cursor: pointer;
+      transform:scale(1.2);
+      color: $card-title-color;
     }
   }
 
