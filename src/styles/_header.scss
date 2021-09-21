@@ -38,9 +38,9 @@
     font-size: 12px;
     font-weight: 500;
     transition: color $transition-time;
-  }
 
-  &__link:hover {
-    color: #00acdc;
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
