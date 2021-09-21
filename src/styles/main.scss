@@ -1,16 +1,4 @@
 @import "./utils/variables";
+@import "./normalize.scss";
 @import "./header";
 @import "./catalog";
-
-html {
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
