@@ -12,3 +12,12 @@ body {
 
 @import "_header.scss";
 @import "_catalog.scss";
+
+.catalog__card {
+  transition: transform 300ms;
+
+  &:hover {
+    transform: scale(1.2);
+    color: #34568b;
+  }
+}
