@@ -35,7 +35,12 @@
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
+    transition: color 300ms;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
