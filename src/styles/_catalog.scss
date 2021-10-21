@@ -5,6 +5,8 @@
   max-width: 944px;
   margin: 0 auto;
 
+  cursor: pointer;
+
   &__card {
     display: flex;
     justify-content: center;
@@ -23,7 +25,6 @@
 
   &__card:hover {
     transform: scale(1.2);
-    cursor: pointer;
     color: #34568b;
   }
 }
