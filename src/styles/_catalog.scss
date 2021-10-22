@@ -16,9 +16,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $trans-delay, color $trans-delay;
 
     &:hover {
-      transition: transform $trans-delay, color $trans-delay;
       color: $title-name-hov-col;
       transform: scale($transf-size);
     }
