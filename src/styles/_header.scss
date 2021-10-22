@@ -22,7 +22,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $c-nav-link;
     list-style: none;
     line-height: 60px;
   }
@@ -37,5 +37,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-duration: $hover-time;
+  }
+
+  &__link:hover {
+    color: $c-nav-link-hover;
   }
 }
