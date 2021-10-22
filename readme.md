@@ -1,9 +1,9 @@
 # Frontend practice with catalog page and hovers
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_catalog_hovers/)
+- [DEMO LINK](https://Nadiyahr.github.io/layout_catalog_hovers/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
-
+5
 ## The task
 
 - Make all the changes smooth on hover
