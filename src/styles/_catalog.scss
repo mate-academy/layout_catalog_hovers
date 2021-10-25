@@ -9,15 +9,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
     transition-duration: 500ms;
-    transition-property: all;
+    transition-property: transform, color;
   }
-  
+
   &__card:hover {
     transform: scale(1.2);
     color: #34568b;
