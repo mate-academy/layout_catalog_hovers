@@ -39,6 +39,7 @@
     font-weight: 500;
 
     &:hover {
+      transition: 500ms;
       color: #00acdc;
     }
   }
