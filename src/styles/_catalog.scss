@@ -14,10 +14,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: 300ms;
 
     &:hover {
       transform: scale(1.2);
-      transition: 3s;
       color: #34568b;
     }
   }
