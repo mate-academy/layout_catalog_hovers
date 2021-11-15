@@ -18,6 +18,7 @@
     display: flex;
     margin: 0;
     padding: 0;
+    
   }
 
   &__item {
@@ -37,5 +38,18 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    animation-duration: 300ms;
+    animation-name: color;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes color {
+  from {
+    color: inherit;
+  }
+
+  to {
+    color: #00acdc;
   }
 }
