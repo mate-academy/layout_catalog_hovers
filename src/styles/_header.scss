@@ -37,11 +37,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    animation: color 0.3s 1 forwards;
-  }
+    transition: color 0.3s;
 
-  @keyframes color {
-    100% {
+    &:hover {
       color: #00acdc;
     }
   }
