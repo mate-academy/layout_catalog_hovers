@@ -1,3 +1,6 @@
+$card_width : 200px;
+$card_height : 300px;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -9,14 +12,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 300px;
+    width: $card_width ;
+    height: $card_height;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2) ;
+    }
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
+
   }
+
 }
