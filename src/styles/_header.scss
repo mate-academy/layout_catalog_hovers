@@ -20,6 +20,8 @@
     padding: 0;
   }
 
+  // asd
+  
   &__item {
     position: relative;
     color: #060b35;
@@ -37,5 +39,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: #00acdc;
+      transition-duration: 0.3s;
+    }
   }
 }
