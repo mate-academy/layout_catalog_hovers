@@ -19,7 +19,7 @@ $card_height : 300px;
     margin-bottom: 48px;
     transition-duration: 300ms;
     transition-timing-function: linear;
-
+    transition-property: transform, color;
     &:hover {
       color: #34568b;
       transform: scale(1.2) ;
