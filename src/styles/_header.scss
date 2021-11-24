@@ -16,8 +16,6 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
-    padding: 0;
   }
 
   &__item {
@@ -37,5 +35,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: 300ms;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
