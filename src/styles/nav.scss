@@ -1,16 +1,3 @@
-.header {
-  @include flex(space-between, center);
-  height: 60px;
-  padding: 0 50px;
-  margin-bottom: 50px;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-
-  &__logo {
-    height: 40px;
-  }
-}
-
 .nav {
   &__list {
     @include flex(null, null);
