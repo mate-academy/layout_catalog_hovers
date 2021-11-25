@@ -1,0 +1,17 @@
+@mixin star-size($star-side) {
+  width: $star-side;
+  height: $star-side;
+}
+
+@mixin flex-just-align($just, $align) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
+}
+
+@mixin transition($property, $duration, $timing-func, $delay: 0) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $timing-func;
+  transition-delay: $delay;
+}
