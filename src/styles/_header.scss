@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex(space-between, center);
   height: 60px;
   padding: 0 50px;
   margin-bottom: 50px;
@@ -15,7 +13,7 @@
 
 .nav {
   &__list {
-    display: flex;
+    @include flex(null, null);
     margin: 0;
     padding: 0;
   }

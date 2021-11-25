@@ -11,6 +11,7 @@ body {
 }
 
 @import "./utils/placeholders";
+@import "./utils/mixins";
 
 @import "_header.scss";
 @import "_catalog.scss";

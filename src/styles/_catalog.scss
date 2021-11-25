@@ -1,14 +1,12 @@
 .catalog {
-  display: flex;
+  @include flex(null, null);
   flex-wrap: wrap;
 
   max-width: 944px;
   margin: 0 auto;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
