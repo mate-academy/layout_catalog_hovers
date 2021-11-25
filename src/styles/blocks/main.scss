@@ -1,0 +1,7 @@
+.main {
+  @include flex;
+
+  &__catalog {
+    margin: auto;
+  }
+}
