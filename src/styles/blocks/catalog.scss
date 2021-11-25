@@ -1,18 +1,21 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
+  @include flex {
+    flex-wrap: wrap;
+  }
   max-width: 944px;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex {
+      justify-content: center;
+      align-items: center;
+    }
+    
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color 300ms transform 300ms;
+    transition: color, transform 300ms;
                 
     &:hover {
       transform: scale(1.2);

@@ -1,6 +1,7 @@
-@import "../utils/normalize";
+.main {
+  @include flex;
 
-@import "./page.scss";
-@import "./catalog.scss";
-@import "./header.scss";
-@import "./nav.scss";
+  &__catalog {
+    margin: auto;
+  }
+}

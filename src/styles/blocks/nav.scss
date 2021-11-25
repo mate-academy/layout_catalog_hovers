@@ -1,6 +1,6 @@
 .nav {
   &__list {
-    display: flex;
+    @include flex;
     margin: 0;
     padding: 0;
   }
