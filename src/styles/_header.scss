@@ -37,5 +37,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: #00acdc;
+      transition: transform 300ms;
+    }
   }
 }
