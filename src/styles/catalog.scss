@@ -12,7 +12,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    @extend %transition;
+    transition: 300ms linear;
 
     &:hover {
       transform: scale(120%);
