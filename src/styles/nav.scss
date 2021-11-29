@@ -1,21 +1,6 @@
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  padding: 0 50px;
-  margin-bottom: 50px;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-
-  &__logo {
-    height: 40px;
-  }
-}
-
 .nav {
   &__list {
-    display: flex;
+    @include flex(null, null);
     margin: 0;
     padding: 0;
   }
@@ -37,5 +22,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: 300ms linear;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
