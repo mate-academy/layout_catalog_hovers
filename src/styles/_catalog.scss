@@ -1,7 +1,6 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -14,9 +13,19 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition-property: color, scale;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
+  }
+
+  &__card:hover {
+    color: #34568b;
+    cursor: pointer;
+    scale: 1.2;
   }
 }
