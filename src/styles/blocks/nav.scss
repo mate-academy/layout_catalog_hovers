@@ -1,19 +1,6 @@
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  padding: 0 50px;
-  margin-bottom: 50px;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-
-  &__logo {
-    height: 40px;
-  }
-}
-
 .nav {
+  cursor: pointer;
+
   &__list {
     display: flex;
     margin: 0;
@@ -37,5 +24,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transform: color 300ms;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
