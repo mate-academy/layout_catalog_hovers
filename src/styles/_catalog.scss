@@ -14,8 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: scale 300ms linear;
-    transition: color 300ms linear;
+    transition: transform 300ms linear,color 300ms linear;
 
     &:hover {
       transform: scale(1.2);
