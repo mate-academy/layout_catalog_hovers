@@ -1,0 +1,14 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body,
+nav,
+div,
+header,
+a,
+img,
+ul,
+li {
+  box-sizing: border-box;
+}
