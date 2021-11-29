@@ -6,17 +6,22 @@
   margin: 0 auto;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform 300ms, color 300ms;
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
+  }
+
+  &__card:hover {
+    transform: scale(1.2);
+    color: #34568b;
+    cursor: pointer;
   }
 }
