@@ -16,10 +16,11 @@
     margin-bottom: 48px;
     transition-property: transform, color;
     transition-duration: 0.3s;
-    &:hover {
-      transform: scale(1.2);
-      color: #34568b;
-    }
+  }
+
+  &__card:hover {
+    transform: scale(1.2);
+    color: #34568b;
   }
 
   &__card:not(:nth-child(4n)) {
