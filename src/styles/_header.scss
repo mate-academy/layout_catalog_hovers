@@ -45,15 +45,8 @@
     }
 
     &:hover {
-      transition: 0.3s;
+      transition: 0.3s ease-in-out;
       color: #00acdc;
-      cursor: pointer;
-    }
-
-    &:active {
-      transition: 0.2s;
-      color: #048aaf;
-      opacity: 75%;
     }
   }
 }
