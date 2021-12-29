@@ -11,13 +11,13 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $border-color;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 0.3s;
+    transition: transform 0.3s, color 0.3s;
 
     &:hover {
-      color: #00acdc;
+      color: $blue-color;
       transform: scale(120%);
     }
   }
