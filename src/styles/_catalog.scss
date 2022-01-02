@@ -22,7 +22,7 @@
   }
   &__card:hover {
     color: $color;
-    transform: translateZ(100px);
+    transform: scale(1.2);
     cursor: pointer;
   }
 }
