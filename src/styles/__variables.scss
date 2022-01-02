@@ -1,0 +1,9 @@
+$pading: 48px;
+$width: 200px;
+$height: 300px;
+$hoverWidth: $width * 1.2;
+$hoverHeight: $height * 1.2;
+$shiftPadHeight: $height * (-0.1);
+$shiftLMarg: $width * 0.1 + 8px;
+$shiftRMarg: $width* (-0.1);
+$maxWidth: $width * 3 + $hoverWidth + $pading * 3 + 8px;
