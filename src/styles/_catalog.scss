@@ -17,7 +17,7 @@
     transition: 300ms;
 
     &:hover {
-      color: #34568b;
+      color: $cardTextHover;
       transform: scale(120%);
     }
   }
