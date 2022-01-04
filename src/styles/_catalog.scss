@@ -5,22 +5,20 @@
   max-width: 944px;
   margin: 0 auto;
 
-  perspective: 100px;
-
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: $cardWidth;
-    height: $cardHeight;
+    width: 200px;
+    height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: 0.3s;
+    transition: color 0.3s, transform 0.3s;
 
     &:hover {
-      color: #34568b;
+      color: $hoverTitleColor;
       transform: scale(1.2);
     }
   }

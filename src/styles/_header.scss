@@ -41,7 +41,7 @@
     transition: 0.3s;
 
     &:hover {
-      color: #00acdc;
+      color: $hoverLinkColor;
     }
   }
 }
