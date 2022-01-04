@@ -1,0 +1,30 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: $max-width;
+  margin: 0 auto;
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $card-width;
+    height: 300px;
+    border: 1px solid $card-border-color;
+    border-radius: 5px;
+    margin-bottom: $gaps;
+
+    transition: transform $transform-delay, color $transform-delay;
+  }
+
+  &__card:hover {
+    transform: scale(1.2);
+    color: $card-hover;
+    cursor: pointer;
+  }
+
+  &__card:not(:nth-child(4n)) {
+    margin-right: $gaps;
+  }
+}
