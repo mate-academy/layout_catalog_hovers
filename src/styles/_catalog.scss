@@ -1,3 +1,5 @@
+$pointer:#43568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -14,8 +16,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform 300ms, color 300ms;
   }
 
+  &__card:hover {
+    transform: scale(120%);
+    color: $pointer;
+    cursor: pointer;
+  }
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
