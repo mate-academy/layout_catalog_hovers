@@ -40,7 +40,7 @@
     transition: 300ms all;
 
     &:hover {
-      color: #00acdc;
+      color: $navlink-hover-color;
     }
   }
 }
