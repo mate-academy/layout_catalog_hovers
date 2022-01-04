@@ -14,7 +14,7 @@
     width: $width-card;
     height: $height-card;
     margin-bottom: $margin-card;
-    transition: 0.3s, transform 0.3s;
+    transition: color 0.3s, transform 0.3s;
     border: 1px solid $border-clr-card;
     border-radius: 5px;
 
@@ -24,7 +24,7 @@
     }
 
     &:not(:hover) {
-      transition: 0.3s;
+      transition: color 0.3s;
     }
   }
 
