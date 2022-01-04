@@ -14,11 +14,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 0.3s;
+    transition: 0.3s color,
+      0.3s transform;
 
     &:hover {
       transform: scale(120%);
-      color: #00acdc;
+      color: $bluColor;
     }
   }
 
