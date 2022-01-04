@@ -1,0 +1,34 @@
+@import "../utils/variables";
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 4 * $width-card + 3 * $margin-card;
+  margin: 0 auto;
+  position: relative;
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $width-card;
+    height: $height-card;
+    margin-bottom: $margin-card;
+    transition: color 0.3s, transform 0.3s;
+    border: 1px solid $border-clr-card;
+    border-radius: 5px;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $hover-color-text-card;
+    }
+
+    &:not(:hover) {
+      transition: color 0.3s;
+    }
+  }
+
+  &__card:not(:nth-child(4n)) {
+    margin-right: $margin-card;
+  }
+}

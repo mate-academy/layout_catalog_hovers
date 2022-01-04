@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -22,7 +24,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-item;
     list-style: none;
     line-height: 60px;
   }
@@ -32,10 +34,19 @@
   }
 
   &__link {
+    transition: color 0.3s;
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: $color-hover-link;
+    }
+
+    &:not(:hover) {
+      transition: color 0.3s;
+    }
   }
 }
