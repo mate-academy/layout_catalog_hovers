@@ -2,21 +2,27 @@
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
+  max-width: $max-width;
   margin: 0 auto;
-
+  perspective: 500px;
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: $card-width;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $gaps;
+    transition:color $main_transition;
   }
 
   &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    margin-right: $gaps;
+  }
+  &__card:hover {
+    color: $color;
+    transform: scale(1.2);
+    cursor: pointer;
   }
 }
