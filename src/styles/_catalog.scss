@@ -14,7 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $gaps;
-    transition: $main_transition;
+    transition:color $main_transition;
   }
 
   &__card:not(:nth-child(4n)) {
