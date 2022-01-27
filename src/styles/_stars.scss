@@ -1,0 +1,25 @@
+$src-star: "../images/star.svg";
+$src-star-active: "../images/star-active.svg";
+$star-size: 16px;
+@mixin square ($size) {
+  width: $size;
+  height: $size;
+}
+
+.stars {
+  display: flex;
+
+  @for $index from 1 through 5 {
+    &--#{$index} :nth-child(-n + #{$index}) {
+      background-image: url($src-star-active);
+    }
+  }
+}
+
+.star {
+  @include square($star-size);
+  margin-right: 4px;
+  background-image: url($src-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
