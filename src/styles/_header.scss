@@ -29,6 +29,7 @@
 
   &__item:not(:last-child) {
     margin-right: 20px;
+
   }
 
   &__link {
@@ -37,5 +38,13 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    transition-duration: 0.3s;
+    transition-property: color;
+
+    &:hover {
+      transition-duration: 0.3s;
+      color: #00acdc;
+    }
   }
 }
