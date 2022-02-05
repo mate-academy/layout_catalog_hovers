@@ -14,11 +14,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-property: 0.3s;
-  
+    transition-property: color border-radius;
+    transition-duration:2s;
+    
     &:hover {
-      color: #34568b;
       border-radius: 20%;
+      color: #34568b; 
     }
   }
 
