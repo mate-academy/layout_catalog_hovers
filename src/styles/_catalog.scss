@@ -1,7 +1,9 @@
+$mywidth:200px;
+$myheight:300px;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -9,17 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 300px;
+    width: $mywidth;
+    height: $myheight;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
     transition-property: color border-radius;
-    transition-duration:2s;
-    
+    transition-duration:0.3s;
     &:hover {
-      border-radius: 20%;
-      color: #34568b; 
+      color: #34568b;
+      transform: scale(1.2);
     }
   }
 
