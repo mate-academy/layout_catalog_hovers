@@ -1,22 +1,171 @@
+.title {
+  display: inline-flex;
+  align-items: center;
+  line-height: 150%;
+  font-size: 12px;
+  font-weight: 500;
+  color: $color-black;
+}
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     margin-bottom: 48px;
+    transition-duration: 300ms;
+
+    &:hover {
+      transform: scale(1.2);
+      .title {
+        color: #34568b;
+      }
+    }
+
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 16px;
+  width: $card-width;
+  height: 406px;
+  background-color: $color-white;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+
+  &__img {
+    width: 160px;
+    height: 134px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 24px;
+    transition: transform 400ms;
+    box-sizing: content-box;
+    padding: 16px 0;
+
+    &:hover {
+      border: 3px solid #f3f3f3;
+      transform: scale(1.2);
+    }
   }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+  &__img--195434 {
+    background-image: url(../images/imac.jpeg);
+  }
+
+  &__title {
+    margin-bottom: 4px;
+  }
+
+  &__product-code {
+    margin-bottom: 16px;
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  &__price {
+    margin-bottom: 16px;
+  }
+
+  &__buy-link {
+    width: 166px;
+    height: 40px;
+  }
+}
+
+.product {
+  &-code {
+    display: inline-flex;
+    align-items: center;
+    color: $color-gray;
+    font-size: 10px;
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    display: inline-flex;
+    align-items: center;
+    color: $color-gray;
+    font-size: 12px;
+  }
+
+  &__sum {
+    display: inline-flex;
+    align-items: center;
+    color: $color-black;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  &__star {
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/star.svg);
+  }
+
+  &--5 &__star,
+  &--1 &__star:nth-child(1),
+  &--2 &__star:nth-child(-n+2),
+  &--3 &__star:nth-child(-n+3),
+  &--4 &__star:nth-child(-n+4) {
+    background-image: url(../images/star-active.svg);
+  }
+}
+
+.reviwes-number {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  color: $color-black;
+}
+
+.buy-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: $color-blue;
+  color: $color-white;
+  border: 1px solid $color-blue;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-blue;
   }
 }

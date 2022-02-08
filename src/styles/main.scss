@@ -2,13 +2,17 @@ html {
   font-family: Roboto, sans-serif;
 }
 
-body {
+body,
+h2,
+p {
   margin: 0;
 }
 
 * {
   box-sizing: border-box;
 }
+
+@import "utils/variables";
 
 @import "_header.scss";
 @import "_catalog.scss";

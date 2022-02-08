@@ -22,9 +22,14 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-black;
     list-style: none;
     line-height: 60px;
+    transition-duration: 300ms ;
+
+    &:hover {
+      color: $color-blue;
+    }
   }
 
   &__item:not(:last-child) {
