@@ -33,7 +33,6 @@
 .card {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   padding: 16px;
   width: $card-width;
   height: 406px;
@@ -155,7 +154,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
   background-color: $color-blue;
   color: $color-white;
   border: 1px solid $color-blue;
