@@ -5,7 +5,7 @@
   max-width: 944px;
   margin: 0 auto;
   &__text {
-    transition-duration: 300ms;
+    transition-duration: $duration-transform;
   }
 
   &__card {
@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 300ms;
+    transition: transform $duration-transform;
     &:hover {
       transform: scale(1.2);
       cursor: pointer;
