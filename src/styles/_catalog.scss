@@ -18,8 +18,8 @@
     margin-bottom: 48px;
     margin-top: 0;
 
-    transition: transform $general-duration-for-transition;
-    transition-duration: $general-duration-for-transition;
+    transition: transform $general-duration-for-transition,
+      color $general-duration-for-transition;
 
     &:hover {
       transform: scale(1.2);
