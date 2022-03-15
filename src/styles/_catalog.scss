@@ -15,7 +15,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: 300ms ease;
+    transition: transform 300ms, color 300ms;
 
     &:hover {
       transform: scale(1.2);
