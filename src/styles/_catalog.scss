@@ -15,9 +15,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 300ms;
     transition-duration: 300ms;
-    transition-property: color;
+    transition-property: color, transform;
     transition-timing-function: linear;
   }
 
