@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: 300ms;
+    transition: transform 300ms, color 300ms;
   }
 
   &__link:hover {
