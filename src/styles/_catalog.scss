@@ -1,19 +1,19 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 48px;
 
-  max-width: 944px;
+  max-width: 1024px;
   margin: 0 auto;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
     height: 300px;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
 
     transition: transform 300ms ease,
       color 300ms ease;
@@ -22,9 +22,5 @@
       color: #34568b;
       transform: scale(1.2);
     }
-  }
-
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
   }
 }
