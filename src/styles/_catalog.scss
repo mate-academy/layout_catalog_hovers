@@ -5,7 +5,6 @@
 
   max-width: 944px;
   margin: 0 auto;
-  perspective: 300px;
 
   &__card {
     display: flex;
@@ -16,6 +15,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    
     transition-duration: 300ms;
     transition-property: transform, color;
 
