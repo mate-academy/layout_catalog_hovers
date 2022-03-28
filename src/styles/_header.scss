@@ -16,7 +16,6 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
     padding: 0;
   }
 
@@ -41,7 +40,7 @@
 
   &__link:hover {
     transition: all ease;
-    transition-duration: 300ms;
+    transition-duration: $t-duration;
     color: #00acdc;
   }
 }
