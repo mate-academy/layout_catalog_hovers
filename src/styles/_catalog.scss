@@ -16,6 +16,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
+    transition-property: all;
     transition-duration: 300ms;
 
     &:hover {
