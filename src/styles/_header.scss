@@ -36,10 +36,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color ease;
   }
 
   &__link:hover {
-    transition: all ease;
     transition-duration: $t-duration;
     color: #00acdc;
   }
