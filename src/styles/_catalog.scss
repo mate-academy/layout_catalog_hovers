@@ -9,11 +9,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 300ms;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
