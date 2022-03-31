@@ -1,0 +1,26 @@
+.main {
+  padding: 50px 0;
+
+  &__cards {
+    margin: 0 auto;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: (4 * $card-width) + (3 * $card-horizontal-spacing);
+
+  &__card {
+    margin-right: $card-horizontal-spacing;
+    margin-bottom: 46px;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+
+    &:nth-last-child(-n + 4) {
+      margin-bottom: 0;
+    }
+  }
+}
