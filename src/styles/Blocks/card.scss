@@ -8,6 +8,14 @@
   transition: transform 300ms, color 300ms;
   cursor: pointer;
 
+  &__title {
+    @include fonts($size: 12px, $line: 18px);
+    color: $secondary-color;
+    margin-bottom: 4px;
+    margin-top: $removing-default-margins;
+    transition: color 300ms;
+  }
+
   &:hover {
     transform: scale(1.2);
 
@@ -20,14 +28,6 @@
     width: 160px;
     height: 134px;
     margin: 0 3px 40px;
-  }
-
-  &__title {
-    @include fonts($size: 12px, $line: 18px);
-    color: $secondary-color;
-    margin-bottom: 4px;
-    margin-top: $removing-default-margins;
-    transition: color 300ms;
   }
 
   &__description {
