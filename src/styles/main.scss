@@ -1,14 +1,10 @@
-html {
-  font-family: Roboto, sans-serif;
-}
+@import "./utils/variables";
+@import "./utils/reset";
 
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./blocks/card.scss";
+@import "./blocks/header.scss";
+@import "./blocks/is-active.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/normalize.scss";
+@import "./blocks/page.scss";
+@import "./blocks/stars.scss";

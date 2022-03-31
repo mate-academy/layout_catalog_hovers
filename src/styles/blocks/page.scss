@@ -1,0 +1,13 @@
+.page {
+  min-width: 1024px;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0 70px;
+    width: 4 * $cardWidth + $space;
+    box-sizing: border-box;
+  }
+}
