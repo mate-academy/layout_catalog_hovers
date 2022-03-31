@@ -5,11 +5,15 @@
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 32px 16px 16px;
-  transition: transform 300ms;
+  transition: transform 300ms, color 300ms;
   cursor: pointer;
 
   &:hover {
     transform: scale(1.2);
+
+    .card__title {
+      color: #00acdc;
+    }
   }
 
   &__image {
@@ -24,10 +28,6 @@
     margin-bottom: 4px;
     margin-top: $removing-default-margins;
     transition: color 300ms;
-
-    &:hover {
-      color: #34568b;
-    }
   }
 
   &__description {
