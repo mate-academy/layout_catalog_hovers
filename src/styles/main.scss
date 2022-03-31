@@ -10,8 +10,6 @@ ul {
 * {
   box-sizing: border-box;
 }
-
-$t-duration: 300ms;
-
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./variables";
+@import "./header";
+@import "./catalog";
