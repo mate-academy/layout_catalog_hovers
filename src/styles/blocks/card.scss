@@ -7,7 +7,7 @@
 
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  transition: 300ms all;
+  transition: 300ms ease;
 
   &__image {
     display: block;
@@ -91,13 +91,14 @@
     border-radius: 5px;
     border: 1px solid $acdc-blue-color;
     background-color: $acdc-blue-color;
+    transition: color 0.3s, background-color 0.3s;
   }
 
   &__buy-button:hover {
     border-radius: 5px;
     color: $acdc-blue-color;
     background-color: inherit;
-    transition: 0.3s all;
+    transition: 0.3s ease;
 
   }
 
