@@ -14,12 +14,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition-duration: 300ms;
+    transition-property: all;
+    transform: scale(1);
 
     &:hover {
-      animation-duration: 300ms;
-      animation-name: card-move;
-      animation-fill-mode: forwards;
       color: #34568b;
+      transition-duration: 300ms;
+      transition-property: all;
+      transform: scale(1.2);
     }
   }
 
@@ -64,15 +67,4 @@
     }
   }
 
-}
-@keyframes card-move {
-  from {
-    transform: scale(1);
-    color: #000;
-  }
-  
-  to {
-    transform: scale(1.2);
-    color: #34568b;
-  }
 }
