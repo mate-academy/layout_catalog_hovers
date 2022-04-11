@@ -38,9 +38,9 @@
     font-size: 12px;
     font-weight: 500;
     transition: color 0.3s linear;
+    cursor: pointer;
 
     &:hover {
-      cursor: pointer;
       color: #00acdc;
     }
   }
