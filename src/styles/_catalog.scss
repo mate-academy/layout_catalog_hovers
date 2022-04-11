@@ -16,9 +16,9 @@
     margin-bottom: 48px;
   }
 
-  &__card:hover {
+  &__card--hover:hover {
     transform: scale(120%);
-    color: #00acdc;
+    color: #34568b;
     transition: 300ms;
   }
 
