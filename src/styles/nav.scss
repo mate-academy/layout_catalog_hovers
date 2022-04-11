@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.nav {
+  &__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    position: relative;
+    color: #060b35;
+    list-style: none;
+    line-height: 60px;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    transition-duration: 300ms;
+    transition-property: color;
+
+    &:hover {
+      color: $color;
+      cursor: pointer;
+    }
+
+  }
+}
