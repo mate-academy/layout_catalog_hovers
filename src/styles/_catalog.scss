@@ -16,9 +16,7 @@
     margin-bottom: 48px;
 
     cursor: pointer;
-    
-    transition-property: color;
-    transition-duration: 0.3s;
+    transition: color 0.3s;
   }
 
   &__card:not(:nth-child(4n)) {
@@ -28,6 +26,5 @@
   &__card:hover {
     transform: scale(1.2);
     color: #34568b;
-    transition-duration: 0.3s;
   }
 }

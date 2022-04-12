@@ -38,12 +38,10 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition-property: color;
-    transition-duration: 0.3s;
+    transition: color 0.3s;
   }
 
   &__link:hover {
     color: #00acdc;
-    transition-duration: 0.3s;
   }
 }
