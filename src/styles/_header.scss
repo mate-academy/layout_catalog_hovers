@@ -16,7 +16,7 @@
 .nav {
   &__list {
     display: flex;
-    
+
     margin: 0;
     padding: 0;
   }
@@ -40,7 +40,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition-duration: 0.5s;
+    transition: color 500ms;
   }
 
   &__link:hover {

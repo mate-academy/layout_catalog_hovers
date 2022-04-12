@@ -14,12 +14,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: color 300ms linear, transform 300ms linear;
+    cursor: pointer;
   }
 
-  &__card--hover:hover {
+  &__card:hover {
     transform: scale(120%);
     color: #34568b;
-    transition: 300ms;
   }
 
   &__card:not(:nth-child(4n)) {
