@@ -4,11 +4,14 @@
 
   max-width: 944px;
   margin: 0 auto;
+  perspective: 400px;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
@@ -16,14 +19,13 @@
     margin-bottom: 48px;
     transition: color 0.3s, transform 0.3s;
 
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
+
     &:hover {
-      color: #34568b;
       transform: scale(1.2, 1.2);
+      color: #34568b;
     }
   }
-
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
-  }
-
 }
