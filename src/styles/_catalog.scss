@@ -15,16 +15,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: 300ms;
+    transition: color, transform 300ms;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
-  }
-
-  &__card:hover {
-    color: #34568b;
-    transform: scale(1.2);
-    // transform: scaleY(20%);
   }
 }
