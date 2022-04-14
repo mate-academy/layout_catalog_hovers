@@ -11,9 +11,15 @@
     align-items: center;
     width: 200px;
     height: 300px;
+    transition-duration: 300ms;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+  }
+
+  &__card:hover {
+    color: #34568b;
+    transform: scale(1.2);
   }
 
   &__card:not(:nth-child(4n)) {
