@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 300ms;
+    transition: color $duration-effects;
 
     &:hover {
       color: #00acdc;
