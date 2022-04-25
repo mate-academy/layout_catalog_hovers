@@ -1,7 +1,10 @@
+@import "./units/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300&family=Playfair+Display+SC:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@300;400;500&display=swap");
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -14,9 +17,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-  }
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-title-color;
+    }
   }
 }
