@@ -25,10 +25,16 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition-duration: 300ms;
+    transition-property: color;
   }
 
   &__item:not(:last-child) {
     margin-right: 20px;
+  }
+  
+  &__item:hover {
+    color: #00acdc;
   }
 
   &__link {
@@ -37,11 +43,5 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration: 300ms;
-    transition-property: color;
-  }
-
-  &__link:hover {
-    color: #00acdc;
   }
 }
