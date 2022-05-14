@@ -1,0 +1,13 @@
+$colors:
+  ".nav__link" #00acdc,
+  ".catalog__card" #34568b;
+
+@each $class, $color in $colors {
+  #{$class}:hover {
+    color: $color;
+  }
+}
+
+%duration {
+  transition: 300ms;
+}
