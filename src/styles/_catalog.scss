@@ -15,11 +15,10 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: 300ms;
+    transition: color $transition-time, transform $transition-time;
 
     &:hover {
       color: #34568b;
-      
       transform: scale(1.2);
     }
   }
