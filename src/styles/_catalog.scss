@@ -14,7 +14,7 @@
     width: 200px;
     height: 300px;
 
-    transition-duration: 300ms;
+    transition-duration: $variableTime;
     transition-timing-function: ease;
     transition-property: color, transform;
 
@@ -22,14 +22,14 @@
     border-radius: 5px;
 
     margin-bottom: 48px;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(120%);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
-  }
-
-  &__card:hover {
-    color: #34568b;
-    transform: scale(120%);
   }
 }
