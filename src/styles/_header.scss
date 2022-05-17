@@ -32,10 +32,16 @@
   }
 
   &__link {
+    padding: 20px 0;
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: 300ms;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
