@@ -10,5 +10,7 @@ body {
   box-sizing: border-box;
 }
 
+$variableTime: 300ms;
+
 @import "_header.scss";
 @import "_catalog.scss";
