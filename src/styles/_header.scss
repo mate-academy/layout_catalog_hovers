@@ -21,7 +21,6 @@
   }
 
   &__item {
-    position: relative;
     color: #060b35;
     list-style: none;
     line-height: 60px;
@@ -37,5 +36,13 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    transition-property: color;
+  }
+
+  &__link:hover {
+    color: #00acdc;
   }
 }
