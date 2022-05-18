@@ -1,16 +1,5 @@
-html {
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-$duration: 300ms;
-
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./utils/normalise";
+@import "./block/header";
+@import "./block/catalog";
