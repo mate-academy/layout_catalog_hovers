@@ -38,4 +38,9 @@
     font-size: 12px;
     font-weight: 500;
   }
+
+  &__link:hover {
+    transition-duration: 300ms;
+    color: #00acdc;
+  }
 }
