@@ -5,10 +5,6 @@
   max-width: 944px;
   margin: 0 auto;
 
-  &__container {
-    perspective: 200px;
-  }
-
   &__card {
     display: flex;
     justify-content: center;
@@ -18,12 +14,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 300ms;
+    transition-duration: var(--animation-during);
+    cursor: pointer;
 
     &:hover {
       color: #34568b;
-      cursor: pointer;
-      transform: translateZ(200px * 0.2);
+      transform: scale(1.2);
     }
   }
 
