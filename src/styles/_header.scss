@@ -37,7 +37,6 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-
-    @extend %duration;
+    transition-duration: 300ms;
   }
 }
