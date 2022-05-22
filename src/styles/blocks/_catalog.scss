@@ -9,11 +9,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 48px;
     width: 200px;
     height: 300px;
+
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+
+    cursor: pointer;
+    @extend %transform-time;
+    transition: transform $time;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
