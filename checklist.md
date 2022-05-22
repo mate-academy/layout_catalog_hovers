@@ -1,15 +1,38 @@
-1. [LAYOUT] - Don't forget about semantics, div development is not a better
-   option
-2. [STYLES] - Get used to style all elements using classes. And don't increase
-   selectors specificity unless completely necessary.
-3. [STYLES] - If you need to adjust positioning with `1px` or fractional numbers
-   like `0.5`, you are doing something wrong, change the alignment technique you use
-4. [STYLES] - Be consistent with your margins - if you have many sections in a
+1. [STYLES] - Make sure to add transition style under general selector, not the
+one with `:hover` - this way transition will work smoothly both ways.
+
+GOOD example:
+```scss
+.box {
+  color: gray;
+  transition: color 0.5s, transform 0.5s;
+
+  &:hover {
+    color: aquamarine;
+    transform: scale(1.2);
+  }
+}
+```
+
+BAD example:
+```scss
+.box {
+  color: gray;
+
+  &:hover {
+    color: aquamarine;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+}
+```
+
+2. [STYLES] - Be consistent with your margins - if you have many sections in a
    row, add margins either to the bottom or to the top so that it will be easier
    to identify how to position the next element
-5. [BEM] - Check your BEM structure using BEM-linter (`npm run lint`) and
+3. [BEM] - Check your BEM structure using BEM-linter (`npm run lint`) and
    [this list](https://mate-academy.github.io/fe-program/css/typical-bem-mistakes)
-6. [BEM] - Make sure to follow BEM naming convention
+4. [BEM] - Make sure to follow BEM naming convention
 
 GOOD example:
 ```html
@@ -40,7 +63,7 @@ BAD example:
 `star` is another block, stars should be the elements of the `stars` block
 ```
 
-7. [BEM & STYLES] - Don't add external styles (positioning or margins) to
+5. [BEM & STYLES] - Don't add external styles (positioning or margins) to
    BEM-blocks. Use mix where necessary and move all external styles under element
    selector.
 
@@ -82,10 +105,7 @@ BAD example
   background-color: purple;
 }
 ```
-
-8. [BEM] - create a separate file per each BEM block styles that have the same
-   name as the block
-9. [SASS] - Make use of SASS nesting - write pseudo-class, pseudo-element
+6. [SASS] - Make use of SASS nesting - write pseudo-class, pseudo-element
    selectors inside general selector. As well as media queries.
 
 GOOD example:
@@ -112,6 +132,6 @@ BAD example:
 }
 ```
 
-10. [SASS] - use variables for the main values so that you'll be able to reuse
+7. [SASS] - use variables for the main values so that you'll be able to reuse
     them and give them descriptive names. But don't overuse them, don't create
     variable for the value that's used just once.
