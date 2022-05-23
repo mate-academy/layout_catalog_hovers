@@ -1,8 +1,9 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
+  gap: 0 48px;
 
-  max-width: 944px;
+  max-width: 200px;
   margin: 0 auto;
 
   &__card {
@@ -21,8 +22,22 @@
       color: #34568b;
     }
   }
+}
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+@media screen and (min-width: 448px) {
+  .catalog {
+    max-width: 448px;
+  }
+}
+
+@media screen and (min-width: 696px) {
+  .catalog {
+    max-width: 696px;
+  }
+}
+
+@media screen and (min-width: 944px) {
+  .catalog {
+    max-width: 944px;
   }
 }
