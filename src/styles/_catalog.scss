@@ -1,8 +1,9 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
+  gap: 0 48px;
 
-  max-width: 944px;
+  max-width: 200px;
   margin: 0 auto;
 
   &__card {
@@ -14,9 +15,29 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-  }
+    transition: transform 300ms, color 300ms;
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+    }
+  }
+}
+
+@media screen and (min-width: 463px) {
+  .catalog {
+    max-width: 448px;
+  }
+}
+
+@media screen and (min-width: 711px) {
+  .catalog {
+    max-width: 696px;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .catalog {
+    max-width: 944px;
   }
 }
