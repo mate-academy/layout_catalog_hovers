@@ -1,7 +1,11 @@
+$width: 200px;
+$height: 300px;
+$persent: 0.2;
+$n-right-card: 4;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -9,14 +13,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 300px;
+    width: $width;
+    height: $height;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $persent * $height + 8px;
+    transition-duration: 300ms;
+    transition-property: all;
   }
 
   &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    margin-right: $persent * $width + 8px;
+  }
+
+  &__card:hover {
+    color: #34568b;
+    width: (1 + $persent) * $width;
+    height: (1 + $persent) * $height;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  &__card:nth-child(4n):hover {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: - $persent * $width;
   }
 }
