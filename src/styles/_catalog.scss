@@ -4,6 +4,7 @@
 
   max-width: 944px;
   margin: 0 auto;
+  perspective: 200px;
 
   &__card {
     display: flex;
@@ -14,9 +15,17 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition-duration: 300ms;
+    transition-property: color, transform;
+    transition-timing-function: ease;
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
+  }
+
+  &__card:hover {
+    transform: translateZ(240px);
+    color: #34568b;
   }
 }
