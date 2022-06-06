@@ -1,3 +1,7 @@
+$transition-duration: 300ms;
+$scale-percentage: 20%;
+$scale-size: calc(100% + #{$scale-percentage});
+
 html {
   font-family: Roboto, sans-serif;
 }
