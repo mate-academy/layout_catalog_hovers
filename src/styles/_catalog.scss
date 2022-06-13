@@ -16,6 +16,7 @@
     margin-bottom: 48px;
 
     transition-duration: 300ms;
+    transition-property: all;
 
     &:hover {
       transform: scale(120%);
