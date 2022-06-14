@@ -1,6 +1,8 @@
 # Frontend practice with catalog page and hovers
+
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_catalog_hovers/)
+
+- [DEMO LINK](https://TanyaShevchenko.github.io/layout_catalog_hovers/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 
@@ -15,13 +17,16 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 - Smoothly (during 300ms) change navigation link text color to `#00acdc`
 
 ## Requirements:
+
 - edit styles in `src/styles/__header.scss` and `src/styles/__catalog.scss`
 - use SCSS in this task
 
 ---
+
 --> [CHECKLIST](https://github.com/mate-academy/layout_catalog_hovers/blob/master/checklist.md)
 
 ## Tips & Hints
+
 - Do not use tabs. Use 2 spaces for indentation.
 - Don't use repeated styles.
 - There are no tests for this task yet, so check your code one more time :)
