@@ -1,9 +1,9 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
+  cursor: pointer;
 
   &__card {
     display: flex;
@@ -15,10 +15,12 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+
+    transition-duration: 0.3s;
     transition-property: transform , color ;
 
+
     &:hover {
-      cursor: pointer;
       transform: scale(1.2);
       color: #34568b;
     }
