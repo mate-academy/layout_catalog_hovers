@@ -4,9 +4,11 @@
   justify-content: space-between;
   height: 60px;
   padding: 0 50px;
-  margin-bottom: 50px;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  &--distance {
+    margin-bottom: 50px;
+  }
 
   &__logo {
     height: 40px;
@@ -16,8 +18,11 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
     padding: 0;
+  
+    &--distance {
+      margin: 0;
+    }
   }
 
   &__item {
@@ -25,6 +30,11 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition: color 300ms;
+  
+    &:hover {
+      color: #00acdc;
+    }
   }
 
   &__item:not(:last-child) {
