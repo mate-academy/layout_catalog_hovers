@@ -16,7 +16,7 @@
     margin-bottom: 48px;
     cursor: pointer;
 
-    transition: $transition-time;
+    transition: transform $transition-time, color $transition-time;
 
     &:hover {
       transform: scale(1.2);
