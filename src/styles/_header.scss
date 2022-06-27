@@ -1,11 +1,12 @@
+$height-header: 60px;
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: $height-header;
   padding: 0 50px;
   margin-bottom: 50px;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
@@ -24,11 +25,11 @@
     position: relative;
     color: #060b35;
     list-style: none;
-    line-height: 60px;
-  }
+    line-height: $height-header;
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {
@@ -37,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-duration: 300ms;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
