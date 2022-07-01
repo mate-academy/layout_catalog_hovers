@@ -14,7 +14,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: transform 300ms;
+    transition: transform 300ms, color 300ms;
   }
 
   &__card:not(:nth-child(4n)) {
