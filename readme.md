@@ -1,4 +1,4 @@
-- [DEMO LINK](https://Vasykiy22.github.io/layout_catalog_hovers/)
+- [DEMO LINK](https://Vasyliy22.github.io/layout_catalog_hovers/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 
