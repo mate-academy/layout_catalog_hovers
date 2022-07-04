@@ -7,16 +7,47 @@
 
   &__card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 300px;
+    width: $card-width;
+    height: $card-height;
+    margin-bottom: $margin-between-cards;
+    padding: 0 16px;
+    font-weight: 400;
+    color: $text-color;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    transition: transform 300ms, color 300ms;
+    transition-timing-function: linear;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    margin-right: $margin-between-cards;
+  }
+
+  &__image {
+    width: 160px;
+    height: 134px;
+  }
+
+  &__name {
+    margin-top: 40px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  &__code {
+    align-self: flex-start;
+    margin-top: 4px;
+    font-size: 10px;
+    line-height: 14px;
+    color: $additional-text-color;
   }
 }
