@@ -1,3 +1,6 @@
+
+$widthCard: 200px;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -9,11 +12,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: $widthCard;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
+    transition: 300ms;
+  }
+
+  &__card:hover {
+    color: #34568b;
+    transform: scale(1.2);
   }
 
   &__card:not(:nth-child(4n)) {
