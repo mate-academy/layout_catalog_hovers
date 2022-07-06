@@ -1,4 +1,4 @@
-.catalog {
+.main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-.block {
+.catalog {
   perspective: 500px;
 
   &__card {
@@ -18,10 +18,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 300ms;
     &:hover {
       color: #34568b;
       transform: translateZ(100px);
+      transition-duration: 300ms;
     }
   }
 
