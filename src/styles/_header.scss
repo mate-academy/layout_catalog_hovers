@@ -27,6 +27,11 @@
     line-height: 60px;
   }
 
+  &__item:hover {
+    transition: 300ms;
+    color: #00acdc;
+  }
+
   &__item:not(:last-child) {
     margin-right: 20px;
   }
