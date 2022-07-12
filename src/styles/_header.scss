@@ -25,10 +25,10 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition: color 300ms;
   }
 
   &__item:hover {
-    transition: 300ms;
     color: #00acdc;
   }
 
