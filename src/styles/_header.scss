@@ -40,7 +40,7 @@
   }
 
   &__link:hover {
-    transition-duration: $transition-duration-value;
+    transition: color $transition-duration-value;
     color: #00acdc;
   }
 }

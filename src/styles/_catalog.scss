@@ -22,7 +22,8 @@
 
   &__card:hover {
     cursor: pointer;
-    transition-duration: $transition-duration-value;
+    transition: transform $transition-duration-value,
+      color $transition-duration-value;
     transform: scale(1.2);
     color: #34568b;
   }
