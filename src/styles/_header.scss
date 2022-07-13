@@ -39,9 +39,9 @@
     font-weight: 500;
     transition-duration: 300ms;
     transition-property: color;
-  }
 
-  &__link:hover {
-    color: #00acdc;
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
