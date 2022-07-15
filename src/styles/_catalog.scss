@@ -21,6 +21,7 @@
   &__card:hover {
     color: #34568b;
     transform: scale(1.2);
+    cursor: pointer;
   }
 
   &__card:not(:nth-child(4n)) {
