@@ -1,0 +1,12 @@
+.is-active {
+  position: relative;
+
+  &:after {
+    display: block;
+    height: 4px;
+    width: 100%;
+
+    border-radius: 8px;
+    background: $acdc-blue-color;
+  }
+}
