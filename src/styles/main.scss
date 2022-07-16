@@ -1,14 +1,33 @@
+@import "./variables";
+@import "./mixin";
+
+@import "_header.scss";
+@import "_catalog.scss";
+
 html {
   font-family: Roboto, sans-serif;
 }
 
-body {
+body,
+h1,
+h2 {
   margin: 0;
+  padding: 0;
 }
 
 * {
   box-sizing: border-box;
 }
 
-@import "_header.scss";
-@import "_catalog.scss";
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  width: $content-width;
+  padding-top: 50px;
+  padding-bottom: 72px;
+}
