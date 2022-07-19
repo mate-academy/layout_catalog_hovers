@@ -29,6 +29,11 @@
 
   &__item:not(:last-child) {
     margin-right: 20px;
+    transition: color 300ms linear;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 
   &__link {
