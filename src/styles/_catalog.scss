@@ -16,7 +16,7 @@
     margin-bottom: 48px;
     cursor: pointer;
     transition-duration: 300ms;
-    transition-property: all;
+    transition-property: size color;
 
     &:hover {
       transform: scale(1.2);
