@@ -15,8 +15,9 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition-duration: 300ms;
-    transition-timing-function: linear;
+    transition:
+      color 300ms linear,
+      transform 300ms linear;
   }
 
   &__card:not(:nth-child(4n)) {
