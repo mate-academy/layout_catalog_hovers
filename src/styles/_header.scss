@@ -25,7 +25,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition: 400ms cubic-bezier(0,.13,.52,-0.79);
+    transition: 400ms;
   }
 
   &__item:not(:last-child) {
@@ -41,7 +41,7 @@
   }
 
   &__item:hover {
-    color:#34568b;
+    color: #34568b;
     transform: rotate(5deg) translateY(-8px);
   }
 

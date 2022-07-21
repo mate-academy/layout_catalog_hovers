@@ -15,7 +15,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: $translation-time cubic-bezier(.51,.11,0,.74);
+    transition: $translation-time;
   }
 
   &__card:not(:nth-child(4n)) {
@@ -24,7 +24,7 @@
 
   &__card:hover {
     transform: scale(120%, 120%) ;
-    color:#34568b;
+    color: #34568b;
     border: 3px solid black;
     border-radius: 10px;
     font-size: 20px;
@@ -33,5 +33,3 @@
   }
 
 }
-
-
