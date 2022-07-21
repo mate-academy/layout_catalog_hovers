@@ -14,6 +14,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: transform 300ms ease 0s,
+      color 300ms ease 0s;
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+    }
   }
 
   &__card:not(:nth-child(4n)) {
