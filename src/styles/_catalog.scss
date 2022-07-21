@@ -17,7 +17,7 @@
 
     cursor: pointer;
     transition: 300ms;
-    transition-property: transform color;
+    transition-property: transform, color;
 
     &:hover {
       transform: scale(1.2);
