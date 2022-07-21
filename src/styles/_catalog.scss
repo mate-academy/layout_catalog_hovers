@@ -14,8 +14,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
 
-    transition: $translation-time;
+    transition: $translation-time ease-in-out;
   }
 
   &__card:not(:nth-child(4n)) {
@@ -29,7 +30,6 @@
     border-radius: 10px;
     font-size: 20px;
     background-color: lightgray;
-    cursor: pointer;
   }
 
 }
