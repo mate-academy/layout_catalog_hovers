@@ -10,6 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-@import "./utils/_variables.scss";
+@import "./utils/__variables.scss";
 @import "__header.scss";
 @import "__catalog.scss";
