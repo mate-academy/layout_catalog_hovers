@@ -5,6 +5,11 @@
   max-width: 944px;
   margin: 0 auto;
 
+  &__row {
+    display: flex;
+    flex-direction: row;
+  }
+
   &__card {
     display: flex;
     justify-content: center;

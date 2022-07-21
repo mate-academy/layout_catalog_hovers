@@ -10,5 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./catalog";
+@import "./header";
+@import "./card.scss";
