@@ -14,9 +14,26 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-  }
+    cursor: pointer;
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    transition: color $translation-time,
+      border $translation-time,
+      background-color $translation-time,
+      font-size $translation-time,
+      border-radius $translation-time,
+      ease-in-out;
+
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
+
+    &:hover {
+      @include scale ($scale-size);
+      color: #34568b;
+      border: 3px solid black;
+      border-radius: 10px;
+      background-color: lightgray;
+      font-size: 20px;
+    }
   }
 }

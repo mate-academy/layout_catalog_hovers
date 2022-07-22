@@ -16,8 +16,6 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
-    padding: 0;
   }
 
   &__item {
@@ -25,10 +23,27 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-  }
+    transition: color $translation-time2,
+      transform $translation-time2,
+      ease-in-out;
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      color: #34568b;
+      transform: rotate(5deg) translateY(-8px);
+    }
+
+    &:hover::after {
+      @include possitioning ($i);
+      content: "";
+      background-color: #00acdc;
+      height: 4px;
+      width: 100%;
+      border-radius: 8px;
+    }
   }
 
   &__link {
