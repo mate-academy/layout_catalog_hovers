@@ -1,0 +1,9 @@
+@mixin scale ($scale-size) {
+  transform: scale($scale-size, $scale-size) ;
+}
+
+@mixin possitioning ($i) {
+  position: absolute;
+  bottom: $i;
+  left: $i;
+}

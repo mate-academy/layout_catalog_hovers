@@ -16,7 +16,12 @@
     margin-bottom: 48px;
     cursor: pointer;
 
-    transition: $translation-time ease-in-out;
+    transition: color $translation-time,
+      border $translation-time,
+      background-color $translation-time,
+      font-size $translation-time,
+      border-radius $translation-time,
+      ease-in-out;
   }
 
   &__card:not(:nth-child(4n)) {
@@ -24,7 +29,7 @@
   }
 
   &__card:hover {
-    transform: scale(120%, 120%) ;
+    @include scale ($scale-size);
     color: #34568b;
     border: 3px solid black;
     border-radius: 10px;
