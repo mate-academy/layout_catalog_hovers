@@ -1,5 +1,6 @@
 html {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 body {
@@ -10,5 +11,20 @@ body {
   box-sizing: border-box;
 }
 
+@media screen and (min-width:1200px) {
+  .main {
+    padding: 50px 128px 72px;
+  }
+
+}
+@media screen and (max-width:1199px) {
+  .main {
+    padding: 50px 40px 72px;
+  }
+
+}
+
+@import "_variables.scss";
+@import "_mixin.scss";
 @import "_header.scss";
 @import "_catalog.scss";
