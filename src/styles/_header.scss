@@ -39,9 +39,11 @@
     font-weight: 500;
 
     transition: color 0.3s;
+
+    &__link:hover {
+      color: #00acdc;
+    }
   }
 
-  &__link:hover {
-    color: #00acdc;
-  }
+
 }
