@@ -37,9 +37,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: color;
 
-    &:hover{
+    &:hover {
       color: #00acdc;
     }
   }
