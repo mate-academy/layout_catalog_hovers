@@ -22,19 +22,18 @@
       font-size $translation-time,
       border-radius $translation-time,
       ease-in-out;
-  }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
-  }
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
 
-  &__card:hover {
-    @include scale ($scale-size);
-    color: #34568b;
-    border: 3px solid black;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: lightgray;
+    &:hover {
+      @include scale ($scale-size);
+      color: #34568b;
+      border: 3px solid black;
+      border-radius: 10px;
+      background-color: lightgray;
+      font-size: 20px;
+    }
   }
-
 }
