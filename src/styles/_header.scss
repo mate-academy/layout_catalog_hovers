@@ -25,6 +25,12 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition: color 0.3s, transform 0.3s;
+
+    &:hover {
+      color: $color-blue;
+      transform: scale(1.1);
+    }
   }
 
   &__item:not(:last-child) {
