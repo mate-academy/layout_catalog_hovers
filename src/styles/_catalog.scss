@@ -18,10 +18,9 @@
     border-radius: 5px;
 
     cursor: pointer;
-    transition: transform 300ms;
+    transition: transform 300ms, color 300ms;
 
     &:hover {
-      content: "";
       color: #34568b;
       transform: scale(1.2);
     }
