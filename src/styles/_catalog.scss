@@ -15,7 +15,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
     transition: transform 300ms, color 300ms;
-
+    cursor: pointer;
+    
     &:hover {
       transform: scale(1.2);
       color: #34568b;
