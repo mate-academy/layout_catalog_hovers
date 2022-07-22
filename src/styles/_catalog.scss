@@ -15,11 +15,13 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    cursor: pointer;
     transition: 300ms;
+    transition-property: color, transform;
 
     &:hover {
       transform: scale(1.2);
-      color: #00acdc;
+      color: #34568b;
     }
   }
 
