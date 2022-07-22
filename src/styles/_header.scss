@@ -31,10 +31,10 @@
       color: $color-blue;
       transform: scale(1.1);
     }
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {
