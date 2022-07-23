@@ -14,7 +14,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 300ms;
+    cursor: pointer;
+    transition-duration: 300ms;
 
     &:hover {
       color: #34568b;
