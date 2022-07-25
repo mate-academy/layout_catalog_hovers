@@ -10,7 +10,7 @@
   margin-right: 50px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  transition-duration: 300ms;
+  transition: hover 300ms;
 
   &:hover {
     transform: scale(1.2);
