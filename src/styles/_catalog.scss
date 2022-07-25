@@ -14,8 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 0.3s;
-    transition-property: color transform;
+    transition: color, transform 0.3s;
 
     &:hover {
       color: #34568b;
