@@ -20,7 +20,7 @@
   }
 
   &__card:first-child {
-    transition: 300ms;
+    transition: transform 300ms;
   }
 
   &__card:hover {
