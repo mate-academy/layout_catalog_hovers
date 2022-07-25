@@ -1,6 +1,6 @@
 # Frontend practice with catalog page and hovers
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_catalog_hovers/)
+- [DEMO LINK](https://yevhenii-stanchenko.github.io/layout_catalog_hovers/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 
@@ -25,3 +25,22 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 - Do not use tabs. Use 2 spaces for indentation.
 - Don't use repeated styles.
 - There are no tests for this task yet, so check your code one more time :)
+
+
+- Сделайте все изменения плавными при наведении
+- Плавно (в течение 300 мс) увеличивать карту на 20 процентов при наведении (соседние карты **не должны** затрагиваться)
+- Плавно (в течение 300 мс) изменить цвет текста заголовка карты на `# 34568b`
+   - `:hover` следует применять только к карточке, не добавляйте его напрямую в заголовок
+- Плавно (в течение 300 мс) изменить цвет текста навигационной ссылки на `#00acdc`
+
+## Требования:
+- редактировать стили в `src/styles/__header.scss` и `src/styles/__catalog.scss`
+- использовать SCSS в этой задаче
+
+---
+--> [КОНТРОЛЬНЫЙ СПИСОК] (https://github.com/mate-academy/layout_catalog_hovers/blob/master/checklist.md)
+
+## Советы и подсказки
+- Не используйте вкладки. Используйте 2 пробела для отступа.
+- Не используйте повторяющиеся стили.
+- Тестов для этой задачи пока нет, поэтому проверьте свой код еще раз :)
