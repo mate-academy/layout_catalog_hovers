@@ -17,6 +17,7 @@
     cursor: pointer;
     transition-duration: 300ms;
     transition-timing-function: linear;
+    transition-property: all;
 
     &:hover {
       transform: scale(120%);
