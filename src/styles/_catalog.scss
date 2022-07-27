@@ -17,7 +17,7 @@
     cursor: pointer;
     transition-duration: 300ms;
     transition-timing-function: linear;
-    transition-property: all;
+    transition-property: color;
 
     &:hover {
       transform: scale(120%);
