@@ -47,7 +47,7 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
-  transition: 300ms linear;
+  transition: color 300ms linear;
 }
 
 .nav__link:hover {
@@ -70,7 +70,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 48px;
-  transition: 300ms linear;
+  transition: transform 300ms, color 300ms;
 }
 
 .catalog__card:not(:nth-child(4n)) {
@@ -78,7 +78,7 @@ body {
 }
 
 .catalog__card:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2);
   color: #34568b;
 }
 
