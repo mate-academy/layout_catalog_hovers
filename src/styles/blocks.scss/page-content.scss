@@ -1,0 +1,11 @@
+.page-content {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+  &__header {
+    margin-bottom: $header-gap;
+  }
+
+  &__catalog {
+    margin: 0 auto;
+  }
+}

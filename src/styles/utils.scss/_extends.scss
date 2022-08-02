@@ -1,0 +1,10 @@
+%adjust-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+%transition {
+  transition: transform color;
+  transition-duration: 300ms;
+}

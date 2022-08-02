@@ -1,0 +1,28 @@
+.nav {
+  &__list {
+    @extend %adjust-flex;
+  }
+
+  &__item {
+    line-height: $header-height;
+    color: #060b35;
+    list-style: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__link {
+    font-size: 12px;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    @extend %transition;
+
+    &:hover {
+      color: #00acdc;
+    }
+  }
+}

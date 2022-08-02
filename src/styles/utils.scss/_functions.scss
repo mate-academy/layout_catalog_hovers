@@ -1,0 +1,8 @@
+@function getMaxWidth (
+  $card-width: $card-width,
+  $card-gap: $card-margin,
+  $card-amount: 4
+) {
+  @return $card-width * $card-amount +
+    $card-gap * ($card-amount - 1);
+}

@@ -1,0 +1,28 @@
+.catalog {
+  @extend %adjust-flex;
+  max-width: getMaxWidth();
+
+  &__card {
+    @extend %adjust-flex;
+    justify-content: center;
+    width: $card-width;
+    height: 300px;
+
+    &:not(:nth-last-child(-n + 3)) {
+      margin-bottom: $card-margin;
+    }
+
+    &:not(:nth-child(4n)) {
+      margin-right: $card-margin;
+    }
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    @extend %transition;
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
+  }
+}
