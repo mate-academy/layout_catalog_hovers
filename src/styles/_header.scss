@@ -25,6 +25,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    cursor: pointer;
   }
 
   &__item:not(:last-child) {
@@ -37,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+  }
+
+  &__link:hover {
+    color: #00acdc;
+    transition-duration: 300ms;
   }
 }
