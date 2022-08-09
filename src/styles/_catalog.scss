@@ -15,12 +15,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 300ms;
+    transition-duration: 300ms;
     cursor: pointer;
   }
 
   &__card:first-child {
-    transition: transform 300ms;
+    transition-duration: 300ms;
   }
 
   &__card:hover {
