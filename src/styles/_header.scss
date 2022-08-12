@@ -14,7 +14,6 @@
 }
 
 .nav {
-  transition-duration: 300ms;
 
   &__list {
     display: flex;
@@ -42,6 +41,7 @@
   }
 
   &__link:hover {
+    transition-duration: 300ms;
     color: #00acdc;
   }
 }
