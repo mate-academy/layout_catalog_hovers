@@ -22,7 +22,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $nav-color;
     list-style: none;
     line-height: 60px;
   }
@@ -41,7 +41,7 @@
     transition: color 0.3s;
 
     &:hover {
-      color: #00acdc;
+      color: $nav-hover-color;
     }
   }
 }
