@@ -1,3 +1,9 @@
+//VARIABLES:
+$text-hover-color: #34568b;
+$nav-hover-color: #00acdc;
+$nav-color: #060b35;
+
+//MAIN SETTINGS:
 html {
   font-family: Roboto, sans-serif;
 }
@@ -10,5 +16,7 @@ body {
   box-sizing: border-box;
 }
 
-@import "_header.scss";
-@import "_catalog.scss";
+//HEADER BLOCK:
+@import "./blocks/header";
+//CATALOG BLOCK:
+@import "./blocks/catalog";

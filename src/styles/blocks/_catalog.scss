@@ -6,6 +6,7 @@
   margin: 0 auto;
 
   &__card {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +15,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transform-origin: center;
+    transition: color 0.3s, transform 0.3s;
+
+    &:hover {
+      color: $text-hover-color;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
