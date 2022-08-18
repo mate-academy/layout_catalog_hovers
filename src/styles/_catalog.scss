@@ -14,8 +14,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 0.3s;
-    transition-property: transform, color;
+    transition-duration: $transitionDuration;
+    transition-property: all;
   }
 
   &__card:not(:nth-child(4n)) {
