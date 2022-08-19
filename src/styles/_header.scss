@@ -5,9 +5,7 @@
   height: 60px;
   padding: 0 50px;
   margin-bottom: 50px;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-
   &__logo {
     height: 40px;
   }
@@ -37,7 +35,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: 300ms;
+    transition: $transition-time;
     &:hover {
       color: #00acdc;
     }
