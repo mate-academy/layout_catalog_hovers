@@ -15,7 +15,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform $transition-property, color $transition-property;
 
     &:hover {
       color: $card-heading-hover-color;
