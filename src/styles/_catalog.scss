@@ -22,8 +22,8 @@
     transition-timing-function: ease;
 
     &:hover {
-    transform: scale(120%);
-    color: $card-color;
+      transform: scale(120%);
+      color: $card-color;
     }
   }
 
