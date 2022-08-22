@@ -15,11 +15,11 @@
     border-radius: 5px;
     margin-bottom: 48px;
     transform-origin: center;
-    transition-duration: 0.3s;
+    transition: transform 0.3s, color 0.3s;
 
     &:hover {
       transform: scale(1.2);
-      color: #{$hover-color-card};
+      color: $hover-color-card;
     }
   }
 
