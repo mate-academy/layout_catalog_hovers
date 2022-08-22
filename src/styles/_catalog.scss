@@ -14,6 +14,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
+    transition: ease 0.3s;
+
+    @for $index from 1 through 7 {
+      &:nth-child(#{$index}):hover {
+        transform: scale(1.2);
+        color: #34568b;
+      }
+    }
   }
 
   &__card:not(:nth-child(4n)) {
