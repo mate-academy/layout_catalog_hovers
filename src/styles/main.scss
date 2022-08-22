@@ -1,17 +1,5 @@
-@import "./utils/_variables";
+@import "./utils/variables";
+@import "./utils/normalize";
 
 @import "./blocks/header";
 @import "./blocks/catalog";
-
-html {
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-
-}
