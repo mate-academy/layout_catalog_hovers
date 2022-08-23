@@ -25,10 +25,10 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {
@@ -37,5 +37,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $trans-duration ease-in-out;
+
+    &:hover {
+      color: $nav-transition-color;
+    }
   }
 }
