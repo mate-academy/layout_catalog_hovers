@@ -14,6 +14,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: transform $transitionDuration;
+
+    &:hover {
+      color: $onHoverCardTextColor;
+
+      transform: scale(1.2);
+      cursor: pointer;
+    }
   }
 
   &__card:not(:nth-child(4n)) {
