@@ -9,14 +9,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 48px;
     width: 200px;
     height: 300px;
+
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
-  }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    transform-origin: center;
+    transition: transform 0.3s, color 0.3s;
+
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
+
+    &:hover {
+      color: $hover-color-card;
+      transform: scale(1.2);
+    }
   }
 }
