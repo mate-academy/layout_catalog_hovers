@@ -1,9 +1,13 @@
 .catalog {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
 
   max-width: 944px;
   margin: 0 auto;
+
+  transform-origin: center;
+  transition: color 0.3s, transform 0.3s;
 
   &__card {
     display: flex;
@@ -14,6 +18,13 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition-duration: 300ms;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-hover-color;
+    }
   }
 
   &__card:not(:nth-child(4n)) {
