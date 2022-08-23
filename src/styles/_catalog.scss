@@ -11,12 +11,13 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: color $transition-ease-duration,
-      transform $transition-ease-duration;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    transition: color $transition-duration,
+      transform $transition-duration;
 
     &:hover {
       color: #34568b;
