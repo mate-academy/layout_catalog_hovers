@@ -22,20 +22,24 @@
 
   &__item {
     position: relative;
-    color: #060b35;
     list-style: none;
     line-height: 60px;
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {
-    color: inherit;
+    color: $link-color;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $transition-time;
+
+    &:hover {
+      color: $link-hover-color;
+    }
   }
 }
