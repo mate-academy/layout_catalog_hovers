@@ -25,10 +25,10 @@
     color: $main-color-header;
     list-style: none;
     line-height: 60px;
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {
