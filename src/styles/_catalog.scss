@@ -14,15 +14,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: all 300ms ease-in;
+    transition: transform $trans-duration ease-in-out,
+      color $trans-duration ease-in-out;
 
     &:hover {
       transform: scale(1.2, 1.2);
       color: $card-transition-color;
     }
-  }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
   }
 }
