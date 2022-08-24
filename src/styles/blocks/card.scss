@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 300px;
+  border: 1px solid $cardBorderColor;
+  border-radius: 5px;
+
+  transition: transform $transitionDuration, color $transitionDuration;
+
+  &:hover {
+    color: $onHoverCardTextColor;
+
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}

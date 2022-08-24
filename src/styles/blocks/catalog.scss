@@ -5,26 +5,10 @@
   max-width: 944px;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    border: 1px solid $cardBorderColor;
-    border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $cardsGap;
 
-    transition: transform $transitionDuration, color $transitionDuration;
-
-    &:hover {
-      color: $onHoverCardTextColor;
-
-      transform: scale(1.2);
-      cursor: pointer;
+    &:not(:nth-child(4n)) {
+      margin-right: $cardsGap;
     }
-  }
-
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
   }
 }
