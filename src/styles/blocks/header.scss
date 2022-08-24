@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 300ms ease;
+    transition: color $transition-speed ease;
 
     &:hover {
       color: $nav-hover-color;
