@@ -3,7 +3,6 @@
   flex-wrap: wrap;
 
   max-width: 944px;
-  margin: 0 auto;
 
   &__card {
     display: flex;
@@ -11,7 +10,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $cardBorderColor;
     border-radius: 5px;
     margin-bottom: 48px;
 
