@@ -15,9 +15,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition:
-      transform $transitionDuration,
-      color $transitionDuration;
+    transition: transform $transitionDuration, color $transitionDuration;
 
     &:hover {
       color: $onHoverCardTextColor;
