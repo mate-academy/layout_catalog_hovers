@@ -1,0 +1,9 @@
+$title-color-hover: #34568b;
+$nav-color-hover: #00acdc;
+$text-color: #060b35;
+$card-width: 200px;
+$card-offset: 48px;
+$cards-in-the-row: 4;
+$catalog-width: 
+  $card-width * $cards-in-the-row + 
+  $card-offset * ($cards-in-the-row - 1);

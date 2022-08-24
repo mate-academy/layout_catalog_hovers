@@ -1,0 +1,30 @@
+.catalog {
+  max-width: $catalog-width;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s, color 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $title-color-hover;
+    }
+  }
+
+  &__card:not(:nth-child(4n)) {
+    margin-right: $card-offset;
+  }
+
+  &__card:not(:nth-last-child(-n + 4)) {
+    margin-bottom: $card-offset;
+  }
+}
