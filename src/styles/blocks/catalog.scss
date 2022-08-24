@@ -1,0 +1,14 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 944px;
+
+  &__card {
+    margin-bottom: $cardsGap;
+
+    &:not(:nth-child(4n)) {
+      margin-right: $cardsGap;
+    }
+  }
+}

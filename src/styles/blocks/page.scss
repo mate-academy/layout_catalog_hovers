@@ -1,0 +1,19 @@
+.page {
+  font-family: Roboto, sans-serif;
+
+  &__content {
+    margin: 0;
+  }
+
+  &__header {
+    margin-bottom: 50px;
+  }
+
+  &__catalog {
+    margin: 0 auto;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
