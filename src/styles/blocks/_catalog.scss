@@ -14,7 +14,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color 0.3s, transform 0.3s;
+    transition: color $transition-duration,
+      transform $transition-duration;
 
     &:hover {
       color: $card-title-color;
