@@ -25,10 +25,16 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    transition: color $smooth-transition;
+
+    &:hover {
+      color: #00acdc;
+    }
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 
   &__link {

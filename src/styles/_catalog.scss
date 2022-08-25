@@ -11,12 +11,23 @@
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 48px;
+
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+
+    transition: transform $smooth-transition, color $smooth-transition;
+
+    &:hover {
+      cursor: pointer;
+
+      transform: scale(1.2);
+      color: $c-text-hover;
+    }
+
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
   }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
-  }
 }
