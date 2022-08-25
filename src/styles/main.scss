@@ -9,6 +9,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./utilites/variables";
+@import "./block/_header";
+@import "./block/_catalog";
