@@ -13,9 +13,9 @@
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 48px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
 
     transition: transform $transition-time, color $transition-time;
     cursor: pointer;
