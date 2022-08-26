@@ -6,7 +6,7 @@
   padding: 0 50px;
   margin-bottom: 50px;
 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px $c-header-shadow;
 
   &__logo {
     height: 40px;
@@ -22,7 +22,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $c-nav;
     list-style: none;
     line-height: 60px;
 
@@ -41,7 +41,7 @@
     transition: color $transition-duration;
 
     &:hover {
-      color: #00acdc;
+      color: $c-nav-hover;
     }
   }
 }
