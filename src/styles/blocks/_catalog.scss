@@ -4,7 +4,7 @@
 
   max-width: 944px;
   margin: 0 auto;
-
+  
   &__card {
     display: flex;
     justify-content: center;
@@ -14,9 +14,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: color $time, transform $time;
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
+  }
+
+  &__card:hover {
+    transform: scale(1.2);
+    color: #34568b;
   }
 }
