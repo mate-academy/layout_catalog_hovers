@@ -39,9 +39,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-
-    transition-duration: 300ms;
-    transition-timing-function: ease;
+    transition: color $duration ease-in-out;
 
     &:hover {
       color: $header-color;
