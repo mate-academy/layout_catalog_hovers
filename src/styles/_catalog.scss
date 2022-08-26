@@ -13,11 +13,13 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $card-border-color;
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: all $duration ease-in-out;
+    transition:
+      transform $duration,
+      color $duration;
 
     &:hover {
       transform: scale(1.2);
@@ -25,7 +27,6 @@
       cursor: pointer;
     }
   }
-
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
