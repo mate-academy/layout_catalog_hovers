@@ -28,9 +28,9 @@
 
     transition: color 300ms;
   
-      &:hover {
-        color: #00acdc;
-      }
+    &:hover {
+      color: #00acdc;
+    }
   }
 
   &__item:not(:last-child) {
