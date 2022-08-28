@@ -37,7 +37,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: transform 300ms;
+    transition: color $duration-time;
   }
 
   &__link:hover {
