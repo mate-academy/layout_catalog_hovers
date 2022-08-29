@@ -11,10 +11,10 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $c-card-border;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 300ms, color 300ms;
+    transition: transform $duration, color $duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -22,7 +22,8 @@
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: $c-text-color-on-hover;
+      cursor: pointer;
     }
   }
 
