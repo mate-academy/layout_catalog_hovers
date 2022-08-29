@@ -37,11 +37,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 300ms;
+    transition: color $duration-time;
 
     &:hover {
       color: #00acdc;
-      transition: color 300ms;
     }
   }
 }

@@ -14,12 +14,11 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color 300ms, transform 300ms;
+    transition: color $duration-time, transform $duration-time;
 
     &:hover {
       color: #34568b;
       transform: scale(1.2);
-      transition: color 300ms, transform 300ms;
     }
   }
 
