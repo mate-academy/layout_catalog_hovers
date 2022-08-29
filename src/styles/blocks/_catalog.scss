@@ -3,7 +3,8 @@
   flex-wrap: wrap;
 
   margin: 0 auto;
-
+  max-width: 944px;
+  
   &__card {
     display: flex;
     justify-content: center;
