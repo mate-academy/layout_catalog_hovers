@@ -11,14 +11,14 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $card-border-color;
     border-radius: 5px;
     margin-bottom: 48px;
-    
-    transition: transform 300ms, color 300ms;
+
+    transition: transform $duration, color $duration;
 
     &:hover {
-      color: #34568b;
+      color: $second-color;
       transform: scale(1.2);
     }
   }
