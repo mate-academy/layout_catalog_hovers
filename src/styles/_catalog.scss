@@ -1,3 +1,4 @@
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -14,15 +15,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color 300ms, transform 300ms;
+    transition: color $transition-time, transform $transition-time;
 
     &:hover {
       color: #34568b;
       transform: scale(1.2);
     }
+  }
 
-    &:not(:nth-child(4n)) {
-      margin-right: 48px;
-    }
+  &__card:not(:nth-child(4n)) {
+    margin-right: 48px;
   }
 }
