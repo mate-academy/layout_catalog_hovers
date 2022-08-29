@@ -14,7 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 0.3s;
+    transition: transform 0.3s color 0.3s;
   }
 
   &__card:hover {
