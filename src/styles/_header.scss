@@ -37,5 +37,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color 300ms;
+
+    &:hover {
+      color: $first-color;
+      cursor: pointer;
+    }
   }
 }
