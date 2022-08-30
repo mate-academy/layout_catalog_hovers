@@ -38,10 +38,9 @@
     font-size: 12px;
     font-weight: 500;
     transition: color $duration-time;
-  }
 
-  &__link:hover {
-    color: $color-link;
+    &:hover {
+      color: $color-link;
+    }
   }
-
 }

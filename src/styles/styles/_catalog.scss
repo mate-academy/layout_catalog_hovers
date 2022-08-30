@@ -15,15 +15,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
     transition: transform $duration-time, color $duration-time;
-  }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
-  }
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
 
-  &__card:hover {
-    transform: scale(1.2);
-    color: $card-color;
+    &:hover {
+      transform: scale(1.2);
+      color: $card-color;
 
+    }
   }
 }
