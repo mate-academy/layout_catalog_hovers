@@ -1,9 +1,13 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-
-  max-width: 944px;
-  margin: 0 auto;
+  &__frame {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 944px;
+    margin: 0 auto;
+  }
+  
 
   &__card {
     display: flex;
