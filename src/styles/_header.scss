@@ -1,5 +1,3 @@
-$Smoothly-duration: 0.3s;
-
 .header {
   display: flex;
   align-items: center;
@@ -39,7 +37,7 @@ $Smoothly-duration: 0.3s;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration: $Smoothly-duration;
+    transition-duration: $Transition-time;
     transition-property: color;
   }
 
