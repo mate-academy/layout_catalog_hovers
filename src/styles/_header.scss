@@ -1,3 +1,5 @@
+$header-blue: #00acdc;
+
 .header {
   display: flex;
   align-items: center;
@@ -25,6 +27,11 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition: .3s ease;
+
+    &:hover {
+      color: $header-blue;
+    }
   }
 
   &__item:not(:last-child) {
