@@ -4,6 +4,7 @@
 
   max-width: 944px;
   margin: 0 auto;
+  --transition-time: 300ms;
 
   &__card {
     display: flex;
@@ -14,10 +15,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color 300ms, transform 300ms;
+    transition: color var(--transition-time), transform var(--transition-time);
 
     &:hover {
-      transform: scale(0.8);
+      transform: scale(1.2);
       color: #34568b;
     }
   }
