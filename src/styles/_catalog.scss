@@ -11,14 +11,14 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $grey;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color 0.3s, transform 0.3s;
+    transition: color $tran-dur, transform $tran-dur;
 
     &:hover {
       transform: scale(120%);
-      color: #34568b;
+      color: $blue;
     }
   }
 
