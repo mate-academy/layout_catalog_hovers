@@ -1,7 +1,7 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
+  transition-duration: 300ms;
   max-width: 944px;
   margin: 0 auto;
 
@@ -16,8 +16,7 @@
     margin-bottom: 48px;
 
     &:hover {
-      transition-duration: 300ms;
-      transform: scale(2);
+      transform: scale(1.2);
       color: #34568b;
     }
   }
