@@ -16,7 +16,8 @@ $time: 300ms;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color $time, transform $time linear;
+    transition: color $transition-duration,
+      transform $transition-duration linear;
 
     &:hover {
       cursor: pointer;
