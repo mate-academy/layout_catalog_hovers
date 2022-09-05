@@ -12,9 +12,10 @@
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
+    color: #000;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: scale 300ms;
+    transition: scale $duration;
 
     &:hover {
       color: #34568b;
