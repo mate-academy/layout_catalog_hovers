@@ -1,3 +1,5 @@
+@use "_variables.scss" as *;
+
 .header {
   display: flex;
   align-items: center;
@@ -37,7 +39,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration: 300ms;
+    transition-duration: $time;
 
   }
 
