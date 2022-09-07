@@ -1,3 +1,5 @@
+@import "./variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -25,7 +27,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition: 0.3s;
+    transition: $transition-time;
 
     &:hover {
       color: #00acdc;
