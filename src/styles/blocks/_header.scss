@@ -27,7 +27,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition: .3s ease;
+    transition: $transition-sets;
 
     &:hover {
       color: $header-blue;
