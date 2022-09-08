@@ -1,3 +1,5 @@
+// $duration: 300ms;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +16,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 300ms, 300ms;
+    transition-duration: $duration, $duration;
     transition-property: color, transform;
   }
 
