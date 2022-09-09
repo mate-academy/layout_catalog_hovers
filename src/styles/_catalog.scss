@@ -16,10 +16,9 @@
     margin-bottom: 48px;
 
     &:hover {
-      // transform: translateY(-20px);
       transform: scale(1.2);
       color: #34568b;
-      transition: transform 300ms, color 300ms, scale 300ms;
+      transition: transform 300ms, color 300ms;
     }
   }
 
