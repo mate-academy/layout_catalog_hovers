@@ -38,4 +38,9 @@
     font-size: 12px;
     font-weight: 500;
   }
+
+  &__link:hover {
+    color: rgb(0, 172, 220);
+    transition-duration: 300ms;
+  }
 }
