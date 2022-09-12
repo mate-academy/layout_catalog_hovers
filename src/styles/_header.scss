@@ -21,6 +21,7 @@
   }
 
   &__item {
+    @import "./variables.scss";
     position: relative;
     color: #060b35;
     list-style: none;

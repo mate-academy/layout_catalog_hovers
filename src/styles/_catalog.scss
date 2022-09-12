@@ -6,6 +6,7 @@
   margin: 0 auto;
 
   &__card {
+    @import "./variables.scss";
     display: flex;
     justify-content: center;
     align-items: center;
