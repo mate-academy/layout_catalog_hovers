@@ -37,10 +37,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-  }
+    transition: all 300ms;
 
-  &__link:hover {
-    color: rgb(0, 172, 220);
-    transition-duration: 300ms;
+    &:hover {
+      color: rgb(0, 172, 220);
+    }
   }
 }
