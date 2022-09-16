@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +8,6 @@
   margin: 0 auto;
 
   &__card {
-    @import "./variables.scss";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +17,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     transition-duration: $transition_duration;
+    transition-property: color, transform;
 
     &:hover {
       color: #34568b;
