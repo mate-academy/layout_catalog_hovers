@@ -16,11 +16,11 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: $transition_duration;
+    transition: $transitions;
     transition-property: color, transform;
 
     &:hover {
-      color: #34568b;
+      color: $color-alter;
       transform: scale(1.2);
     }
   }
