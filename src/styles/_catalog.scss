@@ -7,7 +7,6 @@
 
   perspective: 400px;
   
-
   &__card {
     display: flex;
     justify-content: center;
@@ -17,7 +16,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 300ms;
+    transition: transform 300ms, color 300ms;
   }
 
   &__card:not(:nth-child(4n)) {
