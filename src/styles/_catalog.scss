@@ -20,3 +20,13 @@
     margin-right: 48px;
   }
 }
+
+.card {
+  transition: transform 0.3s, color 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #34568b;
+  }
+}
