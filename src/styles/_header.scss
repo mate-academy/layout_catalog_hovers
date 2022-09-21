@@ -20,11 +20,16 @@
     padding: 0;
   }
 
+  &__item:hover{
+    color: #00acdc;
+  }
+
   &__item {
     position: relative;
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition-duration: 300ms;
   }
 
   &__item:not(:last-child) {
