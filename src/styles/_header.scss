@@ -37,7 +37,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: all 300ms linear;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
     
     &:hover {
       color: #00acdc;
