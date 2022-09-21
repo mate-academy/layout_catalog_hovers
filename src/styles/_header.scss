@@ -7,7 +7,7 @@
   margin-bottom: 50px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-
+  
   &__logo {
     height: 40px;
   }
@@ -19,23 +19,28 @@
     margin: 0;
     padding: 0;
   }
-
+  
   &__item {
     position: relative;
     color: #060b35;
     list-style: none;
     line-height: 60px;
   }
-
+  
   &__item:not(:last-child) {
     margin-right: 20px;
   }
-
+  
   &__link {
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: all 300ms linear;
+    
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
