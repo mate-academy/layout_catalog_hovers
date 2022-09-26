@@ -14,11 +14,11 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 300ms;
+    transition: transform $transition-duration;
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: $secondary-accent-color;
     }
   }
 
