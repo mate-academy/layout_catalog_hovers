@@ -13,6 +13,9 @@
   }
 }
 
+$firts: #00acdc;
+$second: #060b35;
+
 .nav {
   &__list {
     display: flex;
@@ -22,14 +25,14 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $second;
     list-style: none;
     line-height: 60px;
     transition-duration: 300ms;
   }
 
   &__item:hover {
-    color: #00acdc;
+    color: $firts;
   }
 
   &__item:not(:last-child) {
