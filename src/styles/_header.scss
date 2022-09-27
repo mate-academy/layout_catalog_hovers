@@ -1,3 +1,5 @@
+$transit: 300ms;
+
 .header {
   display: flex;
   align-items: center;
@@ -28,7 +30,7 @@ $second: #060b35;
     color: $second;
     list-style: none;
     line-height: 60px;
-    transition-duration: 300ms;
+    transition: $transit;
   }
 
   &__item:hover {
