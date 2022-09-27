@@ -1,4 +1,5 @@
 .catalog {
+  perspective-origin: 400%;
   display: flex;
   flex-wrap: wrap;
 
@@ -14,9 +15,19 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform 0.3s, color 0.3s;
+
+    &:hover {
+      transform: scale(120%);
+      color: #34568b;
+    }
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
+}
+
+.catalog__card:hover {
+  transform: translateZ(30%);
 }
