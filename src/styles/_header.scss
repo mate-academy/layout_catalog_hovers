@@ -1,4 +1,4 @@
-$transit: 300ms;
+@import "_variables.scss";
 
 .header {
   display: flex;
@@ -15,9 +15,6 @@ $transit: 300ms;
   }
 }
 
-$firts: #00acdc;
-$second: #060b35;
-
 .nav {
   &__list {
     display: flex;
@@ -30,7 +27,7 @@ $second: #060b35;
     color: $second;
     list-style: none;
     line-height: 60px;
-    transition: $transit;
+    transition: $duration;
   }
 
   &__item:hover {

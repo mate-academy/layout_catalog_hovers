@@ -1,4 +1,4 @@
-$transit: 300ms;
+@import "_variables.scss";
 
 .catalog {
   display: flex;
@@ -16,13 +16,13 @@ $transit: 300ms;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $transit;
+    transition: $duration;
   }
 
   &__card:hover {
     color: #34568b;
     transform: scale(120%);
-    transition: $transit;
+    transition: $duration;
   }
 
   &__card:not(:nth-child(4n)) {
