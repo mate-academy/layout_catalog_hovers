@@ -27,7 +27,7 @@
     color: $second;
     list-style: none;
     line-height: 60px;
-    transition: $duration;
+    transition: all $duration;
   }
 
   &__item:hover {
