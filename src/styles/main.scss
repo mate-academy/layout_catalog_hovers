@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
 }
 
+@import "./untils/variables";
+
 @import "./untils/blocks/catalog";
 @import "./untils/blocks/header";
-@import "./untils/variables";
