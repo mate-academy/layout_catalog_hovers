@@ -7,7 +7,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $colorNav;
     list-style: none;
     line-height: 60px;
   }
@@ -25,7 +25,7 @@
     transition: color $time;
 
     &:hover {
-      color: #00acdc;
+      color: $colorNavHov;
     }
   }
 }

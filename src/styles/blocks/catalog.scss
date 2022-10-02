@@ -17,7 +17,7 @@
     transition: color $time, transform $time;
 
     &:hover {
-      color: #34568b;
+      color: $colorCard;
       transform: scale(1.2);
     }
   }
