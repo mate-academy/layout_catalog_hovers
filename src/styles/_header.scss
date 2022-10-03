@@ -1,4 +1,4 @@
-$transition: 300ms  ease;
+$transition-duration: 300ms;
 
 .header {
   display: flex;
@@ -39,7 +39,7 @@ $transition: 300ms  ease;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: $transition;
+    transition: $transition-duration ease;
   }
 
   &__link:hover {
