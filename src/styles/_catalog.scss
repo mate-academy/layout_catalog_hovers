@@ -14,8 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 1s, color 300ms;
-    // ! leave 1 s to check different speed in changing
+    transition: transform 300ms, color 300ms;
 
     &:hover {
       transform: scale(1.2);
