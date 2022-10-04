@@ -24,10 +24,9 @@
     position: relative;
     color: #060b35;
     list-style: none;
-    line-height: 60px;
+    transition: color 300ms;
 
-    :hover {
-      transition-duration: 300ms;
+    &:hover {
       color: #00acdc;
     }
   }
