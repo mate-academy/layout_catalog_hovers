@@ -2,10 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: $header-height;
   padding: 0 50px;
   margin-bottom: 50px;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
@@ -22,9 +21,14 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $link-color;
     list-style: none;
-    line-height: 60px;
+    line-height: $header-height;
+    transition: color $duration;
+
+    &:hover {
+      color: $active-link;
+    }
   }
 
   &__item:not(:last-child) {
