@@ -1,13 +1,15 @@
+$duringTime: 0.3s;
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Roboto, sans-serif;
 }
 
 body {
   margin: 0;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 @import "_header.scss";
