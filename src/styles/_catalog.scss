@@ -15,7 +15,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: $transition-speed;
+    transition: color $transition-speed, transform $transition-speed;
 
     &:hover {
       color: #34568b;
