@@ -21,9 +21,9 @@
       color: #34568b;
       transform: scale(1.2);
     }
-  }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
   }
 }
