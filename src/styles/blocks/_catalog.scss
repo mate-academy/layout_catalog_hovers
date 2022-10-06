@@ -22,9 +22,9 @@
       transform: scale(120%);
       color: $c-hover-card;
     }
-  }
 
-  &__card:not(:nth-child(4n)) {
-    margin-right: 48px;
+    &:not(:nth-child(4n)) {
+      margin-right: 48px;
+    }
   }
 }
