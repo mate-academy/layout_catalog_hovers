@@ -16,7 +16,7 @@
     margin-bottom: 48px;
 
     cursor: pointer;
-    transition: color $transition-of-color, transform $transition-of-transform;
+    transition: color $transitionTime, transform $transitionTime;
 
     &:hover {
       color: #34568b;
