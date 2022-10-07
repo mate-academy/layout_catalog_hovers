@@ -1,5 +1,4 @@
 .catalog {
-  perspective-origin: 400%;
   display: flex;
   flex-wrap: wrap;
 
@@ -12,22 +11,18 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-grey;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 0.3s, color 0.3s;
-
+    transition: $transform-delay, $color-delay;
+    
     &:hover {
       transform: scale(120%);
-      color: #34568b;
+      color: $color-card-blue;
     }
   }
 
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
-}
-
-.catalog__card:hover {
-  transform: translateZ(30%);
 }
