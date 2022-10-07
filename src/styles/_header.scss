@@ -1,5 +1,3 @@
-$nav_and_cards-transition: 300ms;
-
 .header {
   display: flex;
   align-items: center;
@@ -39,7 +37,7 @@ $nav_and_cards-transition: 300ms;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: $nav_and_cards-transition ease;
+    transition: color $nav_and_cards-transition ease;
   }
 
   &__link:hover {
