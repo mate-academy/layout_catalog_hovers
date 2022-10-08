@@ -4,6 +4,7 @@
 
   max-width: 944px;
   margin: 0 auto;
+  perspective: 100px;
 
   &__card {
     display: flex;
@@ -14,6 +15,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: 300ms;
+
+    // I've optimised a little here (&__card:hover > &:hover)
+    // if it's OK and the similar at _header
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
   }
 
   &__card:not(:nth-child(4n)) {
