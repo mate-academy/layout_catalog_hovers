@@ -11,9 +11,15 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-grey;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: $transform-delay, $color-delay;
+    
+    &:hover {
+      transform: scale(120%);
+      color: $color-card-blue;
+    }
   }
 
   &__card:not(:nth-child(4n)) {
