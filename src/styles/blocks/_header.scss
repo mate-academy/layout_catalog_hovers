@@ -38,8 +38,8 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color 300ms;
-
+    transition: color $transition;
+    
     &:hover {
       color: #00acdc;
     }
