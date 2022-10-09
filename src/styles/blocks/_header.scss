@@ -22,7 +22,9 @@
 
   &__item {
     position: relative;
+
     color: #060b35;
+
     list-style: none;
     line-height: 60px;
   }
@@ -33,9 +35,16 @@
 
   &__link {
     color: inherit;
+    
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    transition-duration: $transition;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
