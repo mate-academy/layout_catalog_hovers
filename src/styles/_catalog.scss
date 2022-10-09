@@ -1,3 +1,5 @@
+$time: 0.3s;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -16,12 +18,11 @@
     margin-bottom: 48px;
 
   
-    transition: color 0.3s;
-    transition: transform 0.3s;
+    transition: color $time, transform $time;
 
     &:hover {
       color: #34568b;
-      transform: scale(1.2, 1.2);
+      transform: scale(1.2);
     }
   }
 
