@@ -2,18 +2,23 @@
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
-  margin: 0 auto;
-
+  max-width: ($card-width * 4) + ($card-margin-r * 3);
   &__card {
     display: flex;
+    margin-bottom: 48px;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: $card-width;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+
+    transition: color $duration linear, transform $duration linear;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-hover-color;
+    }
   }
 
   &__card:not(:nth-child(4n)) {

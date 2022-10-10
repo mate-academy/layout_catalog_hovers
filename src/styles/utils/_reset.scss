@@ -1,0 +1,21 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+.page {
+  &__body {
+    margin: 0;
+  }
+
+  &__catalog {
+    margin: 0 auto;
+  }
+
+  &__header {
+    margin-bottom: 50px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
