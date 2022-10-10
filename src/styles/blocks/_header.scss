@@ -22,13 +22,20 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+
+    color: $c-dark-blue;
     list-style: none;
     line-height: 60px;
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 20px;
+    transition: $transition-duration;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 
   &__link {
