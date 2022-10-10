@@ -19,4 +19,11 @@
   &__card:not(:nth-child(4n)) {
     margin-right: 48px;
   }
+
+  &__card:hover {
+    cursor: pointer;
+    transition-duration: 300ms;
+    transform: scale(1.2);
+    color: #34568b;
+  }
 }
