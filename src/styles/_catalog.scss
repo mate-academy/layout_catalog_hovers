@@ -14,8 +14,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 300ms;
-    transition-timing-function:linear;
+    cursor: pointer;
+    transition: color $transitionTime, transform $transitionTime;
 
     &:hover{
       transform: scale(1.2);
