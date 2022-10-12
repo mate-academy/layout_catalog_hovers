@@ -14,7 +14,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform color $nav_and_cards-transition ease;
+    transition: color $transition-time ease, transform $transition-time ease;
   }
 
   &__card:not(:nth-child(4n)) {
