@@ -11,5 +11,5 @@ body {
 }
 
 @import "./utils/variables";
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./header";
+@import "./catalog";
