@@ -1,3 +1,15 @@
-@import "blocks/page";
-@import "blocks/header";
-@import "blocks/catalog";
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import "header.scss";
+@import "catalog.scss";
+
