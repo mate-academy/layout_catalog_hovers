@@ -1,7 +1,6 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
 
@@ -15,11 +14,11 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: color $transitionTime, transform $transitionTime;
+    transition: $transitionTime;
 
     &:hover{
       transform: scale(1.2);
-      color: #34568b;
+      color: $transformColor;
     }
   }
 

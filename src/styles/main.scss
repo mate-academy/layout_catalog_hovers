@@ -1,3 +1,7 @@
+@import "./src/styles/utils/variables";
+@import "./src/styles/blocks/catalog";
+@import "./src/styles/blocks/header";
+
 html {
   font-family: Roboto, sans-serif;
 }
@@ -10,7 +14,3 @@ body {
   box-sizing: border-box;
 }
 
-$transitionTime: 0.3s;
-
-@import "_header.scss";
-@import "_catalog.scss";
