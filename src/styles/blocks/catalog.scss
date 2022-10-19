@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300ms ease, color 300ms ease;
+    transition: transform #{$base-duration} ease, color #{$base-duration} ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
