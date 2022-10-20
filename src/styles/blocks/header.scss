@@ -29,7 +29,7 @@
     transition: color $transition-duraton;
 
     &:hover {
-      color: #00acdc;
+      color: $nav-hover-text-color;
     }
 
     &:not(:last-child) {
