@@ -18,16 +18,17 @@
     border-radius: 5px;
     margin-bottom: $card-margin;
 
+    transition: color $transition-speed, transform $transition-speed;
+
     &:not(:nth-child(4n)) {
       margin-right: $card-margin;
     }
 
     &:hover {
-      cursor: pointer;
-
-      transform: scale(1.2, 1.2);
       color: #34568b;
-      transition: color $transition-speed, transform $transition-speed;
+
+      transform: scale(1.2);
+      cursor: pointer;
     }
   }
 }
