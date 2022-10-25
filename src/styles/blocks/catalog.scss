@@ -1,4 +1,4 @@
-main {
+.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,13 +9,15 @@ main {
 }
 
 .card {
-  background-color: #fff;
-  border-radius: 5px ;
   margin: 48px 24px 0;
   padding: 0 16px;
+
   text-align: center;
-  border: 1px solid #f3f3f3;
   transition-duration: 0.3s;
+  border-radius: 5px ;
+  border: 1px solid #f3f3f3;
+
+  background-color: #fff;
 
   &:hover {
     transform: scale(1.2);
@@ -31,15 +33,17 @@ main {
   }
 
   &__text {
+    max-width: 166px;
+    padding-top: 36px;
+    padding-bottom: 4px;
+
     text-align: left;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    color: #060b35;
-    max-width: 166px;
-    padding-top: 36px;
-    padding-bottom: 4px;
     transition-duration: 0.3s;
+
+    color: #060b35;
 
     &:hover {
       color: #34568b;
@@ -50,8 +54,9 @@ main {
     font-size: 10px;
     line-height: 14px;
     text-align: left;
-    color: #616070;
     padding-bottom: 16px;
+
+    color: #616070;
   }
 
   &__reviews {
@@ -67,19 +72,22 @@ main {
   .stars {
     width: 16px;
     height: 16px;
-    background-image: url(../images/star.svg);
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 4px;
+
+    background-image: url(../images/star.svg);
   }
 
   &__reviews-text {
     font-size: 10px;
     line-height: 14px;
-    color: #060b35;
     display: flex;
     align-items: flex-end;
     text-align: right;
+
+    color: #060b35;
+
   }
 
   &__reviews-stars :nth-child(-n+4) {
@@ -96,6 +104,7 @@ main {
   &__price-text {
     font-size: 12px;
     line-height: 18px;
+
     color: #616070;
   }
 
@@ -103,24 +112,27 @@ main {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
+
     color: #060b35;
   }
 
   &__button {
+    width: 166px;
+    height: 40px;
     display: flex;
+    margin: 0 0 16px;
+    padding: 12px 69px;
+
     text-decoration: none;
-    color: #fff;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    margin: 0 0 16px;
-    background-color: #00acdc;
-    width: 166px;
-    height: 40px;
     border: 1px solid #00acdc;
     border-radius: 5px;
-    padding: 12px 69px;
     transition-duration: 0.3s;
+
+    background-color: #00acdc;
+    color: #fff;
   }
 
   &__button:hover {
