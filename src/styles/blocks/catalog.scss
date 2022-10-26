@@ -1,8 +1,9 @@
 .catalog {
+
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
+  max-width: $width;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -11,16 +12,16 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    width: 200px;
-    height: 300px;
+    width: $width-card;
+    height: $height-card;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin-between-card;
     transition: 300ms;
     cursor: pointer;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin-between-card;
     }
 
     &:hover {
