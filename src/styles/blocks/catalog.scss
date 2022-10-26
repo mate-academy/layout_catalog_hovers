@@ -14,12 +14,18 @@
 
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $grey;
     border-radius: 5px;
     margin-bottom: 48px;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.5s;
+      color: $blue;
     }
   }
 }
