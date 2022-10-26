@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $margin-between-card;
-    transition: 300ms;
+    transition: $transition;
     cursor: pointer;
 
     &:not(:nth-child(4n)) {
