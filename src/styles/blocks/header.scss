@@ -39,9 +39,10 @@
     font-size: 12px;
     font-weight: 500;
 
+    transition: all 0.3s;
+
     &:hover {
       color: $roo;
-      transition: 0.3s;
     }
   }
 }
