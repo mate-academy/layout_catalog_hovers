@@ -49,13 +49,13 @@
   }
 
   &__link:hover {
-    color: #00acdc;
+    color: $color-Blue;
   }
 }
 
 .is-active {
   position: relative;
-  color: #00acdc;
+  color: $color-Blue;
 }
 
 .is-active::after {
@@ -69,5 +69,5 @@
   content: "";
   border-radius: 8px;
 
-  background-color: #00acdc;
+  background-color: $color-Blue;
 }

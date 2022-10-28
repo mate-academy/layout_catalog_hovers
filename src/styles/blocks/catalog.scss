@@ -43,7 +43,7 @@
     line-height: 18px;
     transition-duration: 0.3s;
 
-    color: #060b35;
+    color: $color-Dark-blue;
 
     &:hover {
       color: #34568b;
@@ -56,7 +56,7 @@
     text-align: left;
     padding-bottom: 16px;
 
-    color: #616070;
+    color: $color-gray;
   }
 
   &__reviews {
@@ -86,7 +86,7 @@
     align-items: flex-end;
     text-align: right;
 
-    color: #060b35;
+    color: $color-Dark-blue;
 
   }
 
@@ -105,7 +105,7 @@
     font-size: 12px;
     line-height: 18px;
 
-    color: #616070;
+    color: $color-gray;
   }
 
   &__price-number {
@@ -113,7 +113,7 @@
     font-size: 16px;
     line-height: 18px;
 
-    color: #060b35;
+    color: $color-Dark-blue;
   }
 
   &__button {
@@ -127,16 +127,16 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    border: 1px solid #00acdc;
+    border: 1px solid $color-Blue;
     border-radius: 5px;
     transition-duration: 0.3s;
 
-    background-color: #00acdc;
+    background-color: $color-Blue;
     color: #fff;
   }
 
   &__button:hover {
-    color: #00acdc;
+    color: $color-Blue;
     background-color: #fff;
   }
 }
