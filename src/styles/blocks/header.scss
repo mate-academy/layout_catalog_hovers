@@ -39,10 +39,10 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color $transformation-during;
+    transition: color $transformation-duration;
 
     &:hover {
-      color: $nav-color;
+      color: #00acdc;
     }
   }
 }
