@@ -15,7 +15,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    @extend %smooth;
+    transition: transform $smooth color $smooth;
 
     &:hover {
       transform: scale(120%);

@@ -26,7 +26,8 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    @extend %smooth;
+    transition:  color $smooth;
+;
 
     &:hover {
       color: #00acdc;
