@@ -20,7 +20,7 @@
 
     &:hover {
       transform: scale(120%);
-      color: #34568b;
+      color: #{$color-hover-product-card};
       cursor: pointer;
     }
 
