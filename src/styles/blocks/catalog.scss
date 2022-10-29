@@ -17,9 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $margin-between-card;
-    transition: color $transition-time,
-      width $transition-time,
-      height $transition-time;
+    transition: color $transition-time, transform $transition-time;
     cursor: pointer;
 
     &:not(:nth-child(4n)) {
