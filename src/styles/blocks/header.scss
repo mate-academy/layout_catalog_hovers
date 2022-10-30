@@ -23,12 +23,18 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $nav_color;
     list-style: none;
     line-height: 60px;
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    transition: color $time_animation;
+
+    &:hover {
+      color: $nav_color_active;
     }
   }
 
