@@ -12,20 +12,19 @@
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
-    height: 300px;
+    @extend %size;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $distance_between;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $distance_between;
     }
 
-    transition: all 0.3s;
+    transition: all $time_animation;
 
     &:hover {
-      color: #34568b;
+      color: $color_text_active;
       transform: scale(1.2);
     }
   }
