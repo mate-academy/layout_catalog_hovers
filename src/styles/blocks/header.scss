@@ -29,6 +29,12 @@
 
     &:not(:last-child) {
       margin-right: 20px;
+
+      transition: $transition;
+    }
+
+    &:hover {
+      color: #00acdc;
     }
   }
 
