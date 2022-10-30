@@ -12,19 +12,21 @@
     align-items: center;
     box-sizing: border-box;
 
+    transition: transform $transition-duration,
+      color $transition-duration;
+
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $transition-duration, color $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      transform: scale(1.2);
+      transform: scale(120%);
       color: #34568b;
     }
   }
