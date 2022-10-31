@@ -1,3 +1,7 @@
+// !!!!!!
+//I am not sure what card title was meant in the task 
+//so i made the class up for you to check: .catalog__card-title
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -5,6 +9,10 @@
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+
+  &__card-title {
+    transition: color $animation-time;
+  }
 
   &__card {
     display: flex;
@@ -18,8 +26,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: transform $animation-time, color $animation-time;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
