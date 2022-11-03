@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 300ms ease-in-out, $transition-color;
+    @include transition(all);
 
     &:hover {
       transform: scale(1.2);
