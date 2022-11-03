@@ -1,3 +1,5 @@
+$title-color-hover: #34568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -18,8 +20,17 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    color: inherit;
+
+    transition: transform 0.3s, color 0.3s;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $title-color-hover;
     }
   }
 }
