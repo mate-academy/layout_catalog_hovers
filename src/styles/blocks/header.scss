@@ -1,3 +1,5 @@
+$link-color-hover: #00acdc;
+
 .header {
   display: flex;
   align-items: center;
@@ -6,6 +8,8 @@
 
   height: 60px;
   padding: 0 50px;
+
+  color: inherit;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
@@ -38,5 +42,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    transition: color 0.3s;
+
+    &:hover {
+      color: $link-color-hover;
+    }
   }
 }
