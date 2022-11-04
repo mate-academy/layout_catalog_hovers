@@ -46,7 +46,7 @@
 
       &--is-active {
         position: relative;
-        transition: opacity 0.3s;
+        transition: opacity 0.3s, color 0.3s;
 
         &::after {
           position: absolute;
