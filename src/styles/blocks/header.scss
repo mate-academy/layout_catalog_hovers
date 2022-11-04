@@ -11,6 +11,12 @@
   &__logo {
     margin: 10px 0 10px 50px;
 
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
     &-link {
       display: block;
       width: 40px;
@@ -40,7 +46,7 @@
 
       &--is-active {
         position: relative;
-        transition: all 0.3s;
+        transition: opacity 0.3s;
 
         &::after {
           position: absolute;
