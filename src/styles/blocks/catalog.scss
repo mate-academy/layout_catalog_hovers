@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: all $duration;
+    transition: transform $duration, color $duration;
 
     &:hover {
       transform: scale(1.2);
