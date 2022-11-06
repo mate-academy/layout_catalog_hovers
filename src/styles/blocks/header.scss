@@ -38,8 +38,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    position: relative;
-    transition: $transition;
+    transition: 300ms ease;
 
     &:hover {
       color: $hover-link-color;
