@@ -10,13 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    width: $card-width;
+    height: $card-height;
+    margin-bottom: $card-margin-bottom;
 
-    width: 200px;
-    height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
 
     transition: transform 0.3s ease;
 
@@ -26,7 +25,7 @@
     }
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $card-margin-right;
     }
   }
 }
