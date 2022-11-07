@@ -22,11 +22,14 @@
       margin-right: 48px;
     }
 
-    transition: $transition-speed;
+    transition:
+      color $transition-speed,
+      transform $transition-speed;
+
 
     &:hover {
-      transform: scale(120%);
       color: #34568b;
+      transform: scale(120%);
     }
   }
 }
