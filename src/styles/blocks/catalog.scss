@@ -17,7 +17,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    @extend %transition;
+    
+    transition: transform color;
+    transition-duration: $duration;
 
     &:hover {
       color: #34568b;
