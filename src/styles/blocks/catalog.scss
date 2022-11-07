@@ -17,7 +17,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    @include transitions(all);
+    transition:
+      transform $transition-duration,
+      color $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
