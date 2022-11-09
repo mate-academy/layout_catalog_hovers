@@ -12,14 +12,21 @@
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
-    height: 300px;
+    width: $card-width;
+    height: $card-height;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin-bottom-for-card;
+
+    transition: color 300ms linear, transform 300ms linear;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin-right-for-card;
+    }
+
+    &:hover {
+      transform: scale(1.2, 1.2);
+      color: #34568b;
     }
   }
 }
