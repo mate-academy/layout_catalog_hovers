@@ -1,3 +1,10 @@
-@import "blocks/page";
-@import "blocks/header";
-@import "blocks/catalog";
+@import "./reset/reset";
+
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/extends";
+
+@import "./blocks/header";
+@import "./blocks/catlog";
+@import "./blocks/card";
+@import "./blocks/stars";
