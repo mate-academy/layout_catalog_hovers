@@ -19,7 +19,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300ms ease, color 300ms ease;
+    transition: transform $transitions-durations ease, color $transitions-durations ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
