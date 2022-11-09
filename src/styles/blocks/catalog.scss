@@ -18,15 +18,16 @@
     border-radius: 5px;
     margin-bottom: 48px;
     @extend %transition-color;
-    transition: transform 0.3s ease-in-out;
+    transition: transform $transition-time $transition-style;
+    
+    &:hover {
+      color: $dark-blue-accent;
+      transform: scale(1.2);
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
-    &:hover {
-      color: $dark-blue-accent;
-      transform: scale(1.2);
-    }
   }
 }
