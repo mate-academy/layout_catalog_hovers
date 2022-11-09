@@ -17,15 +17,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    @extend %transition-color;
+    transition: transform 0.3s ease-in-out;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      color: #34568b;
+      color: $dark-blue-accent;
       transform: scale(1.2);
     }
   }
