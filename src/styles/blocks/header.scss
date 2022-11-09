@@ -4,13 +4,13 @@
   justify-content: space-between;
   box-sizing: border-box;
 
-  height: 60px;
+  height: $header-hight;
   padding: 0 50px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
-    height: 40px;
+    height: $logo-hight;
   }
 }
 
@@ -23,12 +23,12 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $dark-blue-color;
     list-style: none;
-    line-height: 60px;
+    line-height: $header-hight;
 
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: $space-between-links;
     }
   }
 
@@ -38,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color 300ms ease;
+
+    &:hover {
+      color: $aqua-color;
+    }
   }
 }
