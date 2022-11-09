@@ -18,14 +18,14 @@
     border-radius: 5px;
     margin-bottom: $margin-bottom-for-card;
 
-    transition: color 300ms linear, transform 300ms linear;
+    transition: color $duration-for-transition $properties-for-trantison, transform $duration-for-transition $properties-for-trantison;
 
     &:not(:nth-child(4n)) {
       margin-right: $margin-right-for-card;
     }
 
     &:hover {
-      transform: scale(1.2, 1.2);
+      transform: scale(1.2);
       color: #34568b;
     }
   }
