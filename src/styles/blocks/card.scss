@@ -1,5 +1,5 @@
 .card {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   transition: transform 0.3s, color 0.3s;
 
   display: inline-block;
@@ -10,7 +10,7 @@
   border-radius: 5px;
 
   padding: 32px 16px 16px;
-
+  
   &__image {
     display: block;
     height: 134px;
@@ -25,12 +25,11 @@
     font-weight: 500;
     @extend %card-medium-text;
     color: $color-main-accent;
-    transition: all 0.3s;
+    transition: 0.3s color ease;
     cursor: pointer;
   }
 
   &__block-product {
-    font-family: inherit;
     margin-bottom: 16px;
 
     @extend %card-small-text;
@@ -47,14 +46,11 @@
   }
 
   &__block-reviews {
-    font-family: inherit;
-
     @extend %card-small-text;
     color: $color-main-accent;
   }
 
   &__block-cost {
-    font-family: inherit;
     margin-bottom: 16px;
 
     display: flex;
@@ -75,8 +71,6 @@
   }
 
   &__block-link {
-    font-family: inherit;
-
     display: block;
     height: 40px;
 
@@ -93,7 +87,8 @@
     text-transform: uppercase;
     color: #fff;
 
-    transition: 0.3s background-color ease,
+    transition: 
+      0.3s background-color ease,
       0.3s color ease,
       0.3s border-color ease;
 
@@ -106,22 +101,9 @@
 
   &:hover {
     transform: scale(1.2);
-    
 
     .card__block-description {
       color: $color-on-hover-title;
     }
-  }
-}
-
-.catalog__card {
-  margin-right: $margin-card-right;
-  
-  &:nth-child(4n) {
-    margin-right: 0;
-  }
-  
-  &:nth-child(-n + 4) {
-    margin-bottom: $margin-card-bottom;
   }
 }

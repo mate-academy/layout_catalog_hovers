@@ -1,24 +1,29 @@
 .catalog {
+  font-family: "Roboto", sans-serif;
   padding: 50px 40px;
   font-size: 0;
   
+  &__card {
+    margin-right: $margin-card-right;
+    
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+    
+    &:nth-child(-n + 4) {
+      margin-bottom: $margin-card-bottom;
+    }
+  }
+
   &--container {
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    
-    // min-width: 1024px;
-    // max-width: calc(4 * 200px + 3 * #{$margin-card-right} + 80px);
-    min-width: getWidth(
+  
+    width: getWidth(
       $card-width,
       $margin-card-right,
       $pading-min-catalog-horizontal
-    );
-    max-width: getWidth(
-      $card-width,
-      $margin-card-right,
-      $pading-max-catalog-horizontal
     );
   }
 }
