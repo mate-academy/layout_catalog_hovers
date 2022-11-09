@@ -11,15 +11,16 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-border;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition-property: transform color;
     transition-duration: $transition-duration;
   }
 
   &__card:hover {
     transform: scale(1.2);
-    color: #34568b;
+    color: $color-hover;
   }
 
   &__card:not(:nth-child(4n)) {
