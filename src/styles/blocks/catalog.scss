@@ -19,15 +19,15 @@
     margin-bottom: 48px;
     @extend %transition-color;
     transition: transform $transition-time $transition-style;
+    cursor: pointer;
     
     &:hover {
       color: $dark-blue-accent;
       transform: scale(1.2);
     }
-
+    
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
-
   }
 }
