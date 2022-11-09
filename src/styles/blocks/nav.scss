@@ -23,7 +23,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: $transition-duration;
+    transition: color $transition-duration linear;
 
     &:hover {
       color: #00acdc;
