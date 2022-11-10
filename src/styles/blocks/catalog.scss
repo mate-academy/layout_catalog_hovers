@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 
     width: 200px;
     height: 300px;
@@ -21,5 +20,12 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    transition: transform $_300ms, color $_300ms;
+  }
+
+  &__card:hover {
+    color: #34568b;
+    transform: translateY(-20%);
   }
 }
