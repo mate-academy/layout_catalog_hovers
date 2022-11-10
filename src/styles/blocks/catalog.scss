@@ -17,8 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    @extend %transition-color;
-    transition: transform $transition-time $transition-style;
+    transition: transform $transition-time $transition-style, color $transition-time $transition-style;
     cursor: pointer;
     
     &:hover {
