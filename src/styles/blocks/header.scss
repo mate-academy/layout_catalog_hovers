@@ -39,4 +39,10 @@
     font-size: 12px;
     font-weight: 500;
   }
+
+  &__item:hover {
+    color: #00acdc;
+    transition: 300ms color ease;
+    
+  }
 }
