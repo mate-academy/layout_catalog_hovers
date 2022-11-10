@@ -17,9 +17,18 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
+    transition-property: color, transform;
+    transition-duration: $transition-durations;
+    transition-timing-function: linear;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      color: $catalog-hover-color;
+      transform: scale(1.2);
     }
   }
 }
