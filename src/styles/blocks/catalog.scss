@@ -17,7 +17,8 @@
     border: 1px solid $white-gray-color;
     border-radius: 5px;
     margin-bottom: $space-around-cards;
-    transition: transform 300ms ease, color 300ms ease;
+    transition: transform $duration-timng-function,
+      color $duration-timng-function;
 
     &:not(:nth-child(4n)) {
       margin-right: $space-around-cards;
