@@ -22,7 +22,7 @@
       margin-right: 48px;
     }
 
-    transition: transform 0.3s, color 0.3s;
+    transition: transform 0.3s linear, color 0.3s linear;
 
     &:hover {
       transform: scale(120%);
