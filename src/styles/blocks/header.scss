@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
 
-  height: 60px;
+  height: $header-hight;
   padding: 0 50px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -17,18 +16,22 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
-    padding: 0;
   }
 
   &__item {
     position: relative;
     color: #060b35;
-    list-style: none;
-    line-height: 60px;
+    line-height: $header-hight;
+
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+    &:hover {
+      color: #00acdc;
     }
   }
 
