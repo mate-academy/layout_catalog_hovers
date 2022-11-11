@@ -21,7 +21,7 @@
       margin-right: 48px;
     }
 
-    transition: transform $_300ms, color $_300ms;
+    transition: transform $transition_duration, color $transition_duration;
   }
 
   &__card:hover {
