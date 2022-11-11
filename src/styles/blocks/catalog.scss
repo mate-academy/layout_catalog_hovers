@@ -20,7 +20,6 @@
     transition-duration: $trans-speed;
     transition-timing-function: ease;
 
-
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
