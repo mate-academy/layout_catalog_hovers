@@ -2,33 +2,32 @@
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 994px;
+  max-width: 944px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 0;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: color 300ms, transform 300ms;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
-  }
 
-  &__card:hover {
-    width: 240px;
-    height: 348px;
-    color: #34568b;
-    transition: width, height, color 300ms linear;
-    cursor: pointer;
-    margin-right: 8px;
-    margin-bottom: 0;
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+      color: #34568b;
+    }
   }
 }
