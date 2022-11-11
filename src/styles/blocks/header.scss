@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
 
   height: 60px;
   padding: 0 50px;
@@ -17,8 +16,6 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
-    padding: 0;
   }
 
   &__item {
@@ -29,6 +26,12 @@
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    transition: color $transition_duration;
+
+    &:hover {
+      color: #00acdc;
     }
   }
 
