@@ -1,3 +1,6 @@
+@import '../utils/variables';
+@import '../utils/extends';
+
 .header {
   display: flex;
   align-items: center;
@@ -26,6 +29,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    @extend %color-changing;
 
     &:not(:last-child) {
       margin-right: 20px;
@@ -38,5 +42,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+  }
+
+  &__item:hover {
+    color: #00acdc;
   }
 }
