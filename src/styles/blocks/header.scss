@@ -40,9 +40,9 @@
     font-weight: 500;
 
     transition: color $transform-duration ease;
-  }
 
-  &__link:hover {
-    color: $navigation-link-text-color;
+    &:hover {
+      color: $navigation-link-text-color;
+    }
   }
 }
