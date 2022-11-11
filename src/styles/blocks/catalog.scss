@@ -18,8 +18,12 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300ms ease-in-out, color 300ms ease-in-out;
-
+    /* stylelint-disable */
+    transition:
+      transform 300ms ease-in-out,
+      color 300ms ease-in-out;
+      /* stylelint-enable */
+      
     &:hover {
       transform: scale(120%);
 
