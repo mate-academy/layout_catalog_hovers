@@ -1,4 +1,4 @@
-@mixin trans ($select: all, $dur: #{$duration}, $type: linear) {
+@mixin transition ($select: all, $dur: #{$duration}, $type: linear) {
   transition: $select $dur $type;
 }
 

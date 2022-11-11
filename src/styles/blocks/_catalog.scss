@@ -20,7 +20,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 
-    @include trans;
+    @include transition;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
