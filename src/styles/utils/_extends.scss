@@ -1,0 +1,5 @@
+@import './variables';
+
+%color-changing {
+  transition: color $transition-duration;
+}
