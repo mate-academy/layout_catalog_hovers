@@ -1,25 +1,41 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+  perspective: 300px;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
+    transition: transform 300ms;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
+
+    
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+
     }
+
   }
+
+  &__card:hover {
+    transform: translatez(+38px);
+
+  }
+
+  &__link:hover {
+    color: #34568b;
+
+  }
+
 }
