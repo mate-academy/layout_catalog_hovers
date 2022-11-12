@@ -18,8 +18,16 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: transform $transform-duration $linear-transform,
+      color $transform-duration $linear-transform;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
