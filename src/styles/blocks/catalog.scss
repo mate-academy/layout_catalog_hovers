@@ -18,13 +18,13 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: var(--duration);
+    transition: color #{$duration}, transform #{$duration};
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
   
-    &:first-child:hover {
+    &:nth-child(n):hover {
       transform: scale(120%);
       color: #34568b;
     }
