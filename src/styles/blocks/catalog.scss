@@ -18,8 +18,16 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: transform $transition-time-global,
+      color $transition-time-global;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: $card-scale;
+      color: #34568b;
     }
   }
 }
