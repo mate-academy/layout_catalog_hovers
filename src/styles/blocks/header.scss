@@ -1,3 +1,5 @@
+$smooth : 300ms;
+
 .header {
   display: flex;
   align-items: center;
@@ -39,7 +41,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color 300ms;
+    transition: color $smooth;
 
     &:hover {
       color: #00acdc;
