@@ -36,6 +36,8 @@
   }
 
   &__link {
+    @include hover-transition;
+
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
@@ -43,8 +45,6 @@
     font-weight: 500;
 
     &:hover {
-      @include hover-transition;
-
       color: $color-LinkOnHover;
     }
   }
