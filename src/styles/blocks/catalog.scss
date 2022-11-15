@@ -1,3 +1,6 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +10,8 @@
   padding: 50px 0;
 
   &__card {
+    @include hover-transition;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +23,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    cursor: pointer;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $color-CardOnHover;
     }
   }
 }
