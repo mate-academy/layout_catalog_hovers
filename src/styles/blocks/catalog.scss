@@ -1,7 +1,7 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
+ 
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
@@ -17,9 +17,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform 0.3s, color 0.3s;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+  }
+
+  &__card:hover {
+    color: $color--hover--text;
+    transform: scale(1.2);
   }
 }
