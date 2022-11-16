@@ -18,6 +18,8 @@
     transition: transform 0.3s,
       color 0.3s;
 
+    cursor: pointer;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
