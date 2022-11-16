@@ -15,15 +15,17 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    transition: $time;
     margin-bottom: 48px;
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    
     }
     
     &:hover {
       color: #34568b;
       transform: scale(1.2);
-      transition: $time;
+    
     }
   }
 }
