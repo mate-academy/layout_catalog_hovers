@@ -1,5 +1,3 @@
-$hover-text: #34568b;
-
 .header {
   display: flex;
   align-items: center;
@@ -31,7 +29,7 @@ $hover-text: #34568b;
     transition: color 300ms;
 
     &:hover {
-      color: $hover-text;
+      color: #00acdc;
     }
 
     &:not(:last-child) {

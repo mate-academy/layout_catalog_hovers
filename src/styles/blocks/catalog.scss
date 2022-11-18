@@ -1,5 +1,3 @@
-$hover-text: #34568b;
-
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +22,7 @@ $hover-text: #34568b;
 
     &:hover {
       transform: scale(120%);
-      color: $hover-text;
+      color: #34568b;
     }
 
     &:not(:nth-child(4n)) {
