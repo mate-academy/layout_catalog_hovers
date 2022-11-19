@@ -1,3 +1,5 @@
+@use "../styles/blocks/var.scss" as *;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +26,7 @@
     }
     &:hover {
       transform: scale(1.2);
-      color:#34568b;
+      color: #34568b;
     }
   }
 }
