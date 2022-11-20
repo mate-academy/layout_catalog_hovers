@@ -5,3 +5,12 @@
     margin: 0;
   }
 }
+
+.catalog__card {
+  transition: transform 300ms, color 300ms;
+
+  &:hover {
+    transform: scale(1.2);
+    color: #34568b;
+  }
+}
