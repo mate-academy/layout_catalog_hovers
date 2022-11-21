@@ -28,8 +28,8 @@
 
     &:hover {
       transform: scale(1.2);
-      .title {
-        color: $card-title-text-color;
+      .catalog__title {
+        color: $card-catalog__title-text-color;
       }
     }
   }
