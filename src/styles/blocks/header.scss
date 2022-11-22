@@ -1,3 +1,5 @@
+$hover-color-nav: #00acdc;
+
 .header {
   display: flex;
   align-items: center;
@@ -38,5 +40,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color 0.3s linear;
+    &:hover {
+      color: $hover-color-nav;
+    }
   }
 }
