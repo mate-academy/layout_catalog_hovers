@@ -23,7 +23,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: var(--dark-grey);
     list-style: none;
     line-height: 60px;
 
@@ -41,7 +41,7 @@
     transition: color $transition-speed $transition-method;
 
     &:hover {
-      color: #00acdc;
+      color: var(--primary-blue);
     }
   }
 }
