@@ -21,5 +21,13 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    transition: transform $transition-speed $transition-method,
+      color $transition-speed $transition-method;
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+    }
   }
 }
