@@ -5,7 +5,7 @@
   box-sizing: border-box;
 	@include display (space-between, center);
 
-  height: $header-height;
+  height: 60px;
   padding: 0 50px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -26,7 +26,7 @@
     position: relative;
     color: #060b35;
     list-style: none;
-    line-height: $header-height;
+    line-height: 60px;
 
     &:not(:last-child) {
       margin-right: 20px;
@@ -39,10 +39,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-		transition: color 0.3s;
+		transition: color $transition-time;
 
 		&:hover {
-			color: $nav-hover-text-color;
+			color: #00acdc;
 		}
   }
 }
