@@ -1,4 +1,4 @@
-// @import "./variables.scss";
+@import "./variables.scss";
 
 .catalog {
   display: flex;
@@ -19,7 +19,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $transition-time;
+    transition: transform $transition-time, color $transition-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -27,7 +27,7 @@
   }
 
   &__card:hover {
-    transition: $transition-time;
+    transition: transform $transition-time, color $transition-time;
     transform: scale(120%);
     color: #34568b;
   }

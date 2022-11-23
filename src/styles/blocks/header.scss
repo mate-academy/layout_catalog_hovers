@@ -40,11 +40,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: $transition-time;
+    transition: transform $transition-time, color $transition-time;
   }
 
   &__link:hover {
-    transition: $transition-time;
     color: #00acdc;
+    transition: transform $transition-time, color $transition-time;
   }
 }
