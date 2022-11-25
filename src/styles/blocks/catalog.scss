@@ -27,7 +27,6 @@
   }
 
   &__card:hover {
-    transition: transform $transition-time, color $transition-time;
     transform: scale(120%);
     color: #34568b;
   }
