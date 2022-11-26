@@ -41,7 +41,8 @@ $transition-time: 300ms;
     font-size: 12px;
     font-weight: 500;
     
-    transition: $transition-time;
+    transition: color 
+      $transition-time;
 
     &:hover {
       color: #00acdc;

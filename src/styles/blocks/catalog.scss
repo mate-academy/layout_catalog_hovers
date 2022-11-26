@@ -23,7 +23,9 @@
       margin-right: 48px;
     }
 
-    transition: $transition-time;
+    transition: transform 
+      color 
+      $transition-time;
 
     &:hover {
       transform: scale(1.2);
