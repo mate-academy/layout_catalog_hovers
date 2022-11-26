@@ -42,7 +42,7 @@
     transition: color $transition-duration;
 
     &:hover {
-      color: #00acdc;
+      color: $header-link-hover-color;
     }
   }
 }
