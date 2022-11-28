@@ -1,3 +1,5 @@
+@use "blocks/_var" as *;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -11,15 +13,19 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
+    transition-duration: $duration;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin;
+    }
+    &:hover {
+      transform: scale(1.2);
+      color: $color_hover;
     }
   }
 }
