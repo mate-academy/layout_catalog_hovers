@@ -6,7 +6,6 @@
   height: 60px;
   padding: 0 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  perspective: 400px;
 
   &__logo {
     height: 40px;
@@ -40,8 +39,7 @@
   }
 
   &__link:hover {
+    transition: color 0.3s;
     color: #00acdc;
-    transition: var(--min-time);
-
   }
 }

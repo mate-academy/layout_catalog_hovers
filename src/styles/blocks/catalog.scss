@@ -4,9 +4,8 @@
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
-  perspective: 400px;
 
-  --min-time: 300ms;
+  $min-time: 300ms;
 
   &__card {
     display: flex;
@@ -25,9 +24,8 @@
   }
 
   &__card:hover {
-    color: #34568b;
-    transition: var(--min-time);
+    transition: transform $min-time;
     transform: scale(1.2);
-
+    color: #34568b;
   }
 }
