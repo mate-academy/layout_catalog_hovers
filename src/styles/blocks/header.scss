@@ -39,7 +39,7 @@
   }
 
   &__link:hover {
-    transition: color 0.3s;
+    transition: color $min-time;
     color: #00acdc;
   }
 }
