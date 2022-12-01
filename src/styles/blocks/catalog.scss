@@ -19,8 +19,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transform: scale(100%);
-    transition: transform 300ms, color 300ms;
+    transition: transform $transferTime, color $transferTime;
 
     &:hover {
       transform: scale(120%);
