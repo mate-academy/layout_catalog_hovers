@@ -12,7 +12,9 @@
     align-items: center;
     box-sizing: border-box;
 
-    transition: transform $hover-transition;
+    transition: 
+      color $hover-transition,
+      transform $hover-transition;
 
     width: 200px;
     height: 300px;
