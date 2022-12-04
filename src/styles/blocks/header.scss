@@ -36,10 +36,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $duration-time;
   }
 
   &__link:hover {
-    transition: color $min-time;
     color: #00acdc;
   }
 }
