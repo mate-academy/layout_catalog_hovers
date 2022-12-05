@@ -1,7 +1,6 @@
 .page {
   font-family: Roboto, sans-serif;
 }
-
 .page__body {
   margin: 0;
 }
@@ -32,7 +31,6 @@
   list-style: none;
   line-height: 60px;
 }
-
 .nav__item:not(:last-child) {
   margin-right: 20px;
 }
