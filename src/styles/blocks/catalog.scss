@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
+    transition-duration: var(--animation-duration);
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
@@ -21,5 +21,9 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+  }
+  &__card:hover {
+    transform:scale(120%);
+    color: #34568b;
   }
 }
