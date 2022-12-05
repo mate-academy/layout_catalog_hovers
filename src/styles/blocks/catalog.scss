@@ -1,8 +1,13 @@
+@mixin card-size {
+  width: 200px;
+  height: 300px;
+}
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
+  max-width: $catalog-max-width;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -11,15 +16,17 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
-    width: 200px;
-    height: 300px;
+    @include card-size();
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
-
+    margin-bottom: $margin;
+    transition: transform 0.3s linear;
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin;
+    }
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
     }
   }
 }
