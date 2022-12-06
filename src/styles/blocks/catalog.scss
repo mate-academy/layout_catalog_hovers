@@ -15,10 +15,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
     transition: transform $duration;
 
     &:hover {
-      cursor: pointer;
       transform: scale(1.2);
       color: #34568b;
     }
