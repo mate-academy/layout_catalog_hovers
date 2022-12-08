@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition-duration: color $transition-duration,
+    transition: color $transition-duration,
       transform $transition-duration;
 
     width: 200px;
