@@ -39,8 +39,9 @@
     font-size: 12px;
     font-weight: 500;
     transition-duration: var(--animation-duration);
-  }
-  &__link:hover {
-    color: #00acdc;
+
+    &:hover {
+      color: var(--header-hover-color);
+    }
   }
 }
