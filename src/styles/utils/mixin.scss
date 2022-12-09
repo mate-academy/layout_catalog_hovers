@@ -1,0 +1,9 @@
+@mixin cardSize {
+  width: $card-width;
+  height: $card-height;
+}
+
+@mixin cardSizeHover {
+  width: $card-width * $card-hover-percintage-increase;
+  height: $card-height * $card-hover-percintage-increase;
+}
