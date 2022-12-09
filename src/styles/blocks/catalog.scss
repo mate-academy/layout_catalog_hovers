@@ -1,8 +1,9 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
-  max-width: 944px;
+  max-width: 992px;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -23,6 +24,7 @@
     }
 
     &:hover {
+      max-width: 992px;
       @include cardSizeHover;
       margin-right: $card-hover-margin-right;
       margin-bottom: 0;
