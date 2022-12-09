@@ -1,5 +1,3 @@
-@import "./utils/variables";
-
 .header {
   display: flex;
   align-items: center;
@@ -41,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: $transition;
+    transition: color 300ms;
 
     &:hover {
       color: #00acdc;
