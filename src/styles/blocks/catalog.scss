@@ -19,11 +19,10 @@ $hovers-time: 300ms;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $hovers-time;
+    transition: transform  $hovers-time,  color $hovers-time;
 
     &:hover {
-      width: 240px;
-      height: 360px;
+      transform: scale(1.2);
       color: #34568b;
     }
 
