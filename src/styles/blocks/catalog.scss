@@ -22,13 +22,11 @@
       margin-right: 48px;
     }
 
-    &:first-child {
-      transition: transform 300ms ease, color 300ms ease;
+    transition: transform 300ms ease, color 300ms ease;
 
-      &:hover {
-        transform: scale(1.2);
-        color: #34568b;
-      }
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
