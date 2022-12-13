@@ -24,7 +24,7 @@
 
     &:hover {
       transform: scale(1.2);
-      transition-duration: 300ms;
+      transition-duration: $duration;
       color: #34568b;
     }
   }
