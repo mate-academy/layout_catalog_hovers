@@ -1,17 +1,17 @@
+@use "../utils/extends";
+@use "../utils/variable" as *;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centre-flex;
     box-sizing: border-box;
-
+    transition: all $transition-speed ease;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
@@ -21,5 +21,9 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+  }
+  &__card:hover {
+    transform: $card-hover;
+    color: $card-hover-colour;
   }
 }
