@@ -12,14 +12,12 @@
     align-items: center;
     box-sizing: border-box;
     transition: color 0.3s ease,
-    transform 0.3s ease;
+      transform 0.3s ease;
 
     &:hover {
       color: $catalog-c-hover;
       transform: scale(1.2);
     }
-
-
 
     width: 200px;
     height: 300px;
