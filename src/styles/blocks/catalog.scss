@@ -7,7 +7,7 @@
   padding: 50px 0;
 
   &__card {
-    transition: transform 200ms, color 300ms;
+    transition: transform $transition-time, color $transition-time;
     display: flex;
     justify-content: center;
     align-items: center;

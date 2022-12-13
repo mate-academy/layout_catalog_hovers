@@ -33,7 +33,7 @@
   }
 
   &__link {
-    transition: color 300ms;
+    transition: color $transition-time;
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
