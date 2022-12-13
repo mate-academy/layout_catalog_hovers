@@ -11,12 +11,15 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition: color $transition-time ease, transform $transition-time ease;
+    transition: color 0.3s ease,
+    transform 0.3s ease;
 
     &:hover {
-      color: #34568b;
+      color: $catalog-c-hover;
       transform: scale(1.2);
     }
+
+
 
     width: 200px;
     height: 300px;
