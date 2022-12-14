@@ -6,8 +6,6 @@
   margin: 0 auto;
   padding: 50px 0;
 
-  transition: color $duration ease, transform $duration ease;
-
   &__card {
     display: flex;
     justify-content: center;
@@ -19,6 +17,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: color $duration ease, transform $duration ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
