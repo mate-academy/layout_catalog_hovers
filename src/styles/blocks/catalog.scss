@@ -1,17 +1,20 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
+  
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
 
+  transition: transform $transion-duration, color $transion-duration;
+
   &__card {
+
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
+    
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
@@ -20,6 +23,11 @@
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
