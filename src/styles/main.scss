@@ -1,3 +1,6 @@
-@import "blocks/page";
+@import "./reset.scss";
+@import "utils/variables";
+
+@import "blocks/nav";
 @import "blocks/header";
 @import "blocks/catalog";
