@@ -18,8 +18,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300 ms color 300ms;
-    
+    transition: transform 300ms color 300ms;
+
     &:hover {
       transform: scale(1.2);
       color: #34568b;
@@ -29,6 +29,4 @@
       margin-right: 48px;
     }
   }
-
-
 }
