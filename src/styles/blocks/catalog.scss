@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     transition: $transition-time transform,
-      $transition-time $card-transition-color;
+      $transition-time color;
 
     &:hover {
       transform: scale(1.2);
