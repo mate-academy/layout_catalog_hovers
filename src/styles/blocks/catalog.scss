@@ -19,8 +19,8 @@
     margin-bottom: 48px;
 
     transition: 
-    transform 0.3s ease, 
-    color 0.3s ease;
+      transform $transition-durationion ease,  
+      color $transition-durationion ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
