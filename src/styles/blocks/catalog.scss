@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition: $time;
+    transition: transform $time, color $time;
 
     width: 200px;
     height: 300px;
@@ -26,6 +26,6 @@
 
   &__card:hover {
     transform: scale(1.2);
-    color: #34568b;
+    color: $c-title-hover;
   }
 }

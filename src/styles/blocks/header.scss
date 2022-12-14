@@ -41,7 +41,7 @@
     transition-duration: $time;
 
     &:hover {
-      color: #00acdc
+      color: $c-header-hover;
     }
   }
 
