@@ -17,6 +17,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $transition-duration ease-in-out,
+      color $transition-duration ease-in-out;
 
     &:hover {
       color: #34568b;
@@ -26,7 +28,5 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
-    transition: transform $transition-duration ease-in-out,
-      color $transition-duration ease-in-out;
   }
 }
