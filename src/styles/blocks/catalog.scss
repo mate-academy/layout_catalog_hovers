@@ -1,3 +1,5 @@
+@import "../utils/variable";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -17,8 +19,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-property: transform, color;
-    transition-duration: 300ms, 300ms;
+    transition: color $timing-animations, transform $timing-animations;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
