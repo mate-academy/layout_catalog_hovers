@@ -18,8 +18,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: color $c-change-during, transform $scale-change-during;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      color: $card-hov-c-text;
+      transform: scale($scale-size);
     }
   }
 }
