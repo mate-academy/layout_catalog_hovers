@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition-duration: 300ms;
+    transition-duration: $trans-time;
 
     width: 200px;
     height: 300px;
@@ -24,7 +24,7 @@
     }
 
     &:hover {
-      color: #34568b;
+      color: $hover-card-color;
       transform: scale(1.2);
     }
   }
