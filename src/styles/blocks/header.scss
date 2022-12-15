@@ -38,9 +38,10 @@
     font-size: 12px;
     font-weight: 500;
     transition-duration: $trans-duration;
+    transition-delay: $trans-duration;
 
     &:hover {
-      color: #00acdc;
+      color: $header-color;
     }
   }
 }

@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $trans-duration;
+    transition: transform $trans-duration, color $trans-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -25,7 +25,7 @@
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: $catalog-color;
     }
   }
 }
