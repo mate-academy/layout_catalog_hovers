@@ -17,12 +17,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
     transition-duration: $transSpeed, $transSpeed;
     transition-property: transform, color;
 
     &:hover {
       transform: scale(1.2);
-      cursor: pointer;
       color: #34568b;
     }
 
