@@ -18,15 +18,14 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition-duration: 300ms;
-    transition-property: color, transform;
+    transition: color $durations, transform $durations;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      color: #34568b;
+      color: $c-card;
       transform: scale(1.2);
     }
   }
