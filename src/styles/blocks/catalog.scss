@@ -16,11 +16,11 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: transform 300ms, color 300ms;
+    transition: transform $transform-time, color 300ms;
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: $color;
     }
 
     &:not(:nth-child(4n)) {
