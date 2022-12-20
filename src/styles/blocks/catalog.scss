@@ -7,6 +7,7 @@
   padding: 50px 0;
 
   &__card {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +19,17 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: width, height, color, 300ms linear;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      width: 200px;
+      height: 300px;
+      color: #34568b;
+      transform: scale(1.2);
     }
   }
 }
