@@ -39,6 +39,6 @@
     transition: color $transition-speed ease-in-out;
   }
   &__link:hover {
-    color: #00acdc;
+    color: $nav-link-hover-colour;
   }
 }

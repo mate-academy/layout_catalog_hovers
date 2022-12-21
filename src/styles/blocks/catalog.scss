@@ -11,7 +11,7 @@
   &__card {
     @extend %centre-flex;
     box-sizing: border-box;
-    transition: all $transition-speed ease;
+    transition: $transition-speed ease;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
