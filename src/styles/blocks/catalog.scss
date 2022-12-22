@@ -1,13 +1,16 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+  perspective: 500px;
 
   &__card {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -21,5 +24,11 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    &:hover {
+      transform: scale(1.2, 1.2);
+      transition: $transtion-duration;
+      color: #34568b;
+    };
   }
 }
