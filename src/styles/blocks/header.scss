@@ -32,7 +32,6 @@
     }
 
     &:hover {
-      transition: $transtion-duration;
       color: #00acdc;
     }
   }
@@ -43,5 +42,6 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: $transtion-duration;
   }
 }
