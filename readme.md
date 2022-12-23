@@ -6,7 +6,7 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 
 ## ❗️❗️❗️ DON'T FORGET TO PROOFREAD YOUR CODE WITH [CHECKLIST](https://github.com/mate-academy/layout_catalog_hovers/blob/master/checklist.md) BEFORE SENDING YOUR PULL REQUEST❗️❗️❗️
 
-## The task
+## The task,
 
 - Make all the changes smooth on hover
 - Smoothly (during 300ms) increase the card by 20 percent on hover (neighboring cards **should not be** affected)
