@@ -38,9 +38,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-duration: $animation-time;
 
     &:hover {
-      transition-duration: 300ms;
       color: $header-color;
     }
   }
