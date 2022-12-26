@@ -22,10 +22,10 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
-  }
 
-  &__card:hover {
+  &:hover {
     color: #34568b;
     transform: scale(120%);
   }
+}
 }
