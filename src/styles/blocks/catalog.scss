@@ -4,22 +4,28 @@
 
   max-width: 944px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: $padding-big 0;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    transition: color, transform $transition;
 
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-gray;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin-big;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin-big;
+    }
+
+    &:hover {
+      color: $color-blue--light;
+      transform: scale(1.2);
     }
   }
 }

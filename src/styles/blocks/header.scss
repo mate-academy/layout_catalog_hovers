@@ -5,7 +5,7 @@
   box-sizing: border-box;
 
   height: 60px;
-  padding: 0 50px;
+  padding: 0 $padding-big;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
@@ -38,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $transition;
+
+    &:hover {
+      color: $color-blue--dark;
+    }
   }
 }
