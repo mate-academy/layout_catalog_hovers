@@ -26,7 +26,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition: color $trstn-drtn;
+    transition: color $transition-duration;
 
     &:hover {
       color: $color-hover-nav;
