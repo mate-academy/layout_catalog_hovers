@@ -1,4 +1,5 @@
 $nav-hover-color: #00acdc;
+$duration-time: 300ms;
 
 .header {
   display: flex;
@@ -28,7 +29,8 @@ $nav-hover-color: #00acdc;
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition-duration: 300ms;
+    transition-property: color;
+    transition-duration: $duration-time;
 
     &:hover {
       color: $nav-hover-color;

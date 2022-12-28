@@ -1,4 +1,5 @@
 $card-title-color: #34568b;
+$duration-time: 300ms;
 
 .catalog {
   display: flex;
@@ -20,7 +21,9 @@ $card-title-color: #34568b;
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300ms;
+    transition: 
+      transform $duration-time,
+      color $duration-time;
 
     &:hover {
       transform: scale(1.2);
