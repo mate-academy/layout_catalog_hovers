@@ -1,3 +1,5 @@
-@import "blocks/page";
-@import "blocks/header";
-@import "blocks/catalog";
+@import "./units/variables.scss";
+
+@import "./blocks/catalog.scss";
+@import "./blocks/header.scss";
+@import "./blocks/page.scss";
