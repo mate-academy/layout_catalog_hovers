@@ -33,8 +33,9 @@
   }
 
   &__link {
-    transition: $transition-duration;
-    transition-property: color;
+    // transition: $transition-duration;
+    // transition-property: color;
+    transition: color $transition-duration;
 
     color: inherit;
     text-decoration: none;
