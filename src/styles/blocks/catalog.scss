@@ -38,7 +38,7 @@ $card-container-width: ($card-width + 50px) * 4;
     padding: 32px 19px 36px;
   }
   
-  &__describe {
+  &_describe {
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
@@ -48,7 +48,7 @@ $card-container-width: ($card-width + 50px) * 4;
     transition: color 300ms;
   }
   
-  .catalog__card:hover > .catalog__describe:nth-child(n) {
+  .catalog__card:hover > .catalog_describe:nth-child(n) {
     color: #34568b;
   }
 
