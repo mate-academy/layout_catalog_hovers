@@ -29,7 +29,7 @@ $card-container-width: ($card-width + 50px) * 4;
   }
 
   &__card:hover {
-    transform: translate3d(0, 0, 40px);
+    transform: scale(1.2);
   }
   
   &_img {
@@ -50,6 +50,7 @@ $card-container-width: ($card-width + 50px) * 4;
   
   .catalog__card:hover > .catalog_describe:nth-child(n) {
     color: #34568b;
+
   }
 
   &_product-code {
