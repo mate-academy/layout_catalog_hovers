@@ -18,6 +18,14 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: transform $animation-time $animation-style,
+      color $animation-time $animation-style;
+
+    &:hover {
+      transform: scale(120%);
+      color: #34568b;
+    }
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
