@@ -1,8 +1,8 @@
 @import "../utils/variables.scss";
+@import "../utils/extends.scss";
 
 .header {
-  display: flex;
-  align-items: center;
+  @extend %flex-item-center;
   justify-content: space-between;
   height: 60px;
   padding: 0 50px;

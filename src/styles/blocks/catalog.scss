@@ -1,4 +1,5 @@
 @import "../utils/variables.scss";
+@import "../utils/extends.scss";
 
 .catalog {
   display: flex;
@@ -8,9 +9,8 @@
   padding: 50px 0;
 
   &__card {
-    display: flex;
+    @extend %flex-item-center;
     justify-content: center;
-    align-items: center;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
