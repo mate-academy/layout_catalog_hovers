@@ -9,13 +9,14 @@
   padding: 50px 0;
 
   &__card {
-    @extend %flex-item-center;
+    @extend %flex-text-center;
     justify-content: center;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    @extend %color-change;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -23,7 +24,6 @@
 
     &:hover {
       transform: scale(1.2);
-      transition-duration: $transition-duration;
       color: $color-light-grey;
     }
   }

@@ -2,7 +2,7 @@
 @import "../utils/extends.scss";
 
 .header {
-  @extend %flex-item-center;
+  @extend %flex-text-center;
   justify-content: space-between;
   height: 60px;
   padding: 0 50px;
@@ -37,9 +37,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-
+    @extend %color-change;
+    
     &:hover {
-      transition-duration: $transition-duration;
       color: $color-blue;
     }
   }
