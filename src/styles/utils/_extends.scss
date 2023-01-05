@@ -1,0 +1,9 @@
+%flex-text-center {
+  display: flex;
+  align-items: center;
+}
+
+%color-change {
+  transition-duration: $transition-duration;
+  transition-property: color;
+}
