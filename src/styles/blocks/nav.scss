@@ -26,7 +26,7 @@
     cursor: pointer;
     color: #060b35;
     padding: 23px 0;
-    transition-duration: 300ms;
+    transition-duration: $transform-time;
   }
   
   &__link:hover {
