@@ -11,12 +11,18 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    transition: transform .3s;
 
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-hover-color;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
