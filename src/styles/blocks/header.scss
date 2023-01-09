@@ -38,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+  
+    &:hover {
+      transition: $change-speed $smooth-timing-function;
+      color: $neon-blue;
+    }
   }
 }
