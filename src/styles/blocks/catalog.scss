@@ -1,4 +1,3 @@
-@use "../utils/extends";
 @use "../utils/variable" as *;
 
 .catalog {
@@ -9,7 +8,9 @@
   padding: 50px 0;
 
   &__card {
-    @extend %centre-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     transition: $transition-speed ease;
     width: 200px;
