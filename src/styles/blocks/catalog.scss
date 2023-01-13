@@ -18,7 +18,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: $smoothly-transform;
+    transition: color $smoothly-transform, transform $smoothly-transform;
 
     &:hover {
       transform: scale(1.2);
