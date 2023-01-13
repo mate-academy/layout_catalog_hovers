@@ -1,3 +1,5 @@
+@use "../utils/variables" as *;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -18,7 +20,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300ms, color 300ms;
+    transition: transform $duration, color $duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -26,7 +28,7 @@
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: $link-cards-color;
     }
   }
 }
