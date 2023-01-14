@@ -38,8 +38,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: 300ms linear;
-
+    transition: color $property linear;
     &:hover {
       color: $nav-link-hvr-clr;
     }
