@@ -32,33 +32,11 @@
     margin-bottom: 4px;
   }
 
-  &__button-buy {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 100%;
-    background: $color-active;
-    border-radius: 5px;
-    text-decoration: none;
-    color: $color-bground;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-  }
-
   &:hover {
     transform: scale(1.2);
 
     .card__name {
       color: #34568b;
-    }
-
-    .card__button-buy {
-      background: $color-bground;
-      border: 1px solid $color-active;
-      color: $color-active;
     }
   }
 
@@ -103,6 +81,29 @@
     line-height: 18px;
     font-size: 16px;
     color: $color-first-text;
+  }
+
+  &__button-buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background: $color-active;
+    border-radius: 5px;
+    text-decoration: none;
+    color: $color-bground;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border: 1px solid transparent;
+
+    &:hover {
+      background-color: $color-bground;
+      border-color: $color-active;
+      color: $color-active;
+    }
   }
 }
 
