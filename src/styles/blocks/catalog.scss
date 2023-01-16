@@ -1,7 +1,8 @@
+// @use "../utils/variables.scss" as *;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
@@ -11,15 +12,21 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    transition: transform 0.3s, color 0.3s;
+
+    &:hover {
+      transform: scale(120%);
+      color: #34568b;
+    }
 
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $catalogMargin;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $catalogMargin;
     }
   }
 }
