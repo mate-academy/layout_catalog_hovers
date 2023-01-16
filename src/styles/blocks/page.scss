@@ -1,7 +1,15 @@
+$black: #060b35;
+$grey: #616070;
+$blue: #00acdc;
+
 .page {
   font-family: Roboto, sans-serif;
 
   &__body {
     margin: 0;
   }
+}
+
+* {
+  box-sizing: border-box;
 }
