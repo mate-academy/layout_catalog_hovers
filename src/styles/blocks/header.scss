@@ -19,6 +19,7 @@
     display: flex;
     margin: 0;
     padding: 0;
+    transition: 300ms;
   }
 
   &__item {
@@ -26,6 +27,10 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+
+    &:hover {
+      color: #00acdc;
+    }
 
     &:not(:last-child) {
       margin-right: 20px;
