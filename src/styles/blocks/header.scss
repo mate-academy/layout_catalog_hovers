@@ -1,3 +1,5 @@
+@import "./src/styles/utils/variables.scss";
+
 .header {
   display: flex;
   align-items: center;
@@ -39,7 +41,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color 0.3s;
+    transition: color $transition-duration;
 
     &:hover {
       color: #00acdc;
