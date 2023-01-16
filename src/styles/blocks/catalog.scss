@@ -18,6 +18,9 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: color 300ms, transform 300ms;
+    transition-timing-function: ease-in-out;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
@@ -25,7 +28,6 @@
     &:hover {
       transform: scale(1.2);
       color: #34568b;
-      transition: 300ms;
     }
   }
 }
