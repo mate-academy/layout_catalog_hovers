@@ -1,13 +1,15 @@
 $black: #060b35;
 $grey: #616070;
 $blue: #00acdc;
+$text-color-hover: #34568b;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .page {
-  font-family: Roboto, sans-serif;
-
-  &__body {
-    margin: 0;
-  }
+  font-family: "Roboto", sans-serif;
 }
 
 * {
