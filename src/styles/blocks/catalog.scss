@@ -15,7 +15,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $card-margin;
-    transition: color $duration-transform transform $duration-transform;
+    transition: color $transition-duration, transform $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: $card-margin;
