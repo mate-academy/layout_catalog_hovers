@@ -21,11 +21,11 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
     &:hover {
+      transition: 300ms;
       transform: scale(120%);
       color: #34568b;
-      animation-duration: 300ms;
     }
   }
 }
-
