@@ -1,10 +1,13 @@
+$perspective: 400px;
+$increase: $perspective * 0.2;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+  perspective: $perspective;
 
   &__card {
     display: flex;
@@ -17,9 +20,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: all 0.3s;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: translate3D(0, 0, $increase);
+      color: #34568b;
     }
   }
 }
