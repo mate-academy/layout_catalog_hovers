@@ -1,5 +1,4 @@
 $perspective: 400px;
-$increase: $perspective * 0.2;
 
 .catalog {
   display: flex;
@@ -27,7 +26,7 @@ $increase: $perspective * 0.2;
     }
 
     &:hover {
-      transform: translate3D(0, 0, $increase);
+      transform: scale(1.2);
       color: #34568b;
     }
   }
