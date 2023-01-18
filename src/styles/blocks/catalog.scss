@@ -21,9 +21,7 @@
     &:hover {
       transform: scale(1.2, 1.2);
       color: #34568b;
-      transition: transform $smooth-on-hover,
-       
-        color $smooth-on-hover;
+      transition: transform $smooth-on-hover, color $smooth-on-hover;
     }
 
     &:not(:nth-child(4n)) {
