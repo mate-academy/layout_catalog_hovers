@@ -112,11 +112,11 @@ h2 {
     font-weight: 700;
     border: 1px solid $blue;
     transition: all 300ms;
-  }
 
-  &__link:hover {
-    background-color: transparent;
-    color: $blue;
+    &:hover {
+      background-color: transparent;
+      color: $blue;
+    }
   }
 }
 
