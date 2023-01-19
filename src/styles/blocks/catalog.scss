@@ -1,5 +1,3 @@
-$perspective: 400px;
-
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +17,7 @@ $perspective: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: all 0.3s;
+    transition: transform $time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
