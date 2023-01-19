@@ -16,10 +16,18 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $uniform-indent;
+    cursor: pointer;
+    transition: transform $transition-duration, color $transition-duration;
+    will-change: transform;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $uniform-indent;
+    }
+
+    &:hover {
+      transform: scale(120%);
+      color: #34568b;
     }
   }
 }
