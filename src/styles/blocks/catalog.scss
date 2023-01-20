@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $transition-time;
+    transition: scale $transition-time;
 
     &:hover {
       scale: 1.2;
