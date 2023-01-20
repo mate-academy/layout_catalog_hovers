@@ -17,12 +17,12 @@
     display: flex;
     margin: 0;
     padding: 0;
-    transition: 300ms, color;
+    transition: color 300ms;
   }
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-item;
     list-style: none;
     line-height: 60px;
 
@@ -40,6 +40,6 @@
   }
 
   &__link:hover {
-    color: #00acdc;
+    color: $color-link;
   }
 }
