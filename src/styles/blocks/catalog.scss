@@ -4,7 +4,7 @@
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
-  transition-property: 300ms, color, transform;
+  transition-property: color $trans-duration, transform $trans-duration;
 
   &__card {
     display: flex;
