@@ -6,6 +6,8 @@
   margin: 0 auto;
   padding: 50px 0;
 
+  perspective: 100px;
+
   &__card {
     display: flex;
     justify-content: center;
@@ -18,8 +20,16 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition-property: transform, color;
+    transition-duration: $transition-durarion;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $title-hover-color;
     }
   }
 }
