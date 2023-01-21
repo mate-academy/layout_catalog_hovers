@@ -7,7 +7,7 @@
   justify-self: center;
   padding: 32px var(--elements-position) 16px var(--elements-position);
   border: 1px solid #e5e5e5;
-  transition: all 300ms linear;
+  transition: transform 300ms linear;
   height: 408px;
 
   &__photo {
