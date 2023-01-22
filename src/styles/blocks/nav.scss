@@ -21,10 +21,9 @@
     text-decoration: none;
     text-transform: uppercase;
     color: $color-dark;
-    transition-duration: $transition-time;
+    transition-duration: 300ms;
   }
   &__link:hover {
-    transition-duration: $transition-time;
     color: $color-nav;
   }
 }
