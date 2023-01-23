@@ -10,7 +10,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
-    height: 40px;
+    height: $logo-size;
+    width: $logo-size;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -19,16 +25,23 @@
     display: flex;
     margin: 0;
     padding: 0;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: center;
   }
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-title;
     list-style: none;
-    line-height: 60px;
+    line-height: $header-height;
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:first-child {
+      margin-left: 20px;
     }
   }
 
@@ -38,5 +51,13 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    line-height: $header-height;
+    white-space: nowrap;
+
+    transition: $transition-time;
+
+    &:hover {
+      color: $color-main;
+    }
   }
 }
