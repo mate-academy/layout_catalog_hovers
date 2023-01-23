@@ -1,10 +1,11 @@
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
-  max-width: 944px;
+  max-width: $max-width;
   margin: 0 auto;
   padding: 50px 0;
+  transition: max-width 300ms 5ms;
 
   &__card {
     display: flex;
@@ -12,14 +13,26 @@
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
-    height: 300px;
+    width: $size-width;
+    height: $size-height;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: width 300ms, height 300ms, 300ms;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    &:hover {
+      width: $parcent*$size-width + $size-width;
+      height: $parcent*$size-height + $size-height;
+      color: #34568b;
+    }
+
+  }
+
+  &:hover {
+    max-width: $parcent*$size-width + $max-width;
   }
 }
