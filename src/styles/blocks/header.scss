@@ -25,7 +25,7 @@
     list-style: none;
     line-height: 60px;
     cursor: pointer;
-    transition: color 300ms;
+    transition: color $timeSmoothy;
 
     &:not(:last-child) {
       margin-right: 20px;
