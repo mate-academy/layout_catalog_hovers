@@ -20,7 +20,7 @@
     padding: 32px 16px 16px;
     margin-bottom: 46px;
 
-    transition: 0.3s;
+    transition: transform $transition-time;;
 
     &:hover {
       color: #34568b;
@@ -132,6 +132,8 @@
     text-transform: uppercase;
     border: 1px solid $color-main;
     margin-bottom: 0;
+
+    transition: color, background-color $transition-time;
   }
 
   &__buy:hover {

@@ -54,7 +54,7 @@
     line-height: $header-height;
     white-space: nowrap;
 
-    transition: $transition-time;
+    transition: color $transition-time;
 
     &:hover {
       color: $color-main;
