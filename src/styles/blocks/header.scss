@@ -41,6 +41,7 @@
     transition: color $duration;
 
     &:hover {
+      cursor: pointer;
       color: $activeLink-textColor;
     }
   }
