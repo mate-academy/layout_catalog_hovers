@@ -30,12 +30,6 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
-
-    & > * {
-      display: flex;
-      margin-bottom: $card-margin;
-      box-sizing: border-box;
-    }
   }
 
   &__img {
@@ -60,6 +54,7 @@
   }
 
   &__rate-container {
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -98,6 +93,7 @@
   }
 
   &__price-container {
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: $card-margin;
