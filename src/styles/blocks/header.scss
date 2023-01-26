@@ -6,7 +6,7 @@
 
   height: 60px;
   padding: 0 50px;
-
+  transition: color, 300ms;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
@@ -29,6 +29,9 @@
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+    &:hover{
+      color: $navigation-menu-color;
     }
   }
 
