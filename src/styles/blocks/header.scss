@@ -30,7 +30,8 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
-    &:hover{
+
+    &:hover {
       color: $navigation-menu-color;
     }
   }
