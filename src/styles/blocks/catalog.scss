@@ -18,7 +18,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: 300ms linear;
+    transition-duration: 300ms;
+    transition-property: color, transform;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
