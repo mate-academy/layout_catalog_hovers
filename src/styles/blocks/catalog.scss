@@ -5,7 +5,7 @@
   max-width: $max-width;
   margin: 0 auto;
   padding: 50px 0;
-  transition: max-width 300ms 5ms;
+  transition: max-width $card-time 5ms;
 
   &__card {
     display: flex;
@@ -18,7 +18,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: width 300ms, height 300ms, 300ms;
+    transition: width $card-time, height $card-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
