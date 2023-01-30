@@ -2,37 +2,32 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-  max-width: $max-width;
+  max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
-  transition: max-width $card-time 5ms;
+  perspective: 100px;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
-    width: $size-width;
-    height: $size-height;
+    width: 200px;
+    height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: width $card-time, height $card-time;
+    transition: color $card-time, transform $card-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      width: $parcent*$size-width + $size-width;
-      height: $parcent*$size-height + $size-height;
+      transform: translate3D(0, 0, 20px);
       color: #34568b;
     }
 
   }
 
-  &:hover {
-    max-width: $parcent*$size-width + $max-width;
-  }
 }
