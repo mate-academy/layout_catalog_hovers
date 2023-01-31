@@ -17,7 +17,7 @@
     border-radius: 5px;
     margin-bottom: $margin;
 
-    transition: transform 0.3s, color 0.3s;
+    transition: transform $transition-time, color $transition-time;
 
     &:hover {
       transform: scale(1.2);
