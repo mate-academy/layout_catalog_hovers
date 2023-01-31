@@ -16,8 +16,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $gap-size;
-    transition: transform, color;
-    transition-duration: $transition-duration;
+    transition: transform $transition-duration, color $transition-duration;
+    cursor: pointer;
 
     &:not(:nth-child(4n)) {
       margin-right: $gap-size;
