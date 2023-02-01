@@ -11,7 +11,7 @@
     @include flex-decoration ($flex, $center, $center);
     @include card-decoration ($card-width, $card-height, $border, $radius);
     margin-bottom: 48px;
-    transition-duration: $transition-300;
+    transition: color $transition-300, transform $transition-300;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;

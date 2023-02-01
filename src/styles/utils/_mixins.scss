@@ -12,10 +12,10 @@
 }
 
 @mixin item-deco ($position, $color, $style, $line) {
-  position: relative;
+  position: $relative;
   color: $link-base-color;
-  list-style: none;
-  line-height: 60px;
+  list-style: $style-none;
+  line-height: $lh-60;
 }
 
 @mixin link-deco ($inherit, $list-style-none, $uppercase, $fz12, $fw500) {
