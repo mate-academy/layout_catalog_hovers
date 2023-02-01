@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex-decoration ($flex, $center, $between);
   box-sizing: border-box;
 
   height: 60px;
@@ -22,10 +20,7 @@
   }
 
   &__item {
-    position: relative;
-    color: #060b35;
-    list-style: none;
-    line-height: 60px;
+    @include item-deco ($relative, $link-base-color, $style-none, $lh-60);
 
     &:not(:last-child) {
       margin-right: 20px;
@@ -33,10 +28,12 @@
   }
 
   &__link {
-    color: inherit;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 500;
+    @include link-deco ($inherit, $style-none, $uppercase, $fz12, $fw500);
+
+    transition: color $transition-300;
+
+    &:hover {
+      color: $link-hovered-color;
+    }
   }
 }
