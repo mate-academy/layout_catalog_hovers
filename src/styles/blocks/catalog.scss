@@ -16,10 +16,17 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin;
+
+    transition: transform $time-transition, color $time-transition;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin;
+    }
+
+    &:hover {
+      transform: scale(120%);
+      color: $card-color;
     }
   }
 }
