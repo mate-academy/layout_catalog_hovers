@@ -7,19 +7,19 @@
   padding: 50px 0;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
-
-    width: 200px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    @include flex-decoration ($flex, $center, $center);
+    @include card-decoration ($card-width, $card-height, $border, $radius);
     margin-bottom: 48px;
+    transition: color $transition-300, transform $transition-300;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-hovered-color;
     }
   }
 }

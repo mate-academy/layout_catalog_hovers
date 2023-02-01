@@ -1,0 +1,27 @@
+@mixin flex-decoration ($d-flex, $a-center, $j-content) {
+  display: $d-flex;
+  align-items: $a-center;
+  justify-content: $j-content;
+}
+
+@mixin card-decoration ($width, $height, $border, $radius) {
+  width: $width;
+  height: $height;
+  border: $border;
+  border-radius: $radius;
+}
+
+@mixin item-deco ($position, $color, $style, $line) {
+  position: $relative;
+  color: $link-base-color;
+  list-style: $style-none;
+  line-height: $lh-60;
+}
+
+@mixin link-deco ($inherit, $list-style-none, $uppercase, $fz12, $fw500) {
+  color: $inherit;
+  text-decoration: $list-style-none;
+  text-transform: $uppercase;
+  font-size: $fz12;
+  font-weight: $fw500;
+}
