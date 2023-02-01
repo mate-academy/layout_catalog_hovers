@@ -17,6 +17,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $trancition-duration;
+
+    &:hover {
+      color: $c--specific-tittle;
+      transform: scale(1.2);
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
