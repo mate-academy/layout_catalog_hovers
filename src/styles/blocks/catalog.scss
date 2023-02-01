@@ -17,14 +17,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color $card-time, transform $card-time;
+    transition: color $card-time, scale $card-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      transform: translate3D(0, 0, 20px);
+      transform: scale(1.2);
       color: #34568b;
     }
 
