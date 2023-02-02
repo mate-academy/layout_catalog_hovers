@@ -27,8 +27,15 @@
     list-style: none;
     line-height: 60px;
 
+    cursor: pointer;
+    transition: color $transitionTime;
+
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: $c-nav-hover;
     }
   }
 
