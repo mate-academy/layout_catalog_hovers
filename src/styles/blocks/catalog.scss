@@ -18,8 +18,18 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    cursor: pointer;
+    transition:
+      $transform-transition,
+      $color-transition;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
