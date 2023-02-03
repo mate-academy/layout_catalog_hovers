@@ -22,7 +22,7 @@
       margin-right: 48px;
     }
 
-    transition: color 300ms linear, transform 300ms linear;
+    transition: color $time $trans-func, transform $time $trans-func;
 
     &:hover {
       color: #34568b;
