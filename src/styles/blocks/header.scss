@@ -39,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: 0.3s all;
+    transition: $transitionPreset;
 
     &:hover {
       color: #00acdc;
