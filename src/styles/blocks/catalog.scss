@@ -22,7 +22,7 @@
       margin-right: 48px;
     }
 
-    transition: $transtion-time $transtiton-function;
+    @extend %transition;
 
     &:hover {
       color: #34568b;
