@@ -21,7 +21,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: $color-dark;
-    transition-duration: 300ms;
+    transition-duration: $duration;
   }
   &__link:hover {
     color: $color-nav;
