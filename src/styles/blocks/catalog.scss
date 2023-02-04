@@ -18,6 +18,14 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: $duration;
+
+    &:hover {
+      transition: $duration;
+      transform: perspective(100px) translateZ(-20px);
+      color: $c-blue-card;
+    }
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
