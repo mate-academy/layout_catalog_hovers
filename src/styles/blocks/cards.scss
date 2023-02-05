@@ -10,18 +10,6 @@
   border: 1px solid #e5e5e5;
   border-radius: 5px;
   transition: transform  300ms;
-
-  &:hover {
-    transform: scale(1.2);
-  
-    .card__about {
-      color: #34568b;
-    }
-    
-    .card__link {
-      color: #00acdc;
-    }
-  }
   
   &__images {
     width: 160px;
@@ -116,10 +104,23 @@
     color: #fff;
     transition: color 300ms;
   }
-  
+
   &__link:hover {
     background-color: #fff;
     border: 1px solid #00acdc;
     color: #00acdc;
   }
+
+  &:hover {
+    transform: scale(1.2);
+  
+    .card__about {
+      color: #34568b;
+    }
+    
+    .card__link {
+      color: #00acdc;
+    }
+  }
+  
 }
