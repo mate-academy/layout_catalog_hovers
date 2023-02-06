@@ -39,6 +39,7 @@
     font-size: 12px;
     font-weight: 500;
     transition: color #{$smoothly-transition};
+    transition-duration: #{$smoothly-transition};
 
     &:hover {
       color: #{$navigation-color};
