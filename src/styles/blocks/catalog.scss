@@ -1,5 +1,3 @@
-$smoothly-transition: 300ms;
-
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -20,6 +18,7 @@ $smoothly-transition: 300ms;
     border-radius: 5px;
     margin-bottom: 48px;
     transition: transform #{$smoothly-transition};
+    transition-duration: #{$smoothly-transition};
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -27,7 +26,7 @@ $smoothly-transition: 300ms;
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: #{$card-title-color};
     }
   }
 }

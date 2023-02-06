@@ -1,5 +1,3 @@
-$smoothly-transition: 300ms;
-
 .header {
   display: flex;
   align-items: center;
@@ -43,7 +41,7 @@ $smoothly-transition: 300ms;
     transition: color #{$smoothly-transition};
 
     &:hover {
-      color: #00acdc;
+      color: #{$navigation-color};
     }
   }
 }
