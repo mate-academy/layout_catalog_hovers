@@ -22,7 +22,7 @@
       margin-right: 48px;
     }
 
-    transition: 300ms;
+    transition: $trn-duration;
     &:hover {
       color: $c-cardOnHover;
       transform: scale(1.2);
