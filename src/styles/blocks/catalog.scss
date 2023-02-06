@@ -1,3 +1,5 @@
+@import "../utilis/variables";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +19,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: transform 0.3s, color 300ms ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $text-color-card-hover;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
