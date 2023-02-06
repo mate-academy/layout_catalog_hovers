@@ -18,6 +18,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: transform $time-transition, color $time-transition;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
@@ -25,7 +27,6 @@
     &:hover {
       transform: scale(120%);
       color: #34568b;
-      transition: 300ms;
     }
   }
 }
