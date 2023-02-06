@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .page {
   font-family: Roboto, sans-serif;
-
-  &__body {
-    margin: 0;
-  }
 }
