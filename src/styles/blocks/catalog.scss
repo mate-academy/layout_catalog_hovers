@@ -22,7 +22,7 @@
       margin-right: 48px;
     }
 
-    @extend %transition;
+    transition: transform $animation-time, color $animation-time ease;
 
     &:hover {
       color: #34568b;

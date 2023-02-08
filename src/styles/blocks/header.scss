@@ -39,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    @extend %transition;
+    transition: color $animation-time ease;
 
     &:hover {
       color: #00acdc;
