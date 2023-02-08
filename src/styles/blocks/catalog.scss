@@ -20,7 +20,7 @@
 
     cursor: pointer;
 
-    transition: color 0.3s, transform 0.3s;
+    transition: color $transition-duration, transform $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
