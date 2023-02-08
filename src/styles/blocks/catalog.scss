@@ -17,17 +17,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $smoothly color $smoothly;
+    transition: transform $smoothly, color $smoothly;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-    color: $title-hover-color;
-    transform: scale(120%);
+      color: $title-hover-color;
+      transform: scale(120%);
     }
   }
-
-
 }
