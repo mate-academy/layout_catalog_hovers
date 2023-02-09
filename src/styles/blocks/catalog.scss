@@ -18,13 +18,21 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+<<<<<<< HEAD
     transition: color 0.3s, transform 0.3s;
+=======
+    transition-duration: 300ms;
+>>>>>>> 133b4df0df5bb4550d33dffa9487f4337f2f45af
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
+<<<<<<< HEAD
+=======
+      cursor: pointer;
+>>>>>>> 133b4df0df5bb4550d33dffa9487f4337f2f45af
       transform: scale(1.2);
       color: #34568b;
     }
