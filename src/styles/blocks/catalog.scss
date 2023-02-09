@@ -10,16 +10,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-
     width: 200px;
     height: 300px;
+    margin-bottom: $margin;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    transition: transform $transition-time, color $transition-time;
+    box-sizing: border-box;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin;
+    }
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
