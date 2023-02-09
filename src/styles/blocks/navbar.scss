@@ -21,7 +21,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: transform $transition-time, color $transition-time;
+    transition: color $transition-time;
   
     &:hover {
       color: #00acdc;
