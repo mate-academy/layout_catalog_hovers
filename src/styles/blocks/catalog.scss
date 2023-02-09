@@ -1,3 +1,6 @@
+$catalog__card-width: 200px;
+$catalog__card-height: 300px;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -7,19 +10,27 @@
   padding: 50px 0;
 
   &__card {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
-    height: 300px;
+    width: $catalog__card-width;
+    height: $catalog__card-height;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: $catalog__card-width / 40;
     margin-bottom: 48px;
+
+    transition: transform 300ms ease, color 300ms ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2, 1.2);
+      color: #34568b;
     }
   }
 }
