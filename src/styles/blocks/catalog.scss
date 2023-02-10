@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $gap;
-    transition-duration: $trans-duration;
+    transition-duration: 0.3s;
 
     &:not(:nth-child(4n)) {
       margin-right: $gap;
