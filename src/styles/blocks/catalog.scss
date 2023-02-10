@@ -1,6 +1,8 @@
 $catalog__card-width: 200px;
 $catalog__card-height: 300px;
 
+$transit-duration: 300ms;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -19,10 +21,10 @@ $catalog__card-height: 300px;
     width: $catalog__card-width;
     height: $catalog__card-height;
     border: 1px solid #ccc;
-    border-radius: $catalog__card-width / 40;
+    border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 300ms ease, color 300ms ease;
+    transition: transform $transit-duration ease, color $transit-duration ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
