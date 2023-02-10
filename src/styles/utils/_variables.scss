@@ -1,2 +1,5 @@
-$card-during-anim: transform 300ms ease-out;
-$header-during-anim: color 300ms ease-out;
+$duration-animation: 300ms;
+
+$card-during-anim: transform $duration-animation ease-out;
+$header-during-anim: color $duration-animation ease-out;
+
