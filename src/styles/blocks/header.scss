@@ -17,8 +17,6 @@
 .nav {
   &__list {
     display: flex;
-    margin: 0;
-    padding: 0;
   }
 
   &__item {
@@ -27,8 +25,14 @@
     list-style: none;
     line-height: 60px;
 
+    transition: $tansition-color;
+
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: $c-blue-title-hover;
     }
   }
 
