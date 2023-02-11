@@ -15,12 +15,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 0.3s linear;
+    transition: $time linear;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
-    
+
     &:hover {
       color: #34568b;
       transform: scale(1.2);
