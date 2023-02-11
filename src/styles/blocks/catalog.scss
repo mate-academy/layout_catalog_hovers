@@ -12,6 +12,7 @@
     box-sizing: border-box;
     width: 200px;
     height: 300px;
+    cursor: pointer;
     border: 1px solid $border-color;
     border-radius: 5px;
     margin-bottom: 48px;
@@ -22,7 +23,6 @@
     }
 
     &:hover {
-      cursor: pointer;
       color: $card-text-color;
       transform: scale(1.2);
     }
