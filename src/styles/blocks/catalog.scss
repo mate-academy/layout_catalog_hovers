@@ -16,7 +16,14 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    cursor: pointer;
     margin-bottom: 48px;
+    transition: $transform-duration ease-in-out 0.5s;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $color-title-transform;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
