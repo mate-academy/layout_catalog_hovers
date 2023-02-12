@@ -38,5 +38,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    transition: color $duration;
+
+    &:hover {
+      color: $c-blue-links;
+    }
   }
 }
