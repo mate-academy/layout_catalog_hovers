@@ -18,11 +18,10 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: $duration;
+    transition: transform $duration, color $duration;
 
     &:hover {
-      transition: $duration;
-      transform: perspective(100px) translateZ(-20px);
+      transform: scale(120%);
       color: $c-blue-card;
     }
 
