@@ -39,9 +39,9 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: $trn-duration;
+    transition: $transition-duration;
     &:hover {
-      color: $c-linkOnHover;
+      color: $color-linkOnHover;
     }
   }
 }

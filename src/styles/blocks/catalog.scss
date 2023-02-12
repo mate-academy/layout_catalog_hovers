@@ -18,13 +18,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: $transition-duration;
+
+    color: $color-cardTitle;
+
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+    margin-right: 48px;
     }
 
-    transition: $trn-duration;
     &:hover {
-      color: $c-cardOnHover;
       transform: scale(1.2);
       cursor: pointer;
     }
