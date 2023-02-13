@@ -18,7 +18,8 @@
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 48px;
-    transition: $transform-duration ease-in-out 0.5s;
+    transition: transform $transform-duration,
+      color $transform-duration;
 
     &:hover {
       transform: scale(1.2);
