@@ -1,3 +1,5 @@
+$hover-card-color: #34568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +19,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+
+    &:hover {
+      color: #{$hover-card-color};
+      transform: scale(120%);
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
