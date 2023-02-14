@@ -30,6 +30,7 @@ $duration: 300ms;
     line-height: 60px;
 
     transition: $duration;
+    transition-property: color;
 
     &:not(:last-child) {
       margin-right: 20px;
