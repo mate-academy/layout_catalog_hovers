@@ -29,8 +29,8 @@ $duration: 300ms;
     list-style: none;
     line-height: 60px;
 
-    transition: $duration;
-    transition-property: color;
+    transition: color $duration;
+   
 
     &:not(:last-child) {
       margin-right: 20px;
