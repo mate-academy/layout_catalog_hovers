@@ -1,3 +1,5 @@
+$duration: 300ms;
+
 .header {
   display: flex;
   align-items: center;
@@ -27,7 +29,7 @@
     list-style: none;
     line-height: 60px;
 
-    transition-duration: 300ms;
+    transition: $duration;
 
     &:not(:last-child) {
       margin-right: 20px;
