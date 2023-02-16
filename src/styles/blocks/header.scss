@@ -38,5 +38,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
+    transition: color $animation-duration ease;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
