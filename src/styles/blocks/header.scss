@@ -37,6 +37,7 @@
     font-size: 12px;
     font-weight: 500;
     transition-duration: $speed-of-change;
+    transition-property: color;
   }
 
   &__link:hover {
