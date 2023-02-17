@@ -1,3 +1,5 @@
+$duration: 300ms;
+
 .header {
   display: flex;
   align-items: center;
@@ -40,7 +42,7 @@
     font-weight: 500;
 
     &:hover {
-      transition: 300ms;
+      transition: color $duration;
       color: #00acdc;
     }
   }
