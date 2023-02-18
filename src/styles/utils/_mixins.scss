@@ -1,0 +1,5 @@
+@mixin transition-hover {
+  cursor: pointer;
+  transition: color 300ms;
+  transition-timing-function: ease;
+}

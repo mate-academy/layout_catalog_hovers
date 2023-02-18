@@ -39,12 +39,10 @@
     font-size: 12px;
     font-weight: 500;
 
-    cursor: pointer;
-    transition: color 300ms;
-    transition-timing-function: ease;
+    @include transition-hover;
 
     &:hover {
-      color: #00acdc;
+      color: $hover-navigation-link-text-color;
     }
   }
 }

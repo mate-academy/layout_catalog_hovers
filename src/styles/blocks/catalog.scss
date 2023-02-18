@@ -18,16 +18,15 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    cursor: pointer;
-    transition: color 300ms, transform 300ms;
-    transition-timing-function: ease;
+    @include transition-hover;
+    transition: transform 300ms;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      color: #34568b;
+      color: $hover-card-title-text-color;
       transform: scale(1.2);
     }
   }
