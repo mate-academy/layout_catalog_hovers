@@ -22,7 +22,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
     position: relative;
-    transition: all $duration ease;
+    transition: color $duration $animation-timing-function,
+      transform $duration $animation-timing-function;
 
     &:hover {
       transform: scale(1.2);
