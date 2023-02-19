@@ -1,3 +1,6 @@
+
+@import "../utils/variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -38,5 +41,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $duration $animation-timing-function;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
