@@ -1,16 +1,12 @@
 .header {
-  display: flex;
-  align-items: center;
+  @extend %flex-center;
   justify-content: space-between;
-  box-sizing: border-box;
-
-  height: 60px;
+  height: $header-height;
   padding: 0 50px;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
-    height: 40px;
+    height: $header-logo-height;
   }
 }
 
@@ -23,9 +19,9 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $nav-item-color;
     list-style: none;
-    line-height: 60px;
+    line-height: $header-height;
 
     &:not(:last-child) {
       margin-right: 20px;
@@ -38,5 +34,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-duration: $transition-duration-time;
+
+    &:hover {
+      color: $header-hover-color;
+    }
   }
 }
