@@ -1,0 +1,4 @@
+@mixin transition-hover {
+  cursor: pointer;
+  transition: color $transition-duration ease;
+}

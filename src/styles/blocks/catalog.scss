@@ -18,8 +18,16 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    @include transition-hover;
+    transition: transform $transition-duration;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      color: $hover-card-title-text-color;
+      transform: $catalog-hover-scale;
     }
   }
 }
