@@ -6,7 +6,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
-    height: $header-logo-height;
+    height: 40px;
   }
 }
 
@@ -19,7 +19,7 @@
 
   &__item {
     position: relative;
-    color: $nav-item-color;
+    color: #060b35;
     list-style: none;
     line-height: $header-height;
 
@@ -37,7 +37,7 @@
     transition-duration: $transition-duration-time;
 
     &:hover {
-      color: $header-hover-color;
+      color: #00acdc;
     }
   }
 }

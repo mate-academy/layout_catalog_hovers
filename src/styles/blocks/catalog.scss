@@ -1,15 +1,15 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-  max-width: $catalog-max-width;
+  max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
 
   &__card {
     @extend %flex-center;
     justify-content: center;
-    width: $card-width;
-    height: $card-height;
+    width: 200px;
+    height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
@@ -21,8 +21,8 @@
     }
 
     &:hover {
-      transform: scale($card-hover-scale);
-      color: $card-hover-color;
+      transform: scale(120%);
+      color: #34568b;
       transition-duration: $transition-duration-time;
     }
   }
