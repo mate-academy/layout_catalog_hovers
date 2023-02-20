@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -14,9 +16,15 @@
 
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-card-border;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: all $duration-time $timing-function;
+
+    &:hover {
+      color: $color-title-hov;
+      transform: scale(1.2);
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
