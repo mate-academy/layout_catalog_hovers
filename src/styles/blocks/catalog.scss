@@ -11,12 +11,18 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    transition-duration: 300ms;
 
-    width: 200px;
-    height: 300px;
-    border: 1px solid #ccc;
+    width: $card_width;
+    height: $card_height;
+    border: 1px solid $card_border_color;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    &:hover {
+      color: $card_color_hover;
+      transform: scale(1.2);
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
