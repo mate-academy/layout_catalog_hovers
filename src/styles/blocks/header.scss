@@ -19,6 +19,8 @@
     display: flex;
     margin: 0;
     padding: 0;
+    transition: 300ms;
+
   }
 
   &__item {
@@ -38,5 +40,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
