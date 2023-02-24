@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: var(--transition-second);
+    transition: transform var(--transition-second),color var(--transition-second);
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
