@@ -1,3 +1,4 @@
+// @import "../variables.scss";
 .header {
   display: flex;
   align-items: center;
@@ -26,9 +27,14 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition: color $smooth-animate ease-in;
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: #00acdc;
     }
   }
 
