@@ -1,5 +1,3 @@
-@import "./utils.scss";
-
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 300ms ease;
+    transition: transform 300ms, color 300ms;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
