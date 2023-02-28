@@ -1,4 +1,6 @@
-.header {
+$moyo-teal-color: #00acdc;
+
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,5 +40,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $moyo-teal-color;
+    }
   }
 }
