@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 0.3s, color 0.3s;
+    transition: transform $smooth, color $smooth;
 
     &:hover {
       color: #34568b;
