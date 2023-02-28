@@ -11,20 +11,21 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition: transform 300ms;
-
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
 
+    @include transforms-hover-cards;
+    transition: transform $duration;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      color: #34568b;
+      color: $color-title-card;
       transform: scale(1.2);
     }
   }
