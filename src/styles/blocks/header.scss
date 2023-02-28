@@ -33,10 +33,16 @@
   }
 
   &__link {
+    @extend %smooth-transition;
+
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
