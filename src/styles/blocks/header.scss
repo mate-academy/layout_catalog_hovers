@@ -40,7 +40,7 @@
     font-weight: 500;
     padding: 10px 0;
 
-    transition: $hoverTransition;
+    transition: color $hoverTransition ease-in-out;
 
     &:hover {
       color: #00acdc;
