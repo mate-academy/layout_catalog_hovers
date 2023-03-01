@@ -1,3 +1,5 @@
+$transition-calor: #34568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -22,7 +24,7 @@
 
     &:hover {
       transform: scale(120%);
-      color: #34568b;
+      color: $transition-calor;
     }
 
     &:not(:nth-child(4n)) {
