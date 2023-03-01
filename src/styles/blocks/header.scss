@@ -23,12 +23,19 @@
 
   &__item {
     position: relative;
+
+    transition: color $transitionDuration;
+
     color: #060b35;
     list-style: none;
     line-height: 60px;
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: #00acdc;
     }
   }
 
