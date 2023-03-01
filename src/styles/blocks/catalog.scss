@@ -23,6 +23,7 @@
     }
 
     transition-duration: 0.3s;
+    transition-property: transform, color;
 
     &:hover {
       transform: scale(1.2);

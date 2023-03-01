@@ -32,6 +32,7 @@
     }
 
     transition-duration: 0.3s;
+    transition-property: color;
 
     &:hover {
       color: #00acdc;
