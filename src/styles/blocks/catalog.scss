@@ -17,9 +17,17 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: // eslint-disable-line
+      transform $duration-standart ease-in-out,
+      color $duration-standart ease-in-out;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(120%);
+      color: #34568b;
     }
   }
 }
