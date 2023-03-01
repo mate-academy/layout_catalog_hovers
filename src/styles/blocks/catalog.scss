@@ -21,5 +21,12 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    transition: color 0.3s, transform 0.3s;
+
+    &:hover {
+      color: $ColorDarkBlueActive;
+      transform: scale(1.2);
+    }
   }
 }
