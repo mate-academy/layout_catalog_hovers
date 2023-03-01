@@ -38,7 +38,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color $duration ease-in;
+    transition: color $transition-duration ease-in;
 
     &:hover {
       color: $color-blue;

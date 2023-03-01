@@ -16,9 +16,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-
-    @include transforms-hover-cards;
-    transition: transform $duration;
+    transition: transform $transition-duration, color $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
