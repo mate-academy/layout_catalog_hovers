@@ -11,15 +11,20 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $transition-duration, color $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      color: $color-title-card;
+      transform: scale(1.2);
     }
   }
 }
