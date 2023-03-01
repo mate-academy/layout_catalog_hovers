@@ -12,6 +12,9 @@
     align-items: center;
     box-sizing: border-box;
 
+    transition: color $transition-duration,
+      transform $transition-duration;
+
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
@@ -20,6 +23,12 @@
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+      cursor: pointer;
     }
   }
 }
