@@ -26,7 +26,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition: 0.3s linear;
+    transition: $smoothTime linear;
 
     &:hover {
       color: #00acdc;
