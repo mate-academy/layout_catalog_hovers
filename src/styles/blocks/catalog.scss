@@ -13,14 +13,14 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition: color $transitionSpeed,
-      transform $transitionSpeed;
 
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+
+    transition: color $transitionSpeed, transform $transitionSpeed;
 
     &:hover {
       color: #34568b;
