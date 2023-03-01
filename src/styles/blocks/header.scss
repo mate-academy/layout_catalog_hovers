@@ -31,7 +31,6 @@
   }
 
   &__link {
-    @extend %smooth-transition;
     display: flex;
     align-items: center;
     height: 60px;
@@ -40,6 +39,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color 0.3 linear;
 
     &:hover {
       color: #00acdc;
