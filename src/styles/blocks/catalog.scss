@@ -19,9 +19,9 @@
     margin-bottom: 48px;
     transition: $transitionTime;
 
-    &:hover{
+    &:hover {
       transform: scale(1.2);
-      color:#34568b;
+      color: #34568b;
     }
 
     &:not(:nth-child(4n)) {
