@@ -40,7 +40,7 @@ $animation-duration: 300ms;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: #{$animation-duration};
+    transition: #{$animation-duration} ease-in-out;
 
     &:hover {
       color: #00acdc;
