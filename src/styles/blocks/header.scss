@@ -1,4 +1,5 @@
 $hover-color: #00acdc;
+$transition-duration: 300ms;
 
 .header {
   display: flex;
@@ -41,8 +42,7 @@ $hover-color: #00acdc;
     font-size: 12px;
     font-weight: 500;
 
-    transition-duration: 300ms;
-
+    transition: transform $transition-duration, color $transition-duration;
     &:hover {
       color: $hover-color;
     }
