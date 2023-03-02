@@ -20,11 +20,10 @@ $hover-card-color: #34568b;
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition-duration: 300ms;
-    transition-timing-function: linear;
+    transition: transform $transitionDuration, color $transitionDuration;
 
     &:hover {
-      color: #{$hover-card-color};
+      color: $hover-card-color;
       transform: scale(120%);
     }
 

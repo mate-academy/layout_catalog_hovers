@@ -40,11 +40,10 @@ $hover-nav-link: #00acdc;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration: 300ms;
-    transition-timing-function: linear;
+    transition: transform $transitionDuration, color $transitionDuration;
 
     &:hover {
-      color: #{$hover-nav-link};
+      color: $hover-nav-link;
     }
   }
 }
