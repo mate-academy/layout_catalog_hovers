@@ -1,0 +1,9 @@
+@mixin card-size {
+  width: 200px;
+  height: 300px;
+}
+
+@mixin zero {
+  margin: 0;
+  padding: 0;
+}
