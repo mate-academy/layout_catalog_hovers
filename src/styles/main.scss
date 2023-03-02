@@ -3,6 +3,7 @@ $color-black: #060b35;
 $color-blue: #00acdc;
 $color-grey: #34568b;
 $color-white: #ccc;
+$transition-duration: 0.3s;
 
 @import "blocks/page";
 @import "blocks/header";
