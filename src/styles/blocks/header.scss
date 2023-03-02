@@ -30,6 +30,7 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+
   }
 
   &__link {
@@ -38,5 +39,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $smoothTransitionTime;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
