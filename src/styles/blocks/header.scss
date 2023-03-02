@@ -39,7 +39,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: $smoothTransitionTime;
+    transition: color $smoothTransitionTime;
 
     &:hover {
       color: #00acdc;
