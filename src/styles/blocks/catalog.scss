@@ -1,25 +1,16 @@
+@import "../utils/mixin";
+@import "../utils/variables";
+
 .catalog {
+  @include container($container-main);
   display: flex;
   flex-wrap: wrap;
-
-  max-width: 944px;
-  margin: 0 auto;
   padding: 50px 0;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-
-    width: 200px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 48px;
-
-    &:not(:nth-child(4n)) {
-      margin-right: 48px;
+    margin: 0 $margin-between-sides-cards $margin-between-cards-top-bot 0;
+    &:nth-child(4n) {
+      margin-right: 0;
     }
   }
 }
