@@ -23,7 +23,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $nav-item-color;
     list-style: none;
     line-height: 60px;
 
@@ -38,10 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: $smooth-color-transition;
+    transition: color $transitionDuration;
 
     &:hover {
-      color: #00acdc;
+      color: $nav-hover-color;
     }
   }
 }
