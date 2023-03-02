@@ -19,7 +19,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $duration ease-in-out, color $duration ease-in-out;
+    transition: transform $durationTransform ease-in-out,
+      color $durationColor ease-in-out;
 
     &:hover {
       transform: scale(1.2);
