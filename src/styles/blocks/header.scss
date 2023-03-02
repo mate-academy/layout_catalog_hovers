@@ -26,9 +26,15 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
+    transition: color 0.3s ease-in-out;
 
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: #00acdc;
+      cursor: pointer;
     }
   }
 
