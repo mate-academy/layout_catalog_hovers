@@ -1,3 +1,6 @@
+@import "./../utils/variables";
+@import "./../utils/mixins";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -11,12 +14,16 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
-    width: 200px;
-    height: 300px;
+    @include card-size;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: all $time-hover;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $hover-card-color;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
