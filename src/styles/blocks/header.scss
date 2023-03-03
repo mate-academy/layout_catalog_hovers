@@ -39,7 +39,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 0.3 linear;
+    transition: color $colorTransitionDuration linear;
 
     &:hover {
       color: #00acdc;
