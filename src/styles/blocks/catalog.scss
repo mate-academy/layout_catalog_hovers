@@ -24,7 +24,7 @@
     }
 
     &:hover {
-      color: #34568b;
+      color: $hover-color;
       transform: scale(1.2);
     }
   }
