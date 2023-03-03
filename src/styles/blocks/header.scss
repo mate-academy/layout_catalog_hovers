@@ -27,7 +27,7 @@
     list-style: none;
     line-height: 60px;
 
-    transition: color 300ms;
+    transition: color $animation-duration;
 
     &:hover {
       color: #00acdc;
