@@ -17,9 +17,17 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition-duration: $time-transition;
+    transition-property: transform, color;
+    transition-timing-function: ease-in-out;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $color-hover-card;
     }
   }
 }
