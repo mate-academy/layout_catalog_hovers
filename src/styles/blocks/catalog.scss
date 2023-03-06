@@ -19,6 +19,7 @@
     margin-bottom: 48px;
 
     transition-duration: $animationDuration;
+    transition-property: transform, color;
 
     &:hover {
       color: #34568b;
