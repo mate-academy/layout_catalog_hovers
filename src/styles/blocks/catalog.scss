@@ -19,15 +19,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: color $smooth-duration, transform $smooth-duration ;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $text-card-color;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
-    }
-
-    &:hover {
-      transition: $duration;
-      transform: $card-increase;
-      color: $text-card-color;
     }
   }
 }
