@@ -15,7 +15,8 @@
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 5px;
-    transition: color 300ms, transform 300ms;
+    transition: color, transform ;
+    transition-duration: 300ms;
 
     &:hover {
       color: #34568b;
