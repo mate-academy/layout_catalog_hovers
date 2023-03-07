@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: color, transform $smooth-duration;
+    transition: color $smooth-duration, transform $smooth-duration;
     box-sizing: border-box;
     width: 200px;
     height: 300px;
