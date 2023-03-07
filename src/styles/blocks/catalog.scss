@@ -1,23 +1,27 @@
 .catalog {
   display: flex;
-  flex-wrap: wrap;
-
-  max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+  max-width: 944px;
+  flex-wrap: wrap;
 
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
-
+    display: flex;
     width: 200px;
     height: 300px;
+    margin-bottom: 48px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    transition: color 300ms, transform 300ms;
 
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
+    
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
