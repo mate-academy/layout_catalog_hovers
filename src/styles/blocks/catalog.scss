@@ -18,6 +18,13 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: color $transition-time ease, transform $transition-time ease;;
+
+      &:hover {
+        scale: 1.2;
+        color: $color-card-hover;
+      }
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
