@@ -18,7 +18,7 @@
 
   &__card {
     margin: 0 auto;
-    transition: $duration-animation all;
+    transition: scale $duration-animation;
 
     &:hover {
       scale: 1.2;

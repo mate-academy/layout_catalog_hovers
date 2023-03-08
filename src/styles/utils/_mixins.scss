@@ -1,4 +1,3 @@
-/*Calc cards margin right and margin bottom depends qty of cards per row*/
 @mixin marginCardsRightBottom($qty-card-per-row) {
   &:not(:nth-child(#{$qty-card-per-row}n)) {
     margin-right: $margin-right-product-item;

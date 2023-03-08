@@ -9,6 +9,6 @@
   color: #fff;
   background-color: $color-primary-accent-blue;
   border: 1px solid $color-primary-accent-blue;
-  transition: 0.3s all;
+  transition: color $duration-animation, background-color $duration-animation;
   word-break: break-all;
 }

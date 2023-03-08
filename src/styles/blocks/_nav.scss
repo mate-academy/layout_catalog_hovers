@@ -18,7 +18,7 @@
     font-weight: 500;
     color: $color-primary-accent-black;
     text-transform: uppercase;
-    transition: $duration-animation all;
+    transition: color $duration-animation;
 
     &:hover {
       color: $color-primary-accent-blue;
