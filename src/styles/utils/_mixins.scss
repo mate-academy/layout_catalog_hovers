@@ -1,0 +1,8 @@
+@mixin marginCardsRightBottom($qty-card-per-row) {
+  &:not(:nth-child(#{$qty-card-per-row}n)) {
+    margin-right: $margin-right-product-item;
+  }
+  &:not(:nth-last-child(-n + #{$qty-card-per-row})) {
+    margin-bottom: $margin-bottom-product-item;
+  }
+}

@@ -1,0 +1,10 @@
+@function calcCardsContainerWidth(
+  $width-card,
+  $qty-card-per-row,
+  $margin-right-product-item
+) {
+  @return (
+    $qty-card-per-row * $width-card + ($qty-card-per-row - 1) *
+    $margin-right-product-item
+  );
+}
