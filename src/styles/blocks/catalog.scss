@@ -17,16 +17,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: 300ms linear;
-    
+    transition: $transition linear;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      transform: scale(1.2);
-      color:#34568b;
+      transform: scale($scale);
+      color: $color-hover-card;
     }
   }
 }
