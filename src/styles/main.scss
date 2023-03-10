@@ -1,3 +1,27 @@
-@import "blocks/page";
+* {
+  box-sizing: border-box;
+}
+
+body,
+p,
+a,
+h2,
+img,
+ul,
+li,
+nav,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
 @import "blocks/header";
 @import "blocks/catalog";
+@import "blocks/nav";
+@import "blocks/card";
+@import "blocks/stars";
