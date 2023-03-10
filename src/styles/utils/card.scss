@@ -39,11 +39,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 23px;
+  }
 
-    &-tag {
-      font-size: 10px;
-      color: $color-main-accent;
-    }
+  &__reviews-tag {
+    font-size: 10px;
+    color: $color-main-accent;
   }
 
   &__price {
@@ -51,17 +51,17 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
+  }
 
-    &-tag {
-      font-size: inherit;
-      color: $color-secondary;
-    }
+  &__price-tag {
+    font-size: inherit;
+    color: $color-secondary;
+  }
 
-    &-value {
-      font-weight: 700;
-      font-size: 16px;
-      color: $color-main-accent;
-    }
+  &__price-value {
+    font-weight: 700;
+    font-size: 16px;
+    color: $color-main-accent;
   }
 
   &__button {
