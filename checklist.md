@@ -26,9 +26,8 @@ BAD example:
   }
 }
 ```
-
 2. [BEM] - Check your BEM structure using BEM-linter (`npm run lint`) and
-   [this list](https://mate-academy.github.io/fe-program/css/typical-bem-mistakes)
+[this list](https://mate-academy.github.io/fe-program/css/typical-bem-mistakes-en)
 
 3. [SASS] - Make use of SASS nesting - write pseudo-class, pseudo-element
    selectors inside general selector. As well as media queries.
