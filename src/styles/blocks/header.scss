@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -39,7 +41,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: 300ms;
+    transition: $transition-time;
   }
 
   &__link:hover {
