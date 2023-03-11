@@ -1,8 +1,7 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
-  max-width: 944px;
+  max-width: $catalog-max-width-value;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -17,9 +16,14 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition-duration: $duration-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+  }
+  &__card:hover {
+    color: $card-title-color;
+    transform: scale(120%);
   }
 }
