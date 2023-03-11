@@ -38,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $time-transition ease-in-out;
+
+    &:hover {
+      color: $color-hover-link;
+    }
   }
 }
