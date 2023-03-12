@@ -40,10 +40,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 300ms;
-  }
+    transition: color $trans-duration;
 
-  &__link:hover {
-    color: #00acdc;
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
