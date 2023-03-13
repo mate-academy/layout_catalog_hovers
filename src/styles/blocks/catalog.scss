@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    transition-duration: 0.3s;
 
     width: 200px;
     height: 300px;
@@ -20,6 +21,11 @@
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
     }
   }
 }
