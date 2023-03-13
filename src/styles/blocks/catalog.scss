@@ -6,6 +6,8 @@
   margin: 0 auto;
   padding: 50px 0;
 
+  --tranform-duration: 0.3s;
+
   &__card {
     display: flex;
     justify-content: center;
@@ -17,9 +19,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: var(--tranform-duration);
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
   }
+
+  &__card:hover {
+    transform: scale(1.2);
+    color: #34568b;
+  }
+
 }
