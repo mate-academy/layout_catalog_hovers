@@ -1,3 +1,7 @@
+:root {
+  --transition-duration: 0.3s;
+}
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -11,8 +15,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition-duration: 0.3s;
-
+    transition-duration: var(--transition-duration);
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
