@@ -7,7 +7,7 @@
   height: 60px;
   padding: 0 50px;
 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px $color-dark;
 
   &__logo {
     height: 40px;
@@ -15,6 +15,7 @@
 }
 
 .nav {
+  transition: 300ms;
   &__list {
     display: flex;
     margin: 0;
@@ -23,13 +24,17 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-black;
     list-style: none;
     line-height: 60px;
 
     &:not(:last-child) {
       margin-right: 20px;
     }
+  }
+
+  &__link:hover {
+    color: $color-blue;
   }
 
   &__link {
