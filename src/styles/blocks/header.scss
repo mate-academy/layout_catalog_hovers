@@ -23,7 +23,7 @@
     color: #060b35;
     list-style: none;
     line-height: 60px;
-    transition: 300ms;
+    transition: $transition-time;
     cursor: pointer;
 
     &:not(:last-child) {
