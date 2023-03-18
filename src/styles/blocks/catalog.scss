@@ -5,7 +5,6 @@
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
-  perspective: 1000px;
 
   &__card {
     display: flex;
@@ -21,7 +20,7 @@
     transition: color 300ms, transform 300ms;
 
     &:hover {
-      transform: translateZ(200px);
+      transform: scale(1.2,1.2);
       color: #34568b;
     }
 
