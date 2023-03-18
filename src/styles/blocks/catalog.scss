@@ -18,6 +18,27 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    @keyframes scale {
+      from {
+        transform: scale(1, 1);
+      }
+      to {
+        transform: scale(1.2, 1.2);
+      }
+    }
+
+    @keyframes color {
+      100% {
+        color: #34568b;
+      }
+    }
+
+    transform: color, scale;
+
+    &:hover {
+      animation: scale 0.3s linear, color 0.3s ease;
+    }
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
