@@ -11,6 +11,9 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    cursor: pointer;
+    transition: all $transition-time linear;
+   
 
     width: 200px;
     height: 300px;
@@ -21,5 +24,10 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+    &:hover {
+      color: $hover-card-color;
+      transform: scale(1.2);
+    }
+
   }
 }
