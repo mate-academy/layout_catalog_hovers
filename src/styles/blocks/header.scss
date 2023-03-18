@@ -41,7 +41,7 @@
     transition: $transition-time linear;
 
     &:hover {
-      color: #00acdc;
+      color: $hover-link-color;
     }
   }
 }
