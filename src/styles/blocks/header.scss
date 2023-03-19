@@ -1,3 +1,5 @@
+$link-hover-color: #00acdc;
+
 .header {
   display: flex;
   align-items: center;
@@ -39,15 +41,10 @@
     font-size: 12px;
     font-weight: 500;
 
-    @keyframes link-color {
-      100% {
-        color: #00acdc;
-      }
-    }
-    transform: link-color;
+    transition: color 0.3s;
 
     &:hover {
-      animation: link-color 0.3s linear;
+      color: $link-hover-color;
     }
   }
 }

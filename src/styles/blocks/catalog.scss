@@ -1,3 +1,6 @@
+$transform-scale: 1.2;
+$card-hover-color: #34568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -18,25 +21,11 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    @keyframes scale {
-      from {
-        transform: scale(1, 1);
-      }
-      to {
-        transform: scale(1.2, 1.2);
-      }
-    }
-
-    @keyframes color {
-      100% {
-        color: #34568b;
-      }
-    }
-
-    transform: color, scale;
+    transition: color 0.3s, transform 0.3s;
 
     &:hover {
-      animation: scale 0.3s linear, color 0.3s ease;
+      transform: scale($transform-scale);
+      color: $card-hover-color;
     }
 
     &:not(:nth-child(4n)) {
