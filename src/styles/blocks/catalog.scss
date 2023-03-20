@@ -17,7 +17,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform color $transition-duration ease-out;
+    transition: all $transition-duration ease-out;
 
     &:hover {
       cursor: pointer;
