@@ -15,7 +15,6 @@
 }
 
 .nav {
-  transition-duration: 300ms;
 
   &__list {
     display: flex;
@@ -35,14 +34,15 @@
   }
 
   &__link {
+    transition: $duration;
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-  }
 
-  &:hover {
-    color: #00acdc;
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
