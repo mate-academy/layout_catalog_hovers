@@ -5,7 +5,7 @@
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   width: $card-width;
-  transition: transform 300ms linear;
+  transition: transform $time linear;
 
   &__image {
     align-self: center;
@@ -20,11 +20,7 @@
     color: $color-main-accent;
     margin-bottom: 4px;
     margin-top: 40px;
-
-    &:hover {
-      color: $color-title-blue;
-      cursor: context-menu;
-    }
+    transition: color $time linear;
   }
 
   &__code {
@@ -77,9 +73,9 @@
     text-transform: uppercase;
     border: 1px solid $color-accent-blue;
     border-radius: 5px;
-    transition: color, background-color 0.4s linear;
+    transition: color, background-color $time linear;
 
-    &:hover &__title {
+    &:hover {
       background-color: white;
       color: $color-accent-blue;
     }
@@ -89,4 +85,7 @@
     transform: scale(1.2);
   }
 
+  &:hover .card__title {
+    color: $color-title-blue;
+  }
 }
