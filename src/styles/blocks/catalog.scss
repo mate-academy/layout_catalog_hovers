@@ -16,10 +16,16 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $size;
+    transition: transform $time;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $size;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $blue-color;
     }
   }
 }
