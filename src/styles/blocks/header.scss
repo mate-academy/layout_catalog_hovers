@@ -45,3 +45,19 @@
     }
   }
 }
+
+.is-active {
+  color: #00acdc;
+}
+
+.is-active::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  content: " ";
+  height: 4px;
+  width: 100%;
+  background-color: #00acdc;
+  border-radius: 2px;
+}
