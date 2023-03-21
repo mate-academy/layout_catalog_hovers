@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: all 0.3s ease;
+    transition: transform , color,  $transition-hover  ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
