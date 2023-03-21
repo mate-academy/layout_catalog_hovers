@@ -38,9 +38,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 
-    &:hover{
+    &:hover {
       color: #00acdc;
     }
   }
