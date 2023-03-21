@@ -1,3 +1,5 @@
+@import "../utils/variables.scss";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -14,18 +16,17 @@
 
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $c-color;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-duration: 300ms, 300ms;
-    transition-property: color, transform;
+    transition: color $transitionDuration, transform $transitionDuration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      color: #34568b;
+      color: $card-hover-color;
       transform: scale(120%);
     }
   }
