@@ -20,7 +20,7 @@
     color: $color-main-accent;
     font-weight: 500;
     line-height: 60px;
-    transition: color, $time linear;
+    transition: color, $transition-time linear;
 
     &:hover {
       color: $color-accent-blue;
