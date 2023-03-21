@@ -1,4 +1,4 @@
-$link-hover-color: #00acdc;
+@import "../utils/variables";
 
 .header {
   display: flex;
@@ -41,7 +41,7 @@ $link-hover-color: #00acdc;
     font-size: 12px;
     font-weight: 500;
 
-    transition: color 0.3s;
+    transition: color $duration;
 
     &:hover {
       color: $link-hover-color;

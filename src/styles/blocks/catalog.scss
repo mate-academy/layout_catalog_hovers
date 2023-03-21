@@ -1,5 +1,4 @@
-$transform-scale: 1.2;
-$card-hover-color: #34568b;
+@import "../utils/variables";
 
 .catalog {
   display: flex;
@@ -21,7 +20,7 @@ $card-hover-color: #34568b;
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: color 0.3s, transform 0.3s;
+    transition: color $duration, transform $duration;
 
     &:hover {
       transform: scale($transform-scale);
