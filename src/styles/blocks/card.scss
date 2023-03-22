@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition-duration: 300ms;
 
   &__image {
     width: 160px;
@@ -23,6 +24,15 @@
     line-height: 18px;
     margin: 0;
     margin-bottom: 4px;
+    transition-duration: 300ms;
+  }
+
+  &:hover {
+    transform: scale(120%);
+
+    .product-card__title {
+      color: #34568b;
+    }
   }
 
   &__product-code {
