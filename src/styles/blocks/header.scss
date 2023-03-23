@@ -39,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color, $transition-time;
+    transition: color $transition-time;
 
     &:hover {
       color: $nav-link-color;
