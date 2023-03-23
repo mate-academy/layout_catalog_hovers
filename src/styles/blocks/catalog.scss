@@ -25,7 +25,6 @@
     }
 
     &:hover {
-      transition: $transition-duration;
       transform: scale($card-hover-scale);
       color: #34568b;
     }
