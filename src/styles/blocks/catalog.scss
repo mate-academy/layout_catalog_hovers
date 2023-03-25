@@ -18,6 +18,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
     transition: transform $duration-time, color $duration-time;
 
     &:not(:nth-child(4n)) {
@@ -25,7 +26,6 @@
     }
 
     &:hover {
-      cursor: pointer;
       transform: scale(1.2);
       color: $title-card-color;
     }
