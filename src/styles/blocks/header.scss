@@ -40,10 +40,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color #{$smooth-time} ease;
+    transition: color #{$smooth-time};
 
     &:hover {
-      transition: color #{$smooth-time} ease;
       color: #00acdc;
     }
   }

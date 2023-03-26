@@ -6,7 +6,6 @@
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
-  perspective: 500px;
 
   &__card {
     display: flex;
@@ -18,18 +17,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color #{$smooth-time} ease;
-    transform: translateZ(100px) #{$smooth-time};
+    transition: color #{$smooth-time}, transform #{$smooth-time};
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
     &:hover {
-      transition: color #{$smooth-time} ease;
       cursor: pointer;
       color: #34568b;
-      transform: translateZ(100px);
+      transform: scale(1.2);
     }
   }
 }
