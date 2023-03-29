@@ -1,3 +1,5 @@
+@use "../utiles/_variables" as *;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -11,7 +13,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition: color 300ms, transform 300ms;
+    transition: color $time-transition, transform $time-transition;
 
     width: 200px;
     height: 300px;
