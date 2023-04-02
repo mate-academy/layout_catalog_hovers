@@ -1,3 +1,11 @@
 @import "blocks/page";
 @import "blocks/header";
 @import "blocks/catalog";
+
+.nav__item {
+  transition-duration: 300ms;
+}
+
+.nav__item:hover {
+  color: #00acdc;
+}
