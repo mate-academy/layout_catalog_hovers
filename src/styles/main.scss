@@ -1,9 +1,10 @@
+@import "utils/_variables";
 @import "blocks/page";
 @import "blocks/header";
 @import "blocks/catalog";
 
 .nav__item {
-  transition-duration: 300ms;
+  transition: color $transition-duration;
 }
 
 .nav__item:hover {
