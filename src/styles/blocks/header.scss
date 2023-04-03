@@ -36,11 +36,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 0.3s ease-out 0.3s;
+    transition: color $speed ease-out $speed;
   }
 
   &__link:hover {
-    transition: color 0.3s ease-out 0s;
+    transition: color $speed ease-out 0s;
     color: #00acdc;
   }
 }
