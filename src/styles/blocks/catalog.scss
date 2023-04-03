@@ -16,7 +16,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform 300ms;
+    transition: transform 0.3s ease-out 0.3s;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -25,6 +25,7 @@
     &:hover {
       color: #34568b;
       transform: scale(1.2);
+      transition: 0.3s ease-out 0s;
     }
   }
 }
