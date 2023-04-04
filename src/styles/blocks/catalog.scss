@@ -20,8 +20,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: 0.3s;
     transition-timing-function: ease;
-    transition: 300ms;
 
     &:hover {
       background-color: yellow;

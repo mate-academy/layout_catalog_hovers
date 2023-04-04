@@ -38,9 +38,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    
+
+    transition: 0.3s;
     transition-timing-function: ease;
-    transition: 300ms;
   }
 
   &__link:hover {
