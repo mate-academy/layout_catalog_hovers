@@ -38,11 +38,12 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration:0.3s;
+    transition-duration: 0.3s;
+    transition-property: color, transform;
 
     &:hover {
       transform: scale(0.8);
-      color:#00acdc;
+      color: #00acdc;
     }
   }
 }

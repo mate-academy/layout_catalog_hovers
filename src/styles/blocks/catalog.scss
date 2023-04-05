@@ -11,7 +11,8 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    transition: transform 0.3s;
+    transition-duration: 0.3s;
+    transition-property: color, transform;
 
     width: 200px;
     height: 300px;
@@ -25,7 +26,7 @@
 
     &:hover {
       transform: scale(0.8);
-      color:#34568b;
+      color: #34568b;
     }
   }
 
