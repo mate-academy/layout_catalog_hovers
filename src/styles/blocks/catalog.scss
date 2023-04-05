@@ -20,7 +20,7 @@
     border-radius: 5px;
     margin-bottom: $margin-catalog;
     transition: transform $transition-time $transition,
-     color $transition-time $transition ;
+      color $transition-time $transition ;
 
     &:not(:nth-child(4n)) {
       margin-right: $margin-catalog;
