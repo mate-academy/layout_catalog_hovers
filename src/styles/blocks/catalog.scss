@@ -1,4 +1,4 @@
-@import "./variables/variables";
+// @import "./variables/variables";
 
 .catalog {
   display: flex;
@@ -19,7 +19,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $margin-catalog;
-    transition: all $transition-time $transition;
+    transition: transform $transition-time $transition,
+     color $transition-time $transition ;
 
     &:not(:nth-child(4n)) {
       margin-right: $margin-catalog;
