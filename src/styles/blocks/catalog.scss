@@ -19,7 +19,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $margin-catalog;
-    transition: all 300ms ease-in-out;
+    transition: all $transition-time $transition;
 
     &:not(:nth-child(4n)) {
       margin-right: $margin-catalog;
