@@ -1,0 +1,29 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 944px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.catalog__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 48px;
+  transition-duration: 300ms;
+}
+.catalog__card:not(:nth-child(4n)) {
+  margin-right: 48px;
+}
+.catalog__card:hover {
+  animation-timing-function: linear;
+  transform: scale(120%);
+  color: #34568b;
+}
+
+/*# sourceMappingURL=catalog.css.map */
