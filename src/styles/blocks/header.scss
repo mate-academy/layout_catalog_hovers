@@ -1,10 +1,12 @@
+// @import "./variables/variables";
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
 
-  height: 60px;
+  height: $heigh-line-header;
   padding: 0 50px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -25,7 +27,7 @@
     position: relative;
     color: #060b35;
     list-style: none;
-    line-height: 60px;
+    line-height: $heigh-line-header;
 
     &:not(:last-child) {
       margin-right: 20px;
@@ -38,5 +40,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $transition-time $transition;
   }
+
+  &__link:hover {
+    color: $nav-text-color;
+  }
+
 }

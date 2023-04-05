@@ -1,3 +1,5 @@
+// @import "./variables/variables";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -16,10 +18,16 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin-catalog;
+    transition: transform $transition-time $transition,
+      color $transition-time $transition ;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin-catalog;
+    }
+    &:hover {
+      transform: scale(1.2);
+      color: $card-text-color;
     }
   }
 }
