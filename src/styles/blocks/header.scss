@@ -1,3 +1,5 @@
+$transform-duration: 0.3s;
+
 .header {
   display: flex;
   align-items: center;
@@ -38,8 +40,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration: 0.3s;
-    transition-property: color, transform;
+    transition: color, transform, $transform-duration;
 
     &:hover {
       transform: scale(0.8);
