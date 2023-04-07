@@ -16,11 +16,11 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
-    transition-duration: 300ms;
+    margin-bottom: $main-margin;
+    transition-duration: $main-transition-duration;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $main-margin;
     }
 
     &:hover {
