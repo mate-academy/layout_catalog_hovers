@@ -1,3 +1,5 @@
+@use "../utils/_variables" as *;
+
 .header {
   display: flex;
   align-items: center;
@@ -38,5 +40,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color $transition;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
