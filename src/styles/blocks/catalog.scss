@@ -19,7 +19,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $transition;
+    transition:
+      transform $transition,
+      color $transition;
 
     &:hover {
       transform: scale(1.2);
