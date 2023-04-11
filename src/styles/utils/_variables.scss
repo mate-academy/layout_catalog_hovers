@@ -1,0 +1,11 @@
+$primary-color: #060b35;
+$secondary-color: #00acdc;
+$color-card-1: #060b35;
+$color-card-2: #616070;
+$color-card-hover: #34568b;
+
+@mixin transition {
+  transition-property: transform, color, background;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
