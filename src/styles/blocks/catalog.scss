@@ -22,4 +22,10 @@
       margin-right: 48px;
     }
   }
+
+  &__card:hover {
+    transition-duration: 300ms;
+    transform: scale(1.2);
+    color: #34568b;
+  }
 }

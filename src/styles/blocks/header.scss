@@ -39,4 +39,10 @@
     font-size: 12px;
     font-weight: 500;
   }
+
+  &__link:hover {
+    cursor: pointer;
+    transition-duration: 300ms;
+    background-color: #00acdc;
+  }
 }
