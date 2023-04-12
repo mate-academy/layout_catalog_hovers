@@ -39,8 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition-property: color;
-    transition-duration: $time-hover-nav-card;
+    transition: color $time-hover-nav-card;
 
     &:hover {
       color: #00acdc;
