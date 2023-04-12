@@ -18,7 +18,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: $time-hover-nav-card;
+    transition-property: all;
+    transition-duration: $time-hover-nav-card;
 
     &:hover {
       transform: scale(1.2);
