@@ -39,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
-    transition-duration: 300ms;
+    transition: color, 300ms;
 
     &:hover {
       color: #00acdc;
