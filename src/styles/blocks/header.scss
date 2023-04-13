@@ -1,13 +1,13 @@
+@import "../utils/variables";
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-
   height: 60px;
   padding: 0 50px;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: $shadow-header;
 
   &__logo {
     height: 40px;
@@ -23,7 +23,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-item;
     list-style: none;
     line-height: 60px;
 
@@ -38,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: $transition-color;
+
+    &:hover {
+      color: $color-hover;
+    }
   }
 }
