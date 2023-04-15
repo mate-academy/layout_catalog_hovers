@@ -3,11 +3,13 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-
   height: 60px;
   padding: 0 50px;
 
+
+.header__shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
 
   &__logo {
     height: 40px;
@@ -38,5 +40,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-duration: 0.3s;
+  }
+
+  &__link:hover {
+    color: #00acdc;
   }
 }
