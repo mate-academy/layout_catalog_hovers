@@ -1,7 +1,6 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
@@ -11,15 +10,20 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: $border-catalog;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $time-duration ease, color $time-duration ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $color-text-hover;
     }
   }
 }
