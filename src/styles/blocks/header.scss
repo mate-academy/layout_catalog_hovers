@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -27,8 +29,14 @@
     list-style: none;
     line-height: 60px;
 
+    transition: color $animation-time;
+
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: #00acdc;
     }
   }
 
