@@ -38,5 +38,12 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition-duration: $delay;
+    transition-property: background-color;
+    cursor: pointer;
+  }
+
+  &__link:hover {
+    background-color: #00acdc;
   }
 }
