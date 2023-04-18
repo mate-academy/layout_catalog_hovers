@@ -17,16 +17,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
 
-    transition-duration: 300ms;
+    transition: transform $duration;
 
     &:hover {
       transform: scale(1.2);
-      cursor: pointer;
       color: #34568b;
     }
   }
