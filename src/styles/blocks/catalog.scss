@@ -23,7 +23,7 @@
       margin-right: 48px;
     }
 
-    transition: transform $duration;
+    transition: transform $duration, color $duration;
 
     &:hover {
       transform: scale(1.2);
