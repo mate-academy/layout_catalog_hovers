@@ -19,7 +19,7 @@
     margin-bottom: 48px;
 
     transition-property: transform, color;
-    transition-duration: $duration-for-transition;
+    transition-duration: $transition-duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;

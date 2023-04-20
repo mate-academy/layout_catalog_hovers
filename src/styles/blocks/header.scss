@@ -40,7 +40,7 @@
     font-weight: 500;
 
     transition-property: color;
-    transition-duration: $duration-for-transition;
+    transition-duration: $transition-duration;
 
     &:hover {
       color: #00acdc;
