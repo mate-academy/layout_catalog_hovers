@@ -23,9 +23,14 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-nav-item;
     list-style: none;
     line-height: 60px;
+    transition: $transition-nav-item;
+
+    &:hover {
+      color: $color-accent-item;
+    }
 
     &:not(:last-child) {
       margin-right: 20px;
