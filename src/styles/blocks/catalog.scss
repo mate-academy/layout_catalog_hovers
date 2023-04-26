@@ -17,12 +17,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: all 300ms ease;
-    color: black;
+    transition: transform $trans-duration ease, color $trans-duration ease;
+    color: $black;
 
     &:hover {
       transform: scale(1.2);
-      color: #34568b;
+      color: $card-title-hover-color;
     }
 
     &:not(:nth-child(4n)) {
