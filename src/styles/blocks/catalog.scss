@@ -14,12 +14,18 @@
 
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid $border-card-color;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $card-animation, color $card-animation;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+  }
+
+  &__card:hover {
+    transform: scale(1.2);
+    color: $primary-color;
   }
 }
