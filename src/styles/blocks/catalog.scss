@@ -21,5 +21,11 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    transition: $transition;
+    &:hover{
+      transform: $card-scale;
+      color: $card-active-color;
+    }
   }
 }
