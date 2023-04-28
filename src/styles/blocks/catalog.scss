@@ -3,8 +3,11 @@
   flex-wrap: wrap;
 
   max-width: size($card-width, $card-margin-right);
-  margin: 0 auto;
   padding: 50px 0;
+
+  &--position-center {
+    margin: 0 auto;
+  }
 
   &__card {
     display: flex;
