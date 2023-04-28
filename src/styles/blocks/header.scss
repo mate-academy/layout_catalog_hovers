@@ -27,8 +27,32 @@
     list-style: none;
     line-height: 60px;
 
+    transition: color 0.3s ease;
+
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      content: "";
+      height: 4px;
+      background-color: $color-link;
+      border-radius: 8px;
+      transform: scaleX(0);
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: $color-link;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
     }
   }
 
