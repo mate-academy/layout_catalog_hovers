@@ -2,9 +2,12 @@
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
-  margin: 0 auto;
+  max-width: size($card-width, $card-margin-right);
   padding: 50px 0;
+
+  &--position-center {
+    margin: 0 auto;
+  }
 
   &__card {
     display: flex;
@@ -12,14 +15,21 @@
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
+    width: $card-width;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition: transform 0.3s, color 0.3s;
+
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $card-margin-right;
+    }
+
+    &:hover {
+      color: $card-title-color;
+      transform: scale(1.2);
     }
   }
 }
