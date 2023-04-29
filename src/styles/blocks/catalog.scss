@@ -1,3 +1,5 @@
+@import "utilities/_variables";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -11,12 +13,19 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    cursor: pointer;
 
-    width: 200px;
-    height: 300px;
+    width: $card-width;
+    height: $card-height;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $transition-time, color $transition-time;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-title-color;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
