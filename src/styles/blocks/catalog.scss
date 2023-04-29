@@ -14,6 +14,7 @@
     align-items: center;
     box-sizing: border-box;
     transition: transform $transition-time, color $transition-time;
+    cursor: pointer;
 
     width: 200px;
     height: 300px;
@@ -27,7 +28,6 @@
     &:hover {
       transform: scale(1.2);
       color: $card-text-hover-color;
-      cursor: pointer;
     }
   }
 }
