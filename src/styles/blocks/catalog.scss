@@ -2,9 +2,9 @@
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
+  max-width: $catalog-width;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: $catalog-padding-y 0;
 
   &__card {
     display: flex;
@@ -12,14 +12,22 @@
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
+    width: $card-width;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition-duration: $trans-dur;
+    transition-timing-function: $smooth;
+
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $card-space;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }

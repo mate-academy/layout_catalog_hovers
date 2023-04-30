@@ -23,7 +23,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-main-accent;
     list-style: none;
     line-height: 60px;
 
@@ -38,5 +38,12 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    transition-duration: $trans-dur;
+    transition-timing-function: $smooth;
+
+    &:hover {
+      color: $color-accent-blue;
+    }
   }
 }
