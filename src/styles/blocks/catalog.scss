@@ -1,6 +1,7 @@
 $card-width: 200px;
 $card-height: 300px;
 $title-text-color: #34568b;
+$transition-time: 300ms;
 
 .catalog {
   display: flex;
@@ -22,7 +23,7 @@ $title-text-color: #34568b;
     border-radius: 5px;
     margin-bottom: 48px;
     transition-property: color, transform;
-    transition-duration: 300ms;
+    transition-duration: $transition-time;
 
     &:hover {
       transform: scale(1.2);
