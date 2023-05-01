@@ -33,7 +33,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 0.3s linear 0s;
+    transition: color 0.3s linear;
 
     &:hover {
       color: $nav-link-hover-color;
