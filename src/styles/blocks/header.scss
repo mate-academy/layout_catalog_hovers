@@ -23,7 +23,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-main-accent;
     list-style: none;
     line-height: 60px;
 
@@ -41,7 +41,7 @@
     transition: color $main-transition-duration linear;
 
     &:hover {
-      color: #00acdc;
+      color: $color-hover-link;
     }
   }
 }
