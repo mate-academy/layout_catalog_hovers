@@ -1,3 +1,5 @@
+@import "utils/variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -40,7 +42,9 @@
     font-weight: 500;
   }
 
+  transition: color $transition-duration;
+
   &__link:hover {
-    color: #00acdc;
+    color: $header-color-hover;
   }
 }
