@@ -1,9 +1,9 @@
-$trans-dur: 300ms;
+$trans-duration: 300ms;
 $smooth: linear;
 $color-main-accent: #060b35;
 $color-accent-blue: #00acdc;
 
 $card-width: 200px;
-$card-space: 48px;
-$catalog-width: ($card-width * 4) + ($card-space * 3);
+$space-btwn-cards: 48px;
+$catalog-width: ($card-width * 4) + ($space-btwn-cards * 3);
 $catalog-padding-y: 50px;

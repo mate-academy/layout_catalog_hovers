@@ -18,11 +18,11 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition-duration: $trans-dur;
-    transition-timing-function: $smooth;
+    transition: color $trans-duration $smooth,
+      transform $trans-duration $smooth;
 
     &:not(:nth-child(4n)) {
-      margin-right: $card-space;
+      margin-right: $space-btwn-cards;
     }
 
     &:hover {
