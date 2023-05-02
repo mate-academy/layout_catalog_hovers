@@ -18,8 +18,8 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: color $trans-duration $smooth,
-      transform $trans-duration $smooth;
+    transition: color $transition-duration $transition-timing-function,
+      transform $transition-duration $transition-timing-function;
 
     &:not(:nth-child(4n)) {
       margin-right: $space-btwn-cards;

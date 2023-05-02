@@ -39,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color $trans-duration $smooth;
+    transition: color $transition-duration $transition-timing-function;
 
     &:hover {
       color: $color-accent-blue;
