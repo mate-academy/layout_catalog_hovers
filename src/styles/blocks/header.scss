@@ -39,6 +39,7 @@
     font-size: 12px;
     font-weight: 500;
 
+    transition-property: color;
     transition-duration: $hover-timing;
 
     &:hover {
