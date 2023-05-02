@@ -18,12 +18,10 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition:
-      color $hover-timing,
-      transform $hover-timing;
+    transition: color $hover-timing, transform $hover-timing;
 
     &:hover {
-      color: #34568b;
+      color: $card-hover-color;
       transform: scale(1.2);
     }
 

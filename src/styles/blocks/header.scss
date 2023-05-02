@@ -42,7 +42,7 @@
     transition: color $hover-timing;
 
     &:hover {
-      color: #00acdc;
+      color: $nav-link-hover-color;
     }
   }
 }
