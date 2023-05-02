@@ -6,25 +6,22 @@
   padding: 50px 0;
 
   &__card {
-    $card-width: 200px;
-    $card-height: 300px;
     $card-margin: 48px;
-    $hover-duration: 300ms;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    width: $card-width;
-    height: $card-height;
+    width: 200px;
+    height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: $card-margin;
-    transition-duration: $hover-duration;
+    transition-duration: 300ms;
+    transition-property: color transform;
 
     &:hover {
-      width: 1.2 * $card-width;
-      height: 1.2 * $card-height;
       color: #34568b;
+      transform: scale(1.2);
     }
 
     &:not(:nth-child(4n)) {
