@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     cursor: pointer;
-    transition: transform $transitionTimeCard, color $transitionTimeCard;
+    transition: transform $transitionDuration, color $transitionDuration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
