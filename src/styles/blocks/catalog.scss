@@ -19,11 +19,12 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: transform 0.3s linear, color 0.3s linear;
+    transition: transform $transition-duration linear,
+      color $transition-duration linear;
 
     &:hover {
       transform: scale(120%);
-      color: $card-text-color;
+      color: $card-text-hover-color;
     }
 
     &:not(:nth-child(4n)) {

@@ -33,10 +33,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color 0.3s linear;
+    transition: color $transition-duration linear;
 
     &:hover {
-      color: $nav-link-hover-color;
+      color: $header-nav-link-hover-color;
     }
   }
 }
