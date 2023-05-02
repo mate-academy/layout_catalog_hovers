@@ -1,8 +1,3 @@
-$card-width: 200px;
-$card-height: 300px;
-$title-text-color: #34568b;
-$transition-time: 300ms;
-
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -22,8 +17,7 @@ $transition-time: 300ms;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition-property: color, transform;
-    transition-duration: $transition-time;
+    transition-property: color, transform $transition-time;
 
     &:hover {
       transform: scale(1.2);

@@ -1,6 +1,3 @@
-$hover-color: #00acdc;
-$transition-time: 300ms;
-
 .header {
   display: flex;
   align-items: center;
@@ -41,8 +38,7 @@ $transition-time: 300ms;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition-duration: $transition-time;
-    transition-property: color;
+    transition: color $transition-time;
 
     &:hover {
       color: $hover-color;
