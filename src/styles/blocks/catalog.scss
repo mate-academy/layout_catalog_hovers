@@ -8,18 +8,25 @@
 
   &__card {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     box-sizing: border-box;
 
     width: 200px;
     height: 300px;
+    margin-bottom: 48px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    transition: colour $transition-time, transform $transition-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
     }
   }
 }
