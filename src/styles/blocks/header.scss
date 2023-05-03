@@ -27,8 +27,14 @@
     list-style: none;
     line-height: 60px;
 
+    transform: 0.3s;
+
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: #00acdc;
     }
   }
 
