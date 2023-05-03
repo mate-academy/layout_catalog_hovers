@@ -38,11 +38,11 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-  }
 
-  transition: color $transition-duration;
+    transition: color $transition-duration;
 
-  &:hover {
-    color: #00acdc;
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
