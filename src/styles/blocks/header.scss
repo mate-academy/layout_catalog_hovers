@@ -39,4 +39,10 @@
     font-size: 12px;
     font-weight: 500;
   }
+
+  transition: color $transition-duration;
+
+  &:hover {
+    color: #00acdc;
+  }
 }
