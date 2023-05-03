@@ -23,9 +23,7 @@
       margin-right: 48px;
     }
 
-    transition-property: transform;
-    transition-duration: 300ms;
-    transition-timing-function: linear;
+    transition: color 0.3s, transform 0.3s linear;
   }
 
   &__card:hover {
