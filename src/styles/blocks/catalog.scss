@@ -16,10 +16,17 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $card-margin;
+    transition: color $transition-speed ease-in-out,
+      transform $transition-speed ease-in-out;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $card-margin;
+    }
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
     }
   }
 }
