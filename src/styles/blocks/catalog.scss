@@ -18,8 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: color $transition-duration;
-    transition: transform $transition-duration;
+    transition: color $transition-duration, transform $transition-duration;
 
     &:hover {
       color: #34568b;
