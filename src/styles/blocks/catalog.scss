@@ -18,7 +18,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $color-title-smoothly;
+    transition: transform $color-title-smoothly, color $color-title-smoothly;
 
     &:hover {
       color: #34568b;
