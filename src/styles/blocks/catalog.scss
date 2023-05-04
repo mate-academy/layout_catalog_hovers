@@ -17,6 +17,13 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform $card-element-transition,
+      color $card-element-transition;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $card-hover-color;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
