@@ -27,8 +27,14 @@
     list-style: none;
     line-height: 60px;
 
+    transition: color $transition-duration;
+
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: $hover-nav-link-color;
     }
   }
 
