@@ -1,3 +1,5 @@
+$hover-card-title-color: #34568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -18,8 +20,16 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
+    transition-duration: 300ms;
+    transition-property: transform, color;
+
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: $hover-card-title-color;
     }
   }
 }
