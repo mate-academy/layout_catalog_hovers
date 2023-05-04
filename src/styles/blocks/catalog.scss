@@ -1,5 +1,3 @@
-$hover-card-title-color: #34568b;
-
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +18,7 @@ $hover-card-title-color: #34568b;
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition-duration: 300ms;
+    transition-duration: $transition-duration;
     transition-property: transform, color;
 
     &:not(:nth-child(4n)) {

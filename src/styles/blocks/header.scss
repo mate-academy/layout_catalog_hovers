@@ -1,5 +1,3 @@
-$hover-nav-link-color: #00acdc;
-
 .header {
   display: flex;
   align-items: center;
@@ -29,7 +27,7 @@ $hover-nav-link-color: #00acdc;
     list-style: none;
     line-height: 60px;
 
-    transition: color 300ms;
+    transition: color $transition-duration;
 
     &:not(:last-child) {
       margin-right: 20px;
