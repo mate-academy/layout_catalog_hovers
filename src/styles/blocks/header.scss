@@ -39,10 +39,10 @@
     font-size: 12px;
     font-weight: 500;
 
-    transition: color $transitionDuration;
+    transition: color, $transitionDuration;
 
     &:hover {
-      color: $navigationlinkTextColor;
+      color: $color-link-hover;
     }
   }
 }
