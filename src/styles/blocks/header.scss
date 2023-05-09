@@ -32,6 +32,11 @@
     }
   }
 
+  &__item:hover {
+    transition-duration: 300ms;
+    color: #00acdc;
+  }
+
   &__link {
     color: inherit;
     text-decoration: none;
