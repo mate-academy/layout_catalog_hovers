@@ -33,7 +33,7 @@
   }
 
   &__item:hover {
-    transition-duration: 300ms;
+    transition-duration: $main-duration;
     color: #00acdc;
   }
 
