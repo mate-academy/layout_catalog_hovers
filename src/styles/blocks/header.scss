@@ -38,10 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: transform $color-title-smoothly, color $color-title-smoothly;
+    transition-duration: $transition-duration;
 
     &:hover {
-      color: #00acdc;
+      color: $color-text-title;
     }
   }
 }
