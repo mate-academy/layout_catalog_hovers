@@ -20,6 +20,13 @@
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+
+      transition: width height $transition;
     }
+  }
+
+  &__card:hover {
+    transform: scale(120%);
+    color: $card-hover;
   }
 }
