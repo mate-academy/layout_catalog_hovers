@@ -39,7 +39,7 @@
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
-    transition: color 300ms linear;
+    transition: color $transition-duration linear;
 
     &:hover {
       color: $color-blue-accent;
