@@ -5,6 +5,7 @@
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+  perspective: 400px;
 
   &__card {
     display: flex;
@@ -17,6 +18,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: transform 0.3s, color 0.3s;
+    
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
