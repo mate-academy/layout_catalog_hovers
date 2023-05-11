@@ -20,8 +20,7 @@
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
-
-      transition: width height $transition;
+      transition: transform $transition linear, color $transition linear;
     }
   }
 
