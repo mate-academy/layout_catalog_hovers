@@ -39,4 +39,8 @@
     font-size: 12px;
     font-weight: 500;
   }
+  &__link:hover {
+    color: #00acdc;
+    transition-duration: $transition-time;
+  }
 }
