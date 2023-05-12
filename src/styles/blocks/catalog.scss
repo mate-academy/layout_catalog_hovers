@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
+    transition: transform 0.3s;
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
@@ -21,5 +21,12 @@
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+    }
   }
+
+
 }
