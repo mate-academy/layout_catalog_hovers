@@ -17,9 +17,15 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: color .3s, transform .3s;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale($zoom--size);
+      color: $color--card-title;
     }
   }
 }
