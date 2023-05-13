@@ -18,7 +18,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $transition-time ease;
+    transition: transform $transition-time ease,
+      color $transition-time ease;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
