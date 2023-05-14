@@ -17,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: $baseEffectDuration;
+    transition: transform $baseEffectDuration, color $baseEffectDuration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
