@@ -17,7 +17,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
     
-    @include transition-navLink-prodCard;
+    transition: transform $transition-speed, color $transition-speed;
 
     &:hover {
       transform: scale(1.2);
