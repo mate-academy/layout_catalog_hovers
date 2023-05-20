@@ -38,7 +38,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-    transition: color $slow;
+    transition: color $transition-duration;
   }
 
   &__link:hover {
