@@ -40,7 +40,7 @@
     font-weight: 500;
 
     &:hover {
-      transition-duration: 300ms;
+      transition-duration: $animation-time;
       color: #00acdc;
     }
   }
