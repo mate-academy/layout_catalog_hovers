@@ -11,6 +11,15 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    cursor: pointer;
+    transition: scale 300ms;
+    transition: color 300ms;
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+    }
+
 
     width: 200px;
     height: 300px;
