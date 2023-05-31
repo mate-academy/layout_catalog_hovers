@@ -16,10 +16,17 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $main-margin;
+    transition-duration: $main-transition-duration;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $main-margin;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
+      cursor: pointer;
     }
   }
 }
