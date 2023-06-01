@@ -1,8 +1,10 @@
+@import "../variables.scss";
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 944px;
+  max-width: 984px;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -17,9 +19,18 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: height $transition_duration,
+      color $transition_duration,
+      width $transition_duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
     }
+  }
+
+  &__card:hover {
+    height: 360px;
+    width: 240px;
+    color: #34568b;
   }
 }
