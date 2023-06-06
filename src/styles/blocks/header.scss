@@ -41,8 +41,7 @@
   }
 
   &__link:hover {
-    transition: color;
-    transition-duration: $delayValue;
+    transition: color $delayValue;
     color: #00acdc;
   }
 }
