@@ -38,10 +38,6 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
-  }
-
-  &__link:hover {
     transition: color $delayValue;
-    color: #00acdc;
   }
 }
