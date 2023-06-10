@@ -1,3 +1,4 @@
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -16,10 +17,17 @@
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 48px;
+    margin-bottom: $margin-card;
+    cursor: pointer;
+    transition: color $duration-time, transform $duration-time;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin-card;
+    }
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
     }
   }
 }
