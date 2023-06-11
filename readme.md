@@ -22,4 +22,4 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 ---
 
 ## Tips & Hints
-- There are no tests for this task yet, so check your code one more time :)
+- There are no tests for this task yet, so check your code one more time ::)
