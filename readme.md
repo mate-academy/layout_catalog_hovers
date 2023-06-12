@@ -1,6 +1,6 @@
 # Frontend practice with catalog page and hovers
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_catalog_hovers/)
+- [DEMO LINK](https://Patryk-Buczkowski.github.io/layout_catalog_hovers/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 
@@ -9,9 +9,9 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 ## The task
 
 - Make all the changes smooth on hover
-- Smoothly (during 300ms) increase the card by 20 percent on hover (neighboring cards **should not be** affected)
-- Smoothly (during 300ms) change card title text color to `#34568b`
-  - `:hover` should be applied only to the card, do not add it to the title directly
+- Smoothly (during 300ms) increase the card by 20 percent on hover (neighboring cards **should not be** affected)/
+- Smoothly (during 300ms) change card title text color to `#34568b`/
+  - `:hover` should be applied only to the card, do not add it to the title directly/
 - Smoothly (during 300ms) change navigation link text color to `#00acdc`
 
 ## Requirements:
@@ -22,4 +22,4 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 ---
 
 ## Tips & Hints
-- There are no tests for this task yet, so check your code one more time :)
+- There are no tests for this task yet, so check your code one more time ::)
