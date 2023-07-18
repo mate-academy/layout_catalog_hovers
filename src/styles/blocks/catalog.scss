@@ -18,7 +18,7 @@
 
     &:hover {
       transform: scale(1.2);
-      color: $cardHeadercolor;
+      color: $color-header;
     }
 
     &:not(:nth-child(4n)) {
