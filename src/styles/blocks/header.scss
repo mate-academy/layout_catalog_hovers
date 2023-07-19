@@ -30,6 +30,12 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+
+    $link-text-color: #00acdc;
+    transition: 300ms;
+    &:hover {
+      color: $link-text-color;
+    }
   }
 
   &__link {
