@@ -1,25 +1,31 @@
+@mixin card-box {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
+  @extend %position-center;
   max-width: 944px;
-  margin: 0 auto;
   padding: 50px 0;
 
   &__card {
-    display: flex;
+    @extend %flex-box;
     justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-
-    width: 200px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 48px;
+    transition: transform $duration ease, color $duration ease;
+    @include card-box;
+    margin-bottom: $margin-space;
 
     &:not(:nth-child(4n)) {
-      margin-right: 48px;
+      margin-right: $margin-space;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: #34568b;
     }
   }
 }
