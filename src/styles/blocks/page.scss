@@ -1,7 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+%position-center {
+  margin: 0 auto;
+}
+
 .page {
   font-family: Roboto, sans-serif;
 
   &__body {
-    margin: 0;
+    @extend %position-center;
   }
 }
