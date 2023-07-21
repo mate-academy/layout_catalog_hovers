@@ -15,7 +15,7 @@
   &__card {
     @extend %flex-box;
     justify-content: center;
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform $duration ease, color $duration ease;
     @include card-box;
     margin-bottom: $margin-space;
 
