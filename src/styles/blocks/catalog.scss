@@ -1,3 +1,5 @@
+@use '../utilities/variables';
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -12,12 +14,12 @@
     align-items: center;
     box-sizing: border-box;
 
-    width: 200px;
-    height: 300px;
+    width: variables.$width-prod-cart;
+    height: variables.$height-prod-cart;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: color, transform, 300ms;
+    transition: color, transform, variables.$transition-time;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
