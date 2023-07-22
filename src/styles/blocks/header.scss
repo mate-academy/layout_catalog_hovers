@@ -1,16 +1,16 @@
+@use '../utilities/variables';
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-
-  height: 60px;
+  height: variables.$height-header;
   padding: 0 50px;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
-    height: 40px;
+    height: variables.$height-logo;
   }
 }
 
@@ -38,5 +38,10 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+    transition: color, variables.$transition-time;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
