@@ -1,7 +1,10 @@
+$hoverTransitionDuration: 300ms;
+$cardScaleOnHover: 1.2;
+$titleTextColorOnHover: #34568b;
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
@@ -11,15 +14,22 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    transition: all $hoverTransitionDuration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
+    }
+
+    &:hover {
+      transform: scale($cardScaleOnHover);
+      .card-title {
+        color: $titleTextColorOnHover;
+      }
     }
   }
 }
