@@ -1,6 +1,4 @@
-$hoverTransitionDuration: 300ms;
-$cardScaleOnHover: 1.2;
-$titleTextColorOnHover: #34568b;
+@import "variables.scss";
 
 .catalog {
   display: flex;
@@ -11,6 +9,7 @@ $titleTextColorOnHover: #34568b;
 
   &__card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -19,7 +18,7 @@ $titleTextColorOnHover: #34568b;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: all $hoverTransitionDuration;
+    transition: transform $hoverTransitionDuration, color $hoverTransitionDuration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -30,6 +29,10 @@ $titleTextColorOnHover: #34568b;
       .card-title {
         color: $titleTextColorOnHover;
       }
+    }
+
+    .card-title {
+      transition: color $hoverTransitionDuration;
     }
   }
 }
