@@ -13,20 +13,22 @@
     height: 40px;
   }
 
-  .nav__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+  .nav {
+    &__list {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
 
-  .nav__item {
-    position: relative;
-    color: #060b35;
-    line-height: 60px;
+    &__item {
+      position: relative;
+      color: #060b35;
+      line-height: 60px;
 
-    &:not(:last-child) {
-      margin-right: 20px;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
     }
   }
 
