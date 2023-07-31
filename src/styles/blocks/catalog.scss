@@ -9,7 +9,6 @@
 
   &__card {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -18,7 +17,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
-    transition: transform $hoverTransitionDuration, color $hoverTransitionDuration;
+    transition: all $hoverTransitionDuration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
@@ -26,13 +25,7 @@
 
     &:hover {
       transform: scale($cardScaleOnHover);
-      .card-title {
-        color: $titleTextColorOnHover;
-      }
-    }
-
-    .card-title {
-      transition: color $hoverTransitionDuration;
+      color: $titleTextColorOnHover;
     }
   }
 }
