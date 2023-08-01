@@ -18,7 +18,7 @@
     border-radius: 5px;
     margin-bottom: 48px;
 
-    transition: all $duration;
+    transition: transform $duration, color $duration;
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
