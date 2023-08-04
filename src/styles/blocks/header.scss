@@ -23,7 +23,7 @@
 
   &__item {
     position: relative;
-    color: #060b35;
+    color: $color-header-normal;
     list-style: none;
     line-height: 60px;
 
@@ -34,7 +34,7 @@
     }
 
     &:hover {
-      color: #00acdc;
+      color: $color-header-hover;
     }
   }
 
