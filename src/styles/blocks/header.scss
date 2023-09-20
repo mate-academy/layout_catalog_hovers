@@ -39,8 +39,6 @@
     font-size: 12px;
     font-weight: 500;
 
-    @include hover(transform, ease) {
-      color: #00acdc;
-    }
+    @include hover(color, #00acdc);
   }
 }
