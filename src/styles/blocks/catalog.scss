@@ -1,22 +1,29 @@
 .catalog {
   display: flex;
   flex-wrap: wrap;
-
   max-width: 944px;
   margin: 0 auto;
   padding: 50px 0;
+  perspective: 400px;
 
   &__card {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
     width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 48px;
+    cursor: pointer;
+    transition: color $timeAnimation, transform $timeAnimation;
+    
+
+    &:hover {
+      color: #34568b;
+      transform: scale(1.2);
+    }
 
     &:not(:nth-child(4n)) {
       margin-right: 48px;
