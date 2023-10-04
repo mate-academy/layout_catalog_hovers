@@ -2,7 +2,3 @@
 @import "blocks/header";
 @import "blocks/catalog";
 @import "blocks/variables";
-
-* {
-  transition: transform ease $transition-duration;
-}
