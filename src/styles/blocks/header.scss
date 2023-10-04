@@ -1,3 +1,5 @@
+@import "blocks/variables";
+
 .header {
   display: flex;
   align-items: center;
@@ -8,6 +10,8 @@
   padding: 0 50px;
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  transition: transform ease $transition-duration;
 
   &__logo {
     height: 40px;
@@ -38,5 +42,9 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
+
+    &:hover {
+      color: #00acdc;
+    }
   }
 }
