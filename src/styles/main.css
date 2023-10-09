@@ -43,7 +43,7 @@
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
-  transition-duration: 300ms;
+  transition: color 300ms;
 }
 
 .nav__link:hover {
@@ -68,7 +68,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 48px;
-  transition-duration: 300ms;
+  transition: transform 300ms, color 300ms;
 }
 
 .catalog__card:hover {
