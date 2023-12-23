@@ -1,10 +1,10 @@
 # Frontend practice with catalog page and hovers
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_catalog_hovers/)
+- [DEMO LINK](https://Mortalbat.github.io/layout_catalog_hovers/)
 
-> Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
-
-## ❗️❗️❗️ DON'T FORGET TO PROOFREAD YOUR CODE WITH [CHECKLIST](https://github.com/mate-academy/layout_catalog_hovers/blob/master/checklist.md) BEFORE SENDING YOUR PULL REQUEST❗️❗️❗️
+<!-- > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github) -->
+<!--
+## ❗️❗️❗️ DON'T FORGET TO PROOFREAD YOUR CODE WITH [CHECKLIST](https://github.com/mate-academy/layout_catalog_hovers/blob/master/checklist.md) BEFORE SENDING YOUR PULL REQUEST❗️❗️❗️ -->
 
 ## The task
 
